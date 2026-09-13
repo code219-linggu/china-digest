@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>한국 이슈 다이제스트 · 2026-09-13</title>
+<style>
+  :root{
+    --ink:#1a1d24; --sub:#5a6172; --line:#e5e8ee; --bg:#f7f8fa; --card:#ffffff;
+    --accent:#1f4e8c; --accent-soft:#eef3fa; --up:#c0392b; --down:#1a6fb5;
+    --tag-bg:#eef1f6; --tag-ink:#4a5468;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',-apple-system,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px}
+  .wrap{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+  header{padding:28px 0 20px;border-bottom:3px solid var(--ink);margin-bottom:24px}
+  .brand{font-size:13px;letter-spacing:2px;color:var(--accent);font-weight:700;margin-bottom:6px}
+  h1{font-size:26px;font-weight:800;letter-spacing:-0.5px}
+  .meta{color:var(--sub);font-size:13px;margin-top:8px}
+  h2{font-size:15px;font-weight:800;letter-spacing:1.5px;color:var(--accent);
+     margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .market{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .mkt-table{width:100%;border-collapse:collapse;font-size:14px}
+  .mkt-table th{text-align:left;color:var(--sub);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line);font-size:12px}
+  .mkt-table td{padding:8px;border-bottom:1px solid var(--line)}
+  .mkt-table tr:last-child td{border-bottom:none}
+  .num{font-variant-numeric:tabular-nums;text-align:right}
+  .up{color:var(--up);font-weight:700}.down{color:var(--down);font-weight:700}
+  .mkt-note{font-size:14.5px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+  .mkt-note p{margin-bottom:10px}
+  .mkt-note p:last-child{margin-bottom:0}
+  .sector{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-top:12px}
+  .sector h4{font-size:14px;color:var(--accent);margin:10px 0 4px}
+  .sector h4:first-child{margin-top:0}
+  .sector p{font-size:14px;margin-bottom:4px}
+  .issue{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:14px}
+  .issue-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+  .stars{color:var(--accent);font-size:13px;letter-spacing:1px;white-space:nowrap}
+  .issue h3{font-size:18px;font-weight:800;letter-spacing:-0.3px;line-height:1.4}
+  .issue h3 a{color:inherit;text-decoration:none}
+  .issue h3 a:hover{color:var(--accent)}
+  .summary{font-size:15px;margin:8px 0 10px}
+  .why{font-size:13.5px;background:var(--accent-soft);border-radius:8px;padding:10px 12px;margin:10px 0;color:#1c3c66}
+  .why b{font-weight:800}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px}
+  .tag{font-size:11.5px;background:var(--tag-bg);color:var(--tag-ink);border-radius:20px;padding:2px 10px;font-weight:600}
+  .links{font-size:13px;color:var(--sub);margin-top:8px;line-height:1.9}
+  .links a{color:#2456a6;text-decoration:none}
+  .links a:hover{text-decoration:underline}
+  .brief{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 20px}
+  .brief-item{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+  .brief-item:last-child{border-bottom:none}
+  .brief-item a{color:var(--ink);text-decoration:none;font-weight:700}
+  .brief-item a:hover{color:var(--accent)}
+  .brief-item .desc{color:var(--sub);font-size:13.5px;margin-top:2px}
+  .weibo{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px}
+  .weibo ol{list-style:none;counter-reset:wb}
+  .weibo li{counter-increment:wb;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;display:flex;gap:10px}
+  .weibo li:last-child{border-bottom:none}
+  .weibo li::before{content:counter(wb);font-weight:800;color:var(--accent);min-width:20px;font-variant-numeric:tabular-nums}
+  .weibo .fin{background:var(--accent-soft);margin:0 -8px;padding-left:8px;padding-right:8px;border-radius:6px}
+  .weibo li a{color:var(--ink);text-decoration:none}.weibo li a:hover{color:var(--accent);text-decoration:underline}
+  .weibo .ko{color:var(--sub);font-size:12.5px}
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--sub);line-height:1.8}
+  @media(max-width:480px){h1{font-size:22px}.issue{padding:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">KOREA ISSUE DIGEST</div>
+  <h1>한국 이슈 다이제스트</h1>
+  <div class="meta">2026년 9월 13일 (일) · 직전 24시간 수집분 · 기사 587건에서 선별 · 시장 데이터는 직전 거래일 9/11(금) 마감 기준 · <b>창간호 — 중국·홍콩판과 함께 매일 발행</b> · <a href="../2026-09-13.html" style="color:var(--accent);font-weight:700;text-decoration:none">중국·홍콩판 →</a></div>
+</header>
+
+<h2>시장 종합 — 9/11(금) 마감</h2>
+<div class="market">
+  <table class="mkt-table">
+    <tr><th>자산</th><th class="num">종가</th><th class="num">등락</th></tr>
+    <tr><td>코스피</td><td class="num">6,909.91</td><td class="num down">-1.76%</td></tr>
+    <tr><td>코스닥</td><td class="num">820.64</td><td class="num down">-1.95%</td></tr>
+    <tr><td>국고채 3년 금리</td><td class="num">4.02%</td><td class="num up">+9.1bp</td></tr>
+    <tr><td>국고채 10년 금리</td><td class="num">4.57%</td><td class="num up">+11.6bp</td></tr>
+    <tr><td>원/달러 환율</td><td class="num">1,345.9</td><td class="num">+2.8원</td></tr>
+  </table>
+  <div class="mkt-note">
+    <p><b>'칠천피'를 사흘 만에 반납했다.</b> 유가 급등과 미 국채금리 5% 육박의 이중고에 코스피는 -1.76%로 6,900선까지 밀렸고, 코스닥도 -1.95%. 외국인이 2조2,915억 원, 기관이 1조2,236억 원을 순매도하며 전기전자(반도체)를 정면으로 때렸고, 개인이 1조8,658억 원을 받아냈다. 이번 주 FOMC(연준의 '인상' 여부·점도표)가 방향을 결정하는 분수령이다.</p>
+    <p><b>채권시장은 '유가 쇼크'의 직격탄.</b> 국고채 3년물이 4.02%로 4%대에 진입(2년 10개월 만)했고 10년물은 4.57%까지 상승. 외국인은 원화채를 3년 7개월 만에 순매도로 전환했다 — 환율이 고점 대비 200원 가까이 내려온 뒤 환차익 실현 유인이 커진 데다, 미 금리 인상 전망이 겹친 결과다. CP 금리도 연중 최고 수준으로 기업 단기조달 부담이 커졌다. 미 인상 가능성에 금융당국은 F4 회의를 소집해 대응에 착수했다.</p>
+    <p><b>원화는 3분기 주요국 절상률 1위(엔화의 3배)</b>로 1,340원대에 안착했지만, 금요일은 위험회피에 1,345.9원으로 소폭 반등 마감. 원화 강세는 외국인 자금에는 우호적이나, 반도체 수출기업 이익 전망을 깎는 양날의 칼이 되고 있다(아래 이슈 참조).</p>
+  </div>
+</div>
+
+<div class="sector">
+  <h4>수급·업종 포인트</h4>
+  <p>• <b>반도체</b> — 개인이 5개월 만에 삼성전자·SK하이닉스 순매도 전환, 외국인 매도와 겹치며 주도력 시험대 · 환율 급락에 양사 이익 전망 두 달 새 21조 원 하향</p>
+  <p>• <b>자금 로테이션</b> — 개미 ETF 포트폴리오가 반도체 집중에서 금·원전·전력기기·농산물로 분산, 박스권에 지친 대기자금 1.5조 원은 파킹형 ETF로</p>
+  <p>• <b>유가 수혜</b> — 정제마진·가격 역전 구도에 금호석유화학·S-Oil 주목(연합인포맥스) · 증권주는 호실적 대비 밸류에이션 매력 부각 시각</p>
+</div>
+
+<h2>주요 이슈</h2>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span>
+    <h3><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtaHcxaW9NczlVTHMyTFVRbmpHY1JDSnNBTHZQTmlRWlRQeGswOWNfeWNwR3VEN3dFbWprX29ZUko1RFMweUpwcldSY05hVHdIVm1aX2szWUxrWURFdFJRMtIBYEFVX3lxTFAtaHcxaW9NczlVTHMyTFVRbmpHY1JDSnNBTHZQTmlRWlRQeGswOWNfeWNwR3VEN3dFbWprX29ZUko1RFMweUpwcldSY05hVHdIVm1aX2szWUxrWURFdFJRMg?oc=5" target="_blank">미 연준 '인상' 가능성 고조 — 금융당국 F4 회의 소집, 가계부채·취약차주 대응 착수</a></h3>
+  </div>
+  <div class="summary">이번 주 FOMC를 앞두고 미 연준의 금리 인상이 유력해지자 기획재정부·한은·금융위·금감원 수장이 모이는 F4 회의가 가동됐다. 유가 급등이 겹친 상황에서 가계부채 관리와 취약 차주 지원 강화가 의제다. 시장에서는 한은 금통위의 '2연속 인상' 가능성과 기준금리 3.25% 시나리오까지 거론되기 시작했다.</div>
+  <div class="why"><b>왜 중요한가</b> — 미 인상이 확정되면 한은의 추가 인상 압력, 대출금리 상승, 증시 유동성 위축으로 이어지는 경로가 열린다. 은행 예금금리가 3%대 중반으로 오르며 '증시 머니'의 은행 유턴(두 달 새 62조)이 이미 진행 중 — 수급 측면의 구조 변수다.</div>
+  <div class="tags"><span class="tag">시장 직결</span><span class="tag">통화정책</span><span class="tag">이번 주 이벤트</span></div>
+  <div class="links">
+    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOdmJRall1a29hQjAwd1k2ZnJKT0FhTlFrYkZGNnFaV0ZlV3FVZ3JtMTkwMVl1YkU5bWl6ZkhyNFBvRzlJZnZyUFl3cV9EQWhHdzV4Mmpjak5fV2p4S3gzT2c1VjBaaWxSajFvdlUxUHdpZFg4dFFVVlhuTkxqc1VPa0lSMGE5aU1CZGRRVURXONIBnAFBVV95cUxOS0FIZWs1aDIzMFJBS0ZKLXlONFZOV1dDRFlHUmp4ZldDNHdzNEIwVGlwbC12bFJLbWpPOVdVZjhRNVpaZFJ5SnRIcWhsY0lFWTVsSnlYNnNmMEgtQW1jVktSSWhnRDRFZmlrdW9IM2phbVI1aVR1bzJyOWhPcTdSdjN0ZEJxazdJZkJlRzd0S3h0VWlzaWtkVHdOU1M?oc=5" target="_blank">조선비즈: [주간증시전망] 유가 100달러·美 10년물 5% 돌파, FOMC 대기</a> ·
+    <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Xd2xWY3pTVW8wV3Q4Sm5KbnpPSnhFLXRnZEl0OUU1WkZLdGNaYy03X1FWSlVrem9TN2pMT3VzeHpwTFMxdWhLU1NKcC14SlE5VjNVdVhIQzd2RWPSAWBBVV95cUxOY0U4ajNqX2IwdjJDRDJEZE1fTnpUWmxqWGZOY19ySTBZeEV1ZDFMMFVPOXNvWTNlVWVxemNfeVFJaE1iTnhzUzZMdDdSMGQ3OTY5Mzl5OHlRYVJUdzJrbGI?oc=5" target="_blank">연합: 유가 등 중동 악재에 눌린 코스피, FOMC 주시</a>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span>
+    <h3><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQUdVNVowMHZxa0dwQUpNQmVvUzJfV1RzSGtacTlVTXc3VzY5QjNySG1OQjdob2FMUGxQU21yb3loblEyUTduZ3NieVdGNE9Nc2dmeV9IX2NzYlY2bndDNGt5S3NGdmwwSzUxakR5dTRzdF8tclVHZlJ6eUhIUWx2bDBZOVdldXJU0gGcAUFVX3lxTE40Zk9zTzlHTkZNcVlrQWRhVlAtejhfYW9MdWx0Q1J0VThjSi1XNlRuYnZhalAzXzFjMV9yNXFnUFV3NFlWb2puUkRudHdXYVFPZ2xXaV9HNzQ3T2Q3RXVUS2xrdnllQmZ6WXJOekNBN3NhLXN3N0pJemVBYmNFczBQMkRHRU92NmlPUi1uSUVPVzdVUVJRM3V0clNneQ?oc=5" target="_blank">외국인, 3년 7개월 만에 원화채 순매도 전환 — 국고채 금리 4% 돌파</a></h3>
+  </div>
+  <div class="summary">유가 쇼크와 미 금리 인상 전망에 국고채 금리가 전 구간 급등, 3년물 4.02%·10년물 4.57%로 마감했다. 원화 강세로 환차익을 확보한 외국인이 원화채를 3년 7개월 만에 순매도로 전환하며 손절 물량까지 가세. "한은의 선제적 인상이 방파제가 될 것인가"가 채권시장의 화두다.</div>
+  <div class="why"><b>왜 중요한가</b> — 외국인 원화채 매수는 최근 2년 원화 자산의 핵심 수급 축이었다. 순매도 전환이 추세가 되면 금리 상단이 열리고 주식 밸류에이션에도 2차 압력. 반대로 이번 주 FOMC 이후 불확실성이 걷히면 4%대 금리는 장기투자자에게 캐리 매력 구간이라는 반론도 병존한다.</div>
+  <div class="tags"><span class="tag">시장 직결</span><span class="tag">채권·수급</span></div>
+  <div class="links">
+    <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Zd0hldklrdkVJaFVZVUNzZVZDM3VWX21lQlIzSU44OWdCdHl5MDdNTElwZmc3Z1g2eFFJZk9tWE5ibmY3dHM2N0dILUhHb19Ea1lLWUZrbzdTQmN1aDMwSdIBYEFVX3lxTE9Zd0hldklrdkVJaFVZVUNzZVZDM3VWX21lQlIzSU44OWdCdHl5MDdNTElwZmc3Z1g2eFFJZk9tWE5ibmY3dHM2N0dILUhHb19Ea1lLWUZrbzdTQmN1aDMwSQ?oc=5" target="_blank">연합: 채권시장 덮친 '유가 쇼크' — 한은 선제 인상, 방파제 되나</a> ·
+    <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPVGp4VUNxNTQ0THNxRGtOM3VZM2dpVVFRd3dJdTE1bTliLXBZeF9pR2Q0NEZ4S0F3c082REtjVVBYeVZVaUtpbXZDRGVPZC16ekdCVm0wUnNfU0FTc0tQTEF2SnJGWVBpZ3A3dDhXT0hsd2UwaHVFN2xGU0tDalVUQg?oc=5" target="_blank">이데일리: 환율 200원 내리자 외국인 돌아섰다</a> ·
+    <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5RTW5YRmNUY1QxeGptdXQ0eU9SNmxBV2NxTk1RT1dMbTZuVWsxU211TWp4NE50ejRVSTVHaTd5eTdBd3pRb3BTeGNQWGxEQkdNalFKcHJzM1czbXZsOUpqOVZHdTk4R2dWRVV1OFYyeXpMblU?oc=5" target="_blank">이데일리: CP 금리 연중 최고</a>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span>
+    <h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZcEN2WE9RUHVhX1Z4WU5UdkkyQ2Ywai0zRDd0QkVJdHc0eE1SanM0VXk2dGJpM2Jjb3EwM29iQkpuTTZtdV83T2VyTmktRl83YUJGcWs0N1hHcknSAWBBVV95cUxQQXFJbHdNeTdHd3MzNzVleWd4UElqaVYySmhXeU4yVTllZVF0MTVFXzFIWFBiaVpmVTU0aGNCNjZWODh6REV4b2hrbnRxTW9UcjVndjNNU2NWYTlldFA0ZHQ?oc=5" target="_blank">원화 초강세의 역풍 — 환율 급락에 반도체 이익 전망 두 달 새 21조 원 증발</a></h3>
+  </div>
+  <div class="summary">원/달러 환율이 1,340원대로 급락(원화 3분기 절상률 주요국 1위)하면서 삼성전자·SK하이닉스의 이익 전망치가 두 달 새 21조 원 하향됐다. 달러 매출 비중이 큰 반도체는 환율 10원 하락이 연간 이익 수천억 원을 깎는 구조 — '실적 슈퍼사이클 + 원화 강세'의 상쇄 국면이다.</div>
+  <div class="why"><b>왜 중요한가</b> — 코스피 7,000 돌파의 주역인 반도체 실적 모멘텀이 환율 변수로 흔들리면 지수 전체의 밸류에이션 재조정으로 번질 수 있다. 이번 주 미·일 금리 결정이 환율의 방향(반등 vs 추가 하락)을 정한다 — 반도체 비중 조절의 타이밍 변수.</div>
+  <div class="tags"><span class="tag">시장 직결</span><span class="tag">환율→실적</span><span class="tag">반도체</span></div>
+  <div class="links">
+    <a href="https://biz.heraldcorp.com/article/10871434" target="_blank">헤럴드경제: 환율 1340원대 급락, 삼전·하이닉스 이익 전망 꺾였다</a> ·
+    <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VdFNJM0RPUFNrNkJVUkU1VktUcXJxQ3BkMEZyVGxLY19QMmtLYjFhanFtS1pQMWQwRDRqVUFPR21yVDQ3NXFNN2JIOUJ4cDhud1pwdEVMVFYzQjctMGZiTtIBYEFVX3lxTE5VdFNJM0RPUFNrNkJVUkU1VktUcXJxQ3BkMEZyVGxLY19QMmtLYjFhanFtS1pQMWQwRDRqVUFPR21yVDQ3NXFNN2JIOUJ4cDhud1pwdEVMVFYzQjctMGZiTg?oc=5" target="_blank">연합: 3분기 원화 절상률 1위, 엔화의 3배</a>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span>
+    <h3><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0V3dmNqM3JGOTVtUklkQ09hekQzZUNCU0RNT2VXUXp3dXByb08xVzU5LUtJejlaUkFxSjVLV1BqbVptbl91ZWVXSEh5MVZNeUJRT0poaV9UYUJENkVwTXo0eUZMWHlxLV9RSmNVdHZqb3JTcmtuU3ZQVmJhRTJETzZnTnRzU2s4LTVrZWJOONIBnAFBVV95cUxNUHdYRFc5M21fZ3BjNU14Q0dSWXlIRWRvN0YtcnY2YzljNThUVnhkSHU3djNYTnFmZHRfOEtnb1lOQnlnSHBzXzQ0aUFIOFJmM1dSMmdJWlFMZ0FPZThUdFdxTURLNWlFQS1DR2U3Z0JQUWp5anhFUnI2WHdGd0wyRTVhR1FyWXdrMU5JNjBDOHNIajg4Ty03bGJIMHc?oc=5" target="_blank">개미도 등 돌린 반도체주 — 5개월 만에 '삼전닉스' 매도 전환, 금·원전으로 로테이션</a></h3>
+  </div>
+  <div class="summary">개인투자자가 삼성전자·SK하이닉스를 5개월 만에 순매도로 전환했다. 반도체 집중이던 개미 ETF 포트폴리오는 금·원전·전력기기·농산물(6개월 +13%)로 분산 중이고, 박스권에 지친 대기자금 1.5조 원은 파킹형 ETF로 이동. 서학개미도 환율 하락 속 미 증시를 이달 순매도로 전환하고 3배 레버리지에서 안전자산으로 갈아탔다.</div>
+  <div class="why"><b>왜 중요한가</b> — 지수를 끌어올린 개인 수급의 방향 전환은 반도체 단기 수급 공백을 의미. 다만 역사적으로 개인 매도 전환은 바닥권 신호였던 적도 많아, 외국인 수급(이번 주 FOMC 이후)과 교차 확인이 필요하다.</div>
+  <div class="tags"><span class="tag">시장 직결</span><span class="tag">수급 로테이션</span></div>
+  <div class="links">
+    <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YaTdwbXVobnQxdHBTODYzN2ZLc0dPd0lWNGZzMFFQaUZDWDhva0VJVkN6blZPSFZic3ZUNXlvSnVTVGZsZlIwUFpaVHpsVU5nTnc?oc=5" target="_blank">매경: "삼전닉스 ETF 팔고 금·원전 샀다"</a> ·
+    <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc0hUdnRhN1gybDJqbXBhZmNHZ2xTcVkxRmhDWlVYN052WFBPLWJpTzc5S0VzUW5wQ2pzUmRwSWZoMUhtdXVOcS1TMncyWGdvQW9IamN1cXJwZ3g0Z0NZV1FGTVdkWkFoVlJ5RXczTFJRU0lwZzFYRXBLSDRIczN1VUdBM0F0ODdx0gGcAUFVX3lxTE1RNEQ0TnV5SFhHZDRPLVgxTlNRc0tFbjdCa2ZQbENxazJIVEN3T2VFUE4wTTJiR1BhU2lIU1kxYm1PblR0c01JdUVYd3hsc2hCTFhEamR0NVFkMXJrbG9HSTFQZk1sSTBINjRqQ0ZfdDlocXZCNldlLWp6OHJoSUxHaktDQ040TGVtWWpORlZfa0g0b3d4VV8tQ3BXYw?oc=5" target="_blank">조선비즈: 파킹형 ETF에 1.5조</a> ·
+    <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPcVFadmFmV1ZENmFxbGdQc2VEV1FBNFZSdXdFUlRvZTNyOFBzb0h4RUhOcHY4cm9Ib1FtUmdvcUxKY1FuMXpwSlhiTUd5V3FQczdfS0hTajRrVWl5M1o4N3daWThzY1hqVUF4d3pJNjZjeW5sVDA2NVRkX05HVWtydg?oc=5" target="_blank">이데일리: '칠천피' 찍고 밀린 코스피 — 반도체 주도력 시험대</a>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span>
+    <h3><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNejk0eC02SzF5aUNibGJ1LVlfd09qT3pUcTJYQU44TElaTV9zNFprcDR0bmZoRHJFZWpISXNONV9wMWNjS2V2R3hFLWZuY3VRVTdTVXJlXzI4dXhqal9uak56b1ZTcjB4ZjUzNDhSYTRRZEJzc2RhSlMxaDJOU3oyQWdnaGRsLTZqV0lqVFZWc3Y2Zm1aeXdDa1ZnSlZsYUp2ckNqazdDYllocEpLTEZxRGdabw?oc=5" target="_blank">한국 증시, 거래시간 연장 실험 — 글로벌 투자자 수요 시험대 (Bloomberg)</a></h3>
+  </div>
+  <div class="summary">블룸버그가 한국의 거래시간 연장(애프터마켓) 실험을 "글로벌 투자자의 식욕을 시험하는 무대"로 조명했다. 국내에서는 대체거래소 NXT가 600여 개 종목, KRX가 전 종목으로 애프터마켓을 운영하는 이원 구조가 형성됐고, ETF 거래는 추후 확대 예정이다.</div>
+  <div class="why"><b>왜 중요한가</b> — 거래시간 연장은 MSCI 선진지수 편입 논거(시장 접근성)를 강화하는 제도 변화이자, 증권사 브로커리지 수익 구조에도 변수. 해외 투자자 참여도가 실제로 오르는지가 향후 수개월의 관전 포인트다.</div>
+  <div class="tags"><span class="tag">시장 제도</span><span class="tag">글로벌 수급</span></div>
+  <div class="links">
+    <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE42ckRCYUNPclBnZjBjLUNXNUpwaHlLSTRVQ3U5OF9LcDZtZ2dRa1lzSEwtcUpOdWV4dlNkNzNvdk1NMTBBT2N2cTJBMkg5d0RyNWFyM2U0X1BpYjUwS3dzaHpLdVBkb3JiTlpPUktR0gFuQVVfeXFMTjZyREJhQ09yUGdmMGMtQ1c1SnBoeUtJNFVDdTk4X0twNm1nZ1FrWXNITC1xSk51ZXh2U2Q3M292TU0xMEFPY3ZxMkEySDl3RHI1YXIzZTRfUGliNTBLd3Noekt1UGRvcmJOWk9SS1E?oc=5" target="_blank">머니투데이: 애프터마켓, NXT 600여 개·KRX 전 종목</a>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span>
+    <h3><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxObUxXeHZTbHNBNXdUcGotbVFTWXc2eFB0NjByZlVRYnNZcl9PMS0ybDNCQ1NaX1ZidThlSTFaTFRvQzNiSU8tM3FXNWNjNjIwWDdIUFhUMkZreFJHM2h4Tm96eWNfUWk0cHFJaVZVaUh6enNIXzZsY2hablJDX2NYcVp6eFAxa3ByNktzRVhR?oc=5" target="_blank">금융위, 주거용 오피스텔 집단대출도 총량규제 제외 검토 — 부동산 금융 미세조정</a></h3>
+  </div>
+  <div class="summary">금융위가 주거용 오피스텔('아파텔') 집단대출을 가계대출 총량 관리에서 제외하는 방안을 검토 중이다. 서울 아파트값이 83주 연속 상승(최장 기록 근접)하는 가운데, 규제의 초점을 아파트 외 주거 공급 쪽으로 미세조정하는 신호다. 추석을 앞두고는 정책금융·은행권이 소상공인·중소기업에 103조 원 자금을 공급한다.</div>
+  <div class="why"><b>왜 중요한가</b> — 총량규제 제외는 오피스텔 분양·중도금 시장의 숨통을 틔워 건설·시행·리츠에 재료. 금리 인상기 가계부채 관리와 공급 확대 사이의 정책 균형이 관건이다.</div>
+  <div class="tags"><span class="tag">부동산 금융</span><span class="tag">정책</span></div>
+  <div class="links">
+    <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFTkRUZWxrR0xjalhJVWlsQjlxaUM2NXItek4wTFRJVTNPQWxhaG55ZWlwbGlTLVk0X2REdWJIV3JiV1dpd0lLeDhCV2hoUVlCNlJWTtIBVEFVX3lxTFBFTkRUZWxrR0xjalhJVWlsQjlxaUM2NXItek4wTFRJVTNPQWxhaG55ZWlwbGlTLVk0X2REdWJIV3JiV1dpd0lLeDhCV2hoUVlCNlJWTg?oc=5" target="_blank">서울 아파트값 83주 연속 상승</a> ·
+    <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1UdWt1d19lV08yZ0NWbDMwUENjaUhHNWVkWW5WNmlSZ0Q3SnZvdVBXalZyalBhRWNFbXBvbkdMMERfdHV0ajN1NENSdTJDTjl5NnVvaE5FVkE0angxYkJUanRpRnBMb3FkOGNTS2FtSEpBbVVYeFNOQdIBeEFVX3lxTE1UdWt1d19lV08yZ0NWbDMwUENjaUhHNWVkWW5WNmlSZ0Q3SnZvdVBXalZyalBhRWNFbXBvbkdMMERfdHV0ajN1NENSdTJDTjl5NnVvaE5FVkE0angxYkJUanRpRnBMb3FkOGNTS2FtSEpBbVVYeFNOQQ?oc=5" target="_blank">추석 연휴 소상공인·중기 103조 공급</a>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★</span>
+    <h3><a href="https://www.dw.com/en/north-korea-fires-multiple-ballistic-missiles-day-after-trilateral-drills-end/a-79242070" target="_blank">북한, 한미 연합훈련 직후 단거리 탄도미사일 수 발 발사</a></h3>
+  </div>
+  <div class="summary">북한이 한미 훈련 종료 다음 날 동해상으로 단거리 탄도미사일 여러 발을 발사했다. 북한 관영매체는 발사 사실을 보도하지 않았고, 합참은 추가 동향을 감시 중이다. 외신들은 정례화된 '저강도 시위' 패턴으로 해석한다.</div>
+  <div class="why"><b>왜 중요한가</b> — 원화·CDS에 미치는 영향은 과거 학습효과로 제한적이나, 유가·금리 불안과 겹치는 시점의 지정학 이벤트는 외국인 위험회피를 증폭시킬 수 있다. 방산주(한화 '우주전' 체계 등)에는 수주 모멘텀 재료.</div>
+  <div class="tags"><span class="tag">지정학</span><span class="tag">방산</span></div>
+</div>
+
+<h2>기관·리서치 <span style="font-weight:400;font-size:12px;color:var(--sub)">— 일요일: 신규 증권사 리포트 발행 없음</span></h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://biz.heraldcorp.com/article/10871546" target="_blank">현대경제연구원, 올해 성장률 전망 2.7% → 3.5% 상향</a><div class="desc">반도체 수출 호조 + 재정 확대 반영 — "성장률 상향이 바꿀 자산시장 셈법"(연합인포맥스) 논의와 연결</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE10bHVaY1hxSTZFbUgzc3ZkaDF0MUVGd1lVTWxZMXNNaEpVdkZTN3czZkxCSHpUMGhONG9uclFxRnh3bkZVN0hDVHBEUDIzelBKOTRLblFmVXdUb1VUR21WUC1ETkhpUTAyN1NKa1h2NWd0Ty0z?oc=5" target="_blank">"호실적에도 주가는 주춤 — 증권주 밸류에이션 매력 부각" (연합인포맥스)</a><div class="desc">거래대금·애프터마켓 확대 수혜 관점의 기관 시각</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5qYU1HbU5BRmZva1ktbmtscjk1V0ZPQ05Wanc1VnlPVk52cWpKQzJpWWVhc2Y2X3BhUnFFR29RdHpUY0FaNmdkaXJkQXEtNzE3WUFmWUN1WG9rck9EUzYwSkNva29PV2k0TmxIWkhQdjI?oc=5" target="_blank">유가 반등 속 가격 역전 — 금호석유화학·S-Oil 주목 (연합인포맥스)</a><div class="desc">고유가 국면의 정유·석화 상대 수혜 아이디어</div></div>
+</div>
+
+<h2>단신</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1TdDVDaWRSX1NDcFJKaWdnMHk4dV9VcmVBOElCTEhkZHRLOWJVSmtrWEF0bXh3NzVSNVl5RlBSeWRJWW9oZHdYQmhOLVQwQldwaElCek5DNkxJLXJyUUU3S0g0Q3RFZmt3eTF5ZDF2SHY?oc=5" target="_blank">이번 주 IPO 청약 5곳 릴레이 — 진코스텍은 코스닥 이전상장 수요예측</a><div class="desc">와이즈플래닛·빅웨이브로보틱스·브릴스 등 — 조정장 속 공모주 온도계</div></div>
+  <div class="brief-item"><a href="https://biz.heraldcorp.com/article/10871461" target="_blank">신한금융, 원화 MMF 토큰 '한국판 비들' 추진</a><div class="desc">원화 스테이블·토큰증권 경쟁 본격화 — 금융위는 역외 스테이블코인 상품권 구매 위법성 검토</div></div>
+  <div class="brief-item"><a href="https://biz.heraldcorp.com/article/10871386" target="_blank">KB금융, '연임' 대신 세대교체 — 이재근 체제로</a><div class="desc">역대급 실적 속 지배구조 변화 — 은행주 주주환원 정책 연속성 체크</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeVc2VklDSTJqenp5QnFhX2s4NFg3SHlkMndlZ3dXT3NfdDhYUnlVMXU0eldKbktyWmNrUkRMZkw4bTJyMHE1cldIUDVKNk41clpBWjkyUlA4c2RMM1dONkZPZEZMTlpCTk5nMmxxcjVXcU50RXoxM2xWOGlLZWtlOE5iTUR6ZkNiaTVGbzVfdXJrNkZxT2ljamQ5MWNsQ0h3UHJLYWlxOG45YVlqa2FsOHRZbDlRbWprY19F?oc=5" target="_blank">반도체 기술 보호 겨냥 '확대 간첩법' 시행 (Reuters)</a><div class="desc">기술유출 처벌 강화 — 반도체 인재 쟁탈전(샌디스크 국내 채용) 속 제도 정비</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxOUhoUjd1bDJNQ0pPcFFUY2dlQkxSd1BzWDdCcjFGVVUtWkhCdVpBZzMwWHBxeEZhMXZUc2tPcTdQeno4UlJMV2pkVVVUQ0F6RlE?oc=5" target="_blank">올트먼 "OpenAI, 안전 문제로 올해 IPO 없다"</a><div class="desc">AI 밸류에이션·국내 AI 관련주 심리 변수 — 'AI 대부들 속도조절론'과 병행</div></div>
+</div>
+
+<footer>
+  <div><b>선별 방법</b> — 국내 매체·한은/금융당국 보도·국제 통신·리서치 소스에서 수집한 기사 587건을 ①시장 반응 ②투자 관점 가치 ③교차 보도 ④정책 신호로 스코어링해 선별합니다. 시장·투자 직결 이슈에 최고 가중치를 둡니다.</div>
+  <div>제목을 클릭하면 원문으로 이동합니다. 시장 데이터는 공개 시세 집계(9/11 마감, 국고채는 최종호가 기준 집계치) 기준이며 확인되지 않은 수치는 표에서 제외합니다.</div>
+  <div>생성: 2026-09-13 · Korea Issue Digest 창간호 · 정보 제공 목적이며 투자 권유가 아닙니다.</div>
+</footer>
+
+</div>
+</body>
+</html>
