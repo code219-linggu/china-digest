@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한국 이슈 다이제스트 · 2026-10-30</title>
+<style>
+:root{
+    --ink:#1a1d24; --sub:#5a6172; --line:#e5e8ee; --bg:#f7f8fa; --card:#ffffff;
+    --accent:#1f4e8c; --accent-soft:#eef4fb; --up:#c0392b; --down:#1a6fb5;
+    --tag-bg:#eef1f6; --tag-ink:#4a5468;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',-apple-system,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px}
+  .wrap{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+  header{padding:28px 0 20px;border-bottom:3px solid var(--ink);margin-bottom:24px;position:relative}
+  .brand{font-size:13px;letter-spacing:2px;color:var(--accent);font-weight:700;margin-bottom:6px}
+  h1{font-size:26px;font-weight:800;letter-spacing:-0.5px}
+  .meta{color:var(--sub);font-size:13px;margin-top:8px}
+  .lang-btn{position:absolute;top:28px;right:0;background:var(--card);border:1px solid var(--line);
+    border-radius:20px;padding:4px 14px;font-size:13px;font-weight:700;color:var(--accent);cursor:pointer}
+  .lang-btn:hover{background:var(--accent-soft)}
+  h2{font-size:15px;font-weight:800;letter-spacing:1.5px;color:var(--accent);
+     margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .market{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .mkt-table{width:100%;border-collapse:collapse;font-size:14px}
+  .mkt-table th{text-align:left;color:var(--sub);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line);font-size:12px}
+  .mkt-table td{padding:8px;border-bottom:1px solid var(--line)}
+  .mkt-table tr:last-child td{border-bottom:none}
+  .num{font-variant-numeric:tabular-nums;text-align:right}
+  .up{color:var(--up);font-weight:700}.down{color:var(--down);font-weight:700}
+  .mkt-note{font-size:14.5px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+  .mkt-note p{margin-bottom:10px}
+  .mkt-note p:last-child{margin-bottom:0}
+  .sector{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-top:12px}
+  .sector h4{font-size:14px;color:var(--accent);margin:10px 0 4px}
+  .sector h4:first-child{margin-top:0}
+  .sector p{font-size:14px;margin-bottom:4px}
+  .issue{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:14px}
+  .issue-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+  .stars{color:var(--accent);font-size:13px;letter-spacing:1px;white-space:nowrap}
+  .issue h3{font-size:18px;font-weight:800;letter-spacing:-0.3px;line-height:1.4}
+  .issue h3 a{color:inherit;text-decoration:none}
+  .issue h3 a:hover{color:var(--accent)}
+  .summary{font-size:15px;margin:8px 0 10px}
+  .why{font-size:13.5px;background:var(--accent-soft);border-radius:8px;padding:10px 12px;margin:10px 0;color:#1f3f6e}
+  .why b{font-weight:800}
+  .why.cn{background:#fdf0ef;color:#7a2b24}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px}
+  .tag{font-size:11.5px;background:var(--tag-bg);color:var(--tag-ink);border-radius:20px;padding:2px 10px;font-weight:600}
+  .links{font-size:13px;color:var(--sub);margin-top:8px;line-height:1.9}
+  .links a{color:#2456a6;text-decoration:none}
+  .links a:hover{text-decoration:underline}
+  .brief{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 20px}
+  .brief-item{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+  .brief-item:last-child{border-bottom:none}
+  .brief-item a{color:var(--ink);text-decoration:none;font-weight:700}
+  .brief-item a:hover{color:var(--accent)}
+  .brief-item .desc{color:var(--sub);font-size:13.5px;margin-top:2px}
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--sub);line-height:1.8}
+  @media(max-width:480px){h1{font-size:22px}.issue{padding:16px}.lang-btn{top:24px}}
+</style></head>
+<body>
+<div class="wrap">
+<div id="lang-ko">
+<header>
+  <div class="brand">KOREA ISSUE DIGEST</div>
+  <button class="lang-btn" onclick="toggleLang()">中文</button>
+  <h1>한국 이슈 다이제스트</h1>
+  <div class="meta">2026년 10월 30일 (금) · <b>마감판</b> — 수집: 16:30 KST 정기 수집 기준 직전 24시간 기사 574건에서 선별 · 지수 마감 확정치, 국고채는 당일 마감 보도 기준</div>
+</header>
+
+<div class="sector" style="margin-top:0;margin-bottom:20px">
+  <h4>오늘 세 줄 요약</h4>
+  <p>① <b>시장</b> — 코스피 -3.48%(5,730.74): 장중 -5%대까지 밀리며 11거래일 만에 매도 사이드카(올해 28번째)가 걸렸고, 코스닥도 -3.83%(724.38). 외국인이 코스피 현물 1.8조 원을 던졌다 — SK하이닉스 -7%·삼성전자 -3%. 반대로 국고채는 안전선호에 전 구간 강세(3년 3.715%, 10년 4.008%), 환율은 1,330원대 초중반</p>
+  <p>② <b>이슈</b> — 트리거는 美 빅테크 실적: 알파벳이 -12.64%로 마감(하루 시총 증발 美 역대 2위)한 데 이어 아마존(컨센 하회)·인텔(가이던스 실망)이 시간외 급락 — 'AI 투자 수익성' 공포가 재점화됐다. 국내에선 기아가 영업익 1.82조(+24.3%)에도 컨센을 크게 밑도는 어닝쇼크 — 장중 -12%</p>
+  <p>③ <b>체크</b> — 11/3 美 중간선거·메모리 ETF 2종 상장, 11/6 엔비디아→네이버 1.4조 납입, 11/26 한은 금통위("최종금리 3.5%" 관측), 12/8~9 FOMC(BofA "12월·3월 인상")</p>
+</div>
+
+<h2>시장 종합 — 10/30(금) 마감 · 알파벳이 쏘고 사이드카가 울렸다</h2>
+<div class="market">
+  <table class="mkt-table">
+    <tr><th>자산</th><th class="num">가격</th><th class="num">등락</th></tr>
+    <tr><td>코스피 <span style="color:var(--sub);font-size:12px">(마감 — 장중 한때 -5%대, 매도 사이드카)</span></td><td class="num">5,730.74</td><td class="num down">-3.48%</td></tr>
+    <tr><td>코스닥 <span style="color:var(--sub);font-size:12px">(마감)</span></td><td class="num">724.38</td><td class="num down">-3.83%</td></tr>
+    <tr><td>국고채 3년 <span style="color:var(--sub);font-size:12px">(마감 — 당일 마감 보도 기준)</span></td><td class="num">3.715%</td><td class="num down">-5.1bp</td></tr>
+    <tr><td>국고채 10년 <span style="color:var(--sub);font-size:12px">(마감 — 4.0% 선 터치)</span></td><td class="num">4.008%</td><td class="num down">-7.3bp</td></tr>
+    <tr><td>원/달러 <span style="color:var(--sub);font-size:12px">(16:34 KST 취합 — 전일 주간 종가 1,336.8원 대비 3원가량 하락)</span></td><td class="num">1,333.6</td><td class="num down">하락</td></tr>
+  </table>
+  <div class="mkt-note">
+    <p>① <b>트리거 — 'AI 돈맥경화' 공포의 재점화.</b> 알파벳은 자본지출 급증과 현금흐름 악화가 재차 확인되며 -12.64%로 마감 — 하루 시총 증발액(약 6,690억 달러)으로는 미 증시 역대 두 번째다. 장 마감 뒤엔 아마존이 매출·이익 모두 컨센서스를 밑돌며 시간외 -6%대, 인텔은 "PC 수요 부진·부품 공급 부족"의 4분기 가이던스 실망에 시간외 -16%대로 밀렸다. 이 3연타가 반도체 투톱의 역대급 실적 발표 직후 차익실현의 빌미가 됐다 — SK하이닉스 -7%, 삼성전자 -3%, 외국인은 코스피에서 1조8,000억 원 순매도. 장중 코스피가 -5%대까지 밀리며 11거래일 만에 매도 사이드카가 발동됐고(올해 28번째), 막판 낙폭을 줄여 -3.48%로 마감했다. 모건스탠리는 "한국의 대미 수출이 미국 AI 투자의 선행지표"라고 짚었다 — 한국 증시가 미 빅테크 실적에 가장 민감하게 반응하는 이유다.</p>
+    <p>② <b>펀더멘털은 반대 방향 — '트리플 증가'의 역설.</b> 같은 날 나온 9월 산업활동동향은 생산 +3.0%로 15년 6개월 만의 최대 증가폭을 찍었고, 소비(+3.6%)·투자(+5.3%)까지 석 달 만의 '트리플 증가'였다 — 반도체와 자동차 쌍끌이다. 9월까지 국세도 반도체 호황의 법인세(+33%)에 힘입어 전년보다 95조 원 더 걷혔다. 실물과 수급의 괴리가 커지는 구간 — 증권가는 SK하이닉스의 20조 자사주 매입에 대해 "코스피 하방 지지 역할은 하겠지만 상승 견인에는 한계"로 평가했고, 3분기 펀드 순자산은 증시 약세에 4년여 만에 감소(-87.8조 원)로 돌아섰다.</p>
+    <p>③ <b>채권·환율 — 위험회피가 만든 강세.</b> 주식에서 빠진 돈이 채권으로 피신하며 국고채 금리는 전 구간 하락 — 3년 3.715%(-5.1bp), 10년은 4.008%(-7.3bp)로 장중 4.0% 선을 뚫고 내려갔다 떠받쳐 마감했고, 10년 국채선물에서 외국인은 순매수로 전환했다. 간밤 미 국채금리도 위험회피에 한 달 최저. 환율은 미 기술주 급락발 달러 약세에 1,330원대 초중반을 지켰다. 금리 전망은 안팎이 엇갈린다 — BofA는 연준 전망을 "12월·내년 3월 인상"으로 상향한 반면, 국내에선 "한은 11월 인상, 최종금리 3.5%" 관측이 힘을 얻는 중. 11월부터는 서울환시가 오전 7시에 개장한다(단신).</p>
+  </div>
+</div>
+
+<div class="sector">
+  <h4>업종 — 약세</h4>
+  <p><b>반도체</b> — SK하이닉스 -7%·삼성전자 -3%: 역대급 3분기 실적 발표 이틀 만의 차익실현. 하나증권은 "내년 시총 3위 쟁탈전"(한미반도체·HD현대일렉 등 후보군) 리포트로 응수.</p>
+  <p><b>자동차·방산</b> — 기아 장중 -12%(어닝쇼크, 주요 이슈 ②), 한화에어로스페이스 -7~8%(어닝쇼크, 주가 70만 원 하회). 현대건설(+114% 영업익)·현대모비스(+17%)는 실적 선방.</p>
+  <p><b>증권</b> — 3분기 실적 줄하락: 키움증권 순익 -26%에 주가 -9%대.</p>
+  <h4>업종 — 강세</h4>
+  <p><b>보안·개별 제약</b> — 연쇄 해킹에 보안주 강세. 대원제약 +16%(위식도역류 신약 임상 3상 성공), 한미약품·GC녹십자는 파브리병 치료제 기술이전(최대 6,348억 원).</p>
+  <p><b>신규 상장 양극화</b> — '안전 AI' 인텔리빅스는 상장 첫날 3.5배, 골프테크 크리에이츠는 -27~37%.</p>
+</div>
+
+<h2>어제(10/29) 이슈 후속</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWpWallyWnpfX3NIajVtbHd5c2NVQU9VRmNNTjI2VUxiSC1FQmxheXhFanF4Uy1BM2lRNEVKT2tHYWxlNDRONHhqdmNjTktCVldlYjNkN0lrQWhqWEpxYTVCa0JNNV9yczQyRFR5X3BYWUZJNDZoMWNsX2lwVnY0MmlaT1BxeUtP0gGcAUFVX3lxTFByQTBnYV9UYmdmbFpfckZWaUNPMkpTMHpZSzU0QV96aGUwMUZacWQtOGZtR2JqNHBXRkVYeWpDQktvakI3VXQ2VGR5WUo1SDduekNKTjU4R2xhTmhidFJDSWtZeWtzeVZJdk1taEVMbDJjT0tMVUxXSk84eVR4eUJYVi0zTTRQNlZrRDhYZ2JKR00zZmZJM2dyMm1tQg?oc=5" target="_blank">삼성전자 106.5조·주주환원 1월 연기(어제 ★★★) → IBK "환원 부족, 상승 제한적" 목표가 하향 vs "100조 영업익은 뉴노멀" — 평가 양분 속 -3%</a>
+    <div class="desc">'초고수'는 보통주를 팔고 우선주를 샀다는 집계도(매경) — 환원 구체안(1월)까지 수급은 하이닉스 쏠림이 이어질 수 있다는 쪽과 추가 모멘텀 대기라는 쪽이 갈렸다.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1Jdzk4NGpsekVXSmFLdUpnNldYUkRpSlVwaTBianVMajdfbFVmd2ZDREQ2SXlIdzFaVjRsWVhSbVpTQXU1VTJhNmdQdHBrUW4yYXZNVEV0dkdfQzRQdkNUVlpiNXNrNkNNYjI3VTNTdFU1bFJL0gF0QVVfeXFMTUl3OTg0amx6RVdKYUt1Smc2V1hSRGlKVXBpMGJqdUxqN19sVWZ3ZkNERDZJeUh3MVpWNGxZWFJtWlNBdTVVMmE2Z1B0cGtRbjJhdk1URXR2R19DNFB2Q1RWWmI1c2s2Q01iMjdVM1N0VTVsUks?oc=5" target="_blank">FOMC 매파 동결(어제 ★★★) → BofA "12월·내년 3월 인상"으로 전망 수정 — 국내선 "한은 11월 인상·최종 3.5%" 관측</a>
+    <div class="desc">美 3분기 GDP +3.4%·근원 PCE 3.1%가 인상 불씨를 키웠다. 한미 금리차(1.00%p)와 가계대출 금리 5개월 연속 상승이 한은의 부담.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY1FVeGhySzVTeFdvbTd6ZFRfY04xZ3RLZENZcmlJa1VTNDByNGhGaWxOa192Ny1GMDRYczlvc0Y4QWo1NmtheUdmUmd5SG1SYzdEZFQ0V2dTT2taVmRnaGdDWTk2am52ek1DVHJLRG1tbnV2azBTal84Y2hKLVplNmN2aUZmeFVx0gGcAUFVX3lxTE1ZNnV0eGphT1R4YmtxTW43eW85dVNhYVp6X3JHOUxPNjZ5R3BsN0h6NVN5NGtDamNHYVh5Q0RRei12UjZpSXRfXzZRQjVOYllqa0R0R3RMaGl5cDVreExHblBsTy1nLVNXSmtDSVVKeUtZcUNxcmxUM0VEOHM5M3dtbmVmZk5iTmJ6Q3RHeDlyNkFpMEloa3FXT05nYQ?oc=5" target="_blank">체코 원전 시공계약 결렬(어제 ★★) → 키움 "건설주 급락 과도", 대신·메리츠는 두산에너빌리티 '바닥론'</a>
+    <div class="desc">"시공 결렬은 KHNP 리스크, 주기기 공급은 유효" — 2027년 대형 원전 수주 사이클 논거로 이틀째 급락을 매수 기회로 보는 리포트가 복수(리포트 섹션).</div></div>
+</div>
+
+<h2>주요 이슈</h2>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RSGl6VlA2ejRTVDE5UF8zTGpROUFGX2p6bEc1a0I5U0pueTE0ZFpkNjBpcEkzeGxVTlpOeWw0ZWZIZTNGS1pQb183QzBZOFN0MzZiUklRN25HeW_SAWBBVV95cUxOQkhoaDJyenhOYm5SS3JsQWx3TFV4TmhVUmllQy1ubjhmODFnNGpuVzZJd0lPOXBPWVZjaDFsSmgzYnRhTEVTVTlDSHhobzNVSVhIZ3RTRkItTXFGSDRiaGM?oc=5" target="_blank">알파벳 -12.6%·아마존·인텔 쇼크 — 코스피 -3.48%, 11거래일 만에 매도 사이드카</a></h3></div>
+  <p class="summary">알파벳 마감 -12.64%(하루 시총 증발 미 역대 2위), 아마존 시간외 -6%대(매출·이익 컨센 하회), 인텔 시간외 -16%대(4분기 가이던스 실망) — 'AI 투자의 수익성' 공포가 사흘 만에 재점화되며 코스피를 직격했다. 외국인 1.8조 원 순매도에 장중 -5%대까지 밀렸고 매도 사이드카(올해 28번째)가 발동됐다. 반도체 투톱이 나란히 역대급 실적을 발표한 직후라는 점이 차익실현의 빌미를 키웠다 — SK하이닉스 -7%, 삼성전자 -3%. 닛케이도 -2.54% 급락, 아시아 AI 체인이 함께 흔들렸다.</p>
+  <div class="why"><b>왜 중요</b> — '실적 서프라이즈 직후의 급락'은 이 랠리의 밸류에이션이 실적이 아니라 '실적 가속'을 가격에 반영해 왔다는 뜻이다. 모건스탠리 표현대로 한국 수출이 미 AI 투자의 선행지표라면, 미 빅테크 capex 가이던스가 꺾이는 순간이 한국 반도체의 멀티플 변곡점이 된다 — 다음 체크는 11월 초 미 고용·빅테크 capex 수정치.</div>
+  <div class="why cn"><b>🇨🇳 중국 연결</b> — 같은 트리거로 A주도 이틀째 투매: 과창판50 -5.48%, 창업판 주간 약 -10%(중국판 참조). 반면 항셍은 소비·보험이 끌며 +1.5% 역행 — 'AI 체인'과 '비(非)AI'의 차별화가 아시아 공통 현상이 됐다.</div>
+  <div class="tags"><span class="tag">AI 밸류에이션</span><span class="tag">수급</span><span class="tag">반도체</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RSGl6VlA2ejRTVDE5UF8zTGpROUFGX2p6bEc1a0I5U0pueTE0ZFpkNjBpcEkzeGxVTlpOeWw0ZWZIZTNGS1pQb183QzBZOFN0MzZiUklRN25HeW_SAWBBVV95cUxOQkhoaDJyenhOYm5SS3JsQWx3TFV4TmhVUmllQy1ubjhmODFnNGpuVzZJd0lPOXBPWVZjaDFsSmgzYnRhTEVTVTlDSHhobzNVSVhIZ3RTRkItTXFGSDRiaGM?oc=5" target="_blank">연합(마감)</a> · <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Xb2JmQ0UzeW9hT0Zma254eWZrUnBGLUhZQkNtVVQ3YVBKSnJfdmRtbzE4T2k4M0FQZnZZbmJCX0ZUSXhVcFhvZHdIYnNPUm9MVktSb3B1cWVjV2JKRHNCVktSSWVpQWg20gFuQVVfeXFMT1Nod0V2ZlVhZEY4cllraWVqdnljYUdGOHJURUF4YWVjU3dqX3lheFVFSWgtS1lRTE9nNU45MW5xeEFkWU5sWmZrdFYzN2RGYVl5cmZka3M4UGJiTndIT0ZhOU9nQjZGUHpRQ0QtNFE?oc=5" target="_blank">머니투데이(외인 1.8조)</a> · <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFByMThhSTNZX1NCRzB1WS1aX1VmTlFJUEQwakpoUjhtMkIzdUMzUHlsUTFVT3pnWVZ2THNiSFljQjFLWUpEcE5KWmQ3ZmhBa3d2MzdxbnVnZ28zRlpxS3B0WtIBYEFVX3lxTFByMThhSTNZX1NCRzB1WS1aX1VmTlFJUEQwakpoUjhtMkIzdUMzUHlsUTFVT3pnWVZ2THNiSFljQjFLWUpEcE5KWmQ3ZmhBa3d2MzdxbnVnZ28zRlpxS3B0Wg?oc=5" target="_blank">연합(사이드카)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nZ0x6elZTS0pKMmlFcEk1VlJicDhtVW5KRjdEQnl2c0F5WXdWcXRmSlpYQ2lOMTlJeWhoQVZoTFg1ZW12c09uOU1MZkRLUEotQi1FXzlYNERJblXSAWBBVV95cUxPaktDWDlURkVqaGpfNmFfbXZtRzlqaVlxbHdfN0E3VTBiV0VjWV9xTmt5SUtGM0xjZFhaOXJPSXVxTV9xQkduclJuVkR3MkJGTHA4QzVSazdhUUdaa0tuVFk?oc=5" target="_blank">연합(알파벳 시총)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZMUQydU9fc3ZjQncwd1FPX09nbzZFZ3dmbWduY0x0TERqN3dYWGlNcmkzMFdaTnRBcFdjYVFqQzVGMW1rY2J5M21KNTNsSy1aNE9BMEY2SVJ1OHl1WTNja2g1a0Jycjk3RnZTTlFQdXQ?oc=5" target="_blank">연합인포맥스(인텔)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aFIxY1lCaTdsMTBnYmp5ZUhDMl9SWWN5UmxwRFVKd2docG10RHM2d0x3TnVjQkxLb1dHNEYyTF9sMm9zWmtJd01sNXpFbWNTUDZsdm1LQkdlZFpCWUNNQndWMHVHYno1OEJ3Rlh4YUJ5TTds0gF0QVVfeXFMUHVoUjFjWUJpN2wxMGdianllSEMyX1JZY3lSbHBEVUp3Z2hwbXREczZ3THdOdWNCTEtvV0c0RjJMX2wyb3Naa0l3TWw1ekVtY1NQNmx2bUtCR2VkWkJZQ01Cd1YwdUdiejU4QndGWHhhQnlNN2w?oc=5" target="_blank">기아 어닝쇼크 — 영업익 1.82조(+24.3%)인데 장중 -12%: "중동 전쟁 예측이 어긋났다"</a></h3></div>
+  <p class="summary">기아(000270)의 3분기 영업이익은 1조8,183억 원으로 전년 대비 +24.3% 늘었지만 시장 기대치를 크게 밑돌았다. 회사는 "중동 전쟁 관련 예측이 어긋나며 원가가 올라 하반기 수익성 목표를 밑돌 것"이라고 설명 — 주가는 장중 -12%까지 밀렸다. 같은 그룹 내에서도 명암이 갈렸다: 현대모비스 +17%, 현대위아는 전망치 상회, 현대오토에버는 미 관세에 수익성 악화, 현대제철은 주주환원 정책 발표를 내년으로 연기. 전날까지 '실적 방어주'로 꼽히던 자동차가 하루 만에 하락 주도 업종이 됐다.</p>
+  <div class="why"><b>왜 중요</b> — 원가(전쟁·관세) 변수가 가이던스를 깨는 패턴이 완성차로 확산되는지가 관건이다. 현대차 리포트가 같은 날 4개사에서 상·하향 엇갈리게 쏟아진 것(리포트 섹션)은 '실적의 질'을 둘러싼 해석이 갈린다는 뜻 — 4분기 판매 회복과 환율이 판정 변수.</div>
+  <div class="why cn"><b>🇨🇳 중국 연결</b> — 같은 날 BYD도 '+28% 증익인데 컨센 하회'를 냈고 지리는 "내년 내수 감소"를 공식화(중국판 참조). 로이터는 "중국 EV가 한국 시장을 파고든다"고 보도 — 글로벌 완성차의 마진 압박이 양국에서 동시에 확인됐다.</div>
+  <div class="tags"><span class="tag">자동차</span><span class="tag">3분기 실적</span><span class="tag">어닝쇼크</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aFIxY1lCaTdsMTBnYmp5ZUhDMl9SWWN5UmxwRFVKd2docG10RHM2d0x3TnVjQkxLb1dHNEYyTF9sMm9zWmtJd01sNXpFbWNTUDZsdm1LQkdlZFpCWUNNQndWMHVHYno1OEJ3Rlh4YUJ5TTds0gF0QVVfeXFMUHVoUjFjWUJpN2wxMGdianllSEMyX1JZY3lSbHBEVUp3Z2hwbXREczZ3THdOdWNCTEtvV0c0RjJMX2wyb3Naa0l3TWw1ekVtY1NQNmx2bUtCR2VkWkJZQ01Cd1YwdUdiejU4QndGWHhhQnlNN2w?oc=5" target="_blank">연합인포맥스(실적)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBMeEkxeVRoMERSMElxX1BrcVhyUkpxYkdvS0dDUFhvZlN1aFNfWWdIeFo3VThyRy00RmRQbXFDLXl0U0pHbVc5Q3NKSmRmVFJZOURIU3E3ZVJyVl95ZXdXTXZ1MkgtRXBhWUZxdmFWbXM?oc=5" target="_blank">연합인포맥스(주가)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9uMUpmc292d1B3SlY5MUxLSjdKTGl3a3M4LThVSGxtR1dSa1BycVJwcVVQNmZha3pNOUIwYkN1MXNXTFBiZkxFMnZubHRSdFNaS2FwcThYeDE2NWx5Vy1ydHBYSkpfZ09iTHRyc2FONVU?oc=5" target="_blank">연합인포맥스(중동)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5TVm8xdDF6VFlDYmx3RlBpY2Ixb3ZDNGhaZjRxcDlHSFRsSWpheUZBOE9ULUlMY01zRmxmd29tbDRIMEp6Rk1XME15M3ZKYXRJWXRwRXktNzByWnBPM0x4TElFNGRsUzVudEZ4bTByb28?oc=5" target="_blank">연합인포맥스(원가)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wQmdPWkpoaTZpQVd4TTg2cXBXcUNFQjR3MndkUG9TQXA5cy1kZ1Zud09XZHNHSFFYWjZPNDNvZ3pFUFRHM2dSOF9qRnAta1ItUzh5eDRhLWJUaFXSAWBBVV95cUxPTHEwVW9ZT245bF9YUVVMcVdJNWMyekg2eG5Cc0JJbWhia0Y3a0kza3c5SWY4VTgteVlnczExbWhrYXdmbGFKVUE5SFJ5SC14c244dGhzWWp1MmJYbEhJR1I?oc=5" target="_blank">외국인, 9월 국내 주식 19.1조 순매도 — 한 달 만의 '셀 코리아', 채권서도 7.6조 회수</a></h3></div>
+  <p class="summary">한국은행 국제금융·외환시장 동향: 외국인은 9월 국내 주식을 19조1,000억 원 순매도하며 한 달 만에 '셀 코리아'로 돌아섰고, 채권에서도 7조6,000억 원을 회수했다. 10월 들어서도 오늘 하루 1.8조 순매도 등 흐름이 이어지는 중이다. 한편 3분기 외환거래는 하루 평균 1,220억 달러로 7분기 연속 역대 최대 — 환율 변동성 축소에 증가세는 둔화됐다.</p>
+  <div class="why"><b>왜 중요</b> — 지수 6,000 돌파 랠리의 유일한 공백이 외국인 현물 수급이었음이 공식 통계로 확인됐다. 미 인상 사이클(한미 금리차)과 AI 밸류에이션 조정이 겹치는 11월, 외국인 복귀 없는 반등은 개인·연기금 체력전이 된다.</div>
+  <div class="tags"><span class="tag">수급</span><span class="tag">외국인</span><span class="tag">한은 통계</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wQmdPWkpoaTZpQVd4TTg2cXBXcUNFQjR3MndkUG9TQXA5cy1kZ1Zud09XZHNHSFFYWjZPNDNvZ3pFUFRHM2dSOF9qRnAta1ItUzh5eDRhLWJUaFXSAWBBVV95cUxPTHEwVW9ZT245bF9YUVVMcVdJNWMyekg2eG5Cc0JJbWhia0Y3a0kza3c5SWY4VTgteVlnczExbWhrYXdmbGFKVUE5SFJ5SC14c244dGhzWWp1MmJYbEhJR1I?oc=5" target="_blank">연합</a> · <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ObGFIMXBfLXZjN1YycGVSa2JaRHVuVEtXSDJzWERhWUxXYzYwT2FLZ2JhemxqTFpSTjA3ellfdDN5elNrLWFkVzRMWlZYcnN4SHVXcA?oc=5" target="_blank">매경(채권 7.6조)</a> · <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQaTI0SHhudWhmY0VabEZTVnRCX1NyOFQxWnNBRUJKNk8xSmpFS3BxUjNsXzZiUmN3ZEc4SnhXaXcwcHZYbU42V3hKVlB3TzR4YXpyTVRZNXB0SXNibnNGMmxSV1Bha1ZmcW80OG9wU2NUaU5Ia1dLQXR5aE9vQjJCUnhRd3NCd9IBmgFBVV95cUxPdFNaTFA1dWViUE9ycjdna0JiSDlDSHZWaGhMMmFTTThzWTU1LUY1WVRURUVjQ1d3ZXJFOUtFbGUyYXI1SDZyZkJDQVF1R2RNU1JHWUFyZWh5LWVqcUVSLUpOcm1ydktPT2dqWENBM2VkRHF2R1M4WFVDY0hZcTFVVDBVbnZVWHFwUmw5QUd1cV9FOUhFSG42ejFR?oc=5" target="_blank">조선비즈(외환거래)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VeHJESDdJMkM0OVhraVItVUJUU3FucXB4WElVeGJZSTRJUXRXNUU2LVNiTjM4c3dITnNaNURKQU5EZGdmUnY0X3BpTzRtbS10b3dUM1BfQjc0a0FlLWRxWNIBYEFVX3lxTE5VeHJESDdJMkM0OVhraVItVUJUU3FucXB4WElVeGJZSTRJUXRXNUU2LVNiTjM4c3dITnNaNURKQU5EZGdmUnY0X3BpTzRtbS10b3dUM1BfQjc0a0FlLWRxWA?oc=5" target="_blank">9월 생산 +3.0%, 15년 6개월 만의 최대 — 생산·소비·투자 석 달 만의 '트리플 증가'</a></h3></div>
+  <p class="summary">9월 전산업 생산은 전월 대비 +3.0%로 2011년 3월 이후 최대 증가폭을 기록했고, 소매판매 +3.6%, 설비투자 +5.3%까지 석 달 만의 '트리플 증가'가 나왔다 — 반도체와 자동차가 쌍끌이했다. 반도체 호황은 세수로도 확인된다: 9월까지 국세 385조 원으로 전년보다 95.4조 원 증가, 법인세가 +33%(51.9조 원) 늘었다. IMF는 "한국 반도체 호황의 혜택이 확산돼야 소득수준 유지에 중요하다"고 논평.</p>
+  <div class="why"><b>왜 중요</b> — 급락장 한가운데서 나온 '실물 서프라이즈'다. 주가 조정이 길어져도 이익·세수 사이클이 받치는 구간이라는 뜻 — 다만 생산 호조는 한은의 11월 인상 부담을 덜어주는 재료이기도 하다(금리 측면에선 매파적).</div>
+  <div class="tags"><span class="tag">거시</span><span class="tag">산업활동</span><span class="tag">반도체</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VeHJESDdJMkM0OVhraVItVUJUU3FucXB4WElVeGJZSTRJUXRXNUU2LVNiTjM4c3dITnNaNURKQU5EZGdmUnY0X3BpTzRtbS10b3dUM1BfQjc0a0FlLWRxWNIBYEFVX3lxTE5VeHJESDdJMkM0OVhraVItVUJUU3FucXB4WElVeGJZSTRJUXRXNUU2LVNiTjM4c3dITnNaNURKQU5EZGdmUnY0X3BpTzRtbS10b3dUM1BfQjc0a0FlLWRxWA?oc=5" target="_blank">연합(종합2보)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE80bGZDYUt3WUNtN1ExX2tpSDBPM256aTFNbDJIWC1HUnc5SU9UMXNabElnUnFUV1RkN3N5bzFxcS1GRVAtT1pVY0IzSklhOVA0QjdaWkdKYW9CYkpvbjdHT3EzSHpVTHR6RVJXUzg1a1g?oc=5" target="_blank">연합인포맥스</a> · <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQemM3NmlUU3NvVUt0dEc3MXV0M3BqcG1PWk8wMk9OX3RYOWoxWVhJQTVSeGF1ME44cDFVclAtcC1QTUdtaVh2RGctZGVMNVM4UldpZXE3N2lFbTFJVnVrLWIwTGRTNk51S0RvZ3hCVy1nMmxpT2dyS1JqcXUxZlJYLVZLYzBCZ9IBmgFBVV95cUxQUkEwZFJLeHJ5V0lXMDRzeEdDSVdfOHdwVFJOUzc1ZmlPdGNoaG9jTHBuc3VSOURqM2V0UnphcXYyOGNSbXR6WGdOOER0eGx5YTZpbHdQdy1zc1ZmV2ZMdm1taXlldFFwaDVWb2dESVNpVkRUQmRORmFHbnFkZjhJcGRxOEVyUjRiYkpjYko1dzctbGdjeUpiQmpn?oc=5" target="_blank">조선비즈(세수)</a> · <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OEFweXo1SW8wWVlULXlSUmpCLVYyUVFfNVdBaDNEbmNXLXBtc2lma1pDRDBpM3h4djhQVTVvalE5a2pTaFNOVXdURkRmNmdYZXUySE1RTTBIQQ?oc=5" target="_blank">한경(IMF)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zU1oycW1Dd2tKeVJseEJmcXNZMnFvMFF1OGJOV1g5X1hXSF9oaFU3aWlfNWRVSFd6bjFObnpqYVR6WDBpYVhxV0RhZThwb1pobk9VU3pBNnFnUG_SAWBBVV95cUxNa29iaktRSmw2NjcwOS1rVjRoWDhvVThDSzRyZHhOcUREd2xhQ2tkOG5ia1VoTW1zenRQMGk3R2VYTXRsb2JJd3JwTXJKUFVzUmkyRFY5UFhlM0ZZT2FMYkY?oc=5" target="_blank">일본은행 "물가 2% 목표 도달" 선언하며 1.25% 동결 — "금리 계속 인상" · ECB도 동결, 한은은 11월 인상 무게</a></h3></div>
+  <p class="summary">일본은행이 기준금리를 연 1.25%로 동결하면서 "기조적 물가가 2% 목표에 대체로 부합한다"고 처음으로 공식화했다 — '30년 디플레이션 탈출' 선언으로 읽히며, 우에다 총재는 추가 인상 지속을 시사했다(도쿄 근원 CPI 2.6%). 닛케이는 기술주 급락까지 겹쳐 -2.54%. ECB도 예금금리 2.5%로 동결했지만 "12월 인상이 유력하다"(ING)는 해석이 붙었다. 국내에선 "한은이 11월 금통위에서 또 올려 최종금리 3.5%로 간다"는 관측이 확산 — 가계대출 금리는 4.96%로 5개월 연속 상승, 고정형 주담대는 5%를 넘었다.</p>
+  <div class="why"><b>왜 중요</b> — 미·일·유럽이 모두 '동결했지만 인상 여지'를 남긴 주간이다. 글로벌 긴축 사이클의 꼬리가 길어질수록 성장주 멀티플과 가계 이자 부담(영끌족)·은행 조달비용이 동시에 압박받는다 — 11/26 금통위가 국내 수급·내수의 분기점.</div>
+  <div class="tags"><span class="tag">통화정책</span><span class="tag">BOJ·ECB</span><span class="tag">한은</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zU1oycW1Dd2tKeVJseEJmcXNZMnFvMFF1OGJOV1g5X1hXSF9oaFU3aWlfNWRVSFd6bjFObnpqYVR6WDBpYVhxV0RhZThwb1pobk9VU3pBNnFnUG_SAWBBVV95cUxNa29iaktRSmw2NjcwOS1rVjRoWDhvVThDSzRyZHhOcUREd2xhQ2tkOG5ia1VoTW1zenRQMGk3R2VYTXRsb2JJd3JwTXJKUFVzUmkyRFY5UFhlM0ZZT2FMYkY?oc=5" target="_blank">연합(BOJ)</a> · <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9sRVpGOGpqNmk2b1FEeXp3X2xPRzR1bkFJSGJlQTltTE9lNTM2RktEZ19oTGFxdzF6NkNuU1NqNzhQRHJ4QVU5bW1yX01kc3BXbUlKR21VYWJDSzBhMG9jeHctZ2FlWXdCVnlfOUlWdWhJeXPSAXdBVV95cUxNMDF0UnJfd19VbUlxODE3VHlmNzlGcC03VDhUVEhlTlFDcEhxU2FXbEFtSGFKQk9GQUpVaEYyT3VSczNmZmJONVZ3ZW5qc3d6b3BwRDNkUjg4dmdkYmhSZU1YTFB0UHVDSmhaX2ZNOXZhZnhNbmNzcw?oc=5" target="_blank">ECB 동결</a> · <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IRy1mWE80SzF1T2tydndIbGFjbHV2NmZlWFVXT3dXZmhJbWNycUJpU1ZqQ0IwNkJWRHpJVTU3VDcxX0ROakltbjFDUnZQTzZpeF9XNDVyZ3o3enhvTGtoMWJxYWp1cmM?oc=5" target="_blank">최종금리 3.5% 관측</a> · <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9zUG9tVUFyVjFMYVZULVNMLWtyNDFzMWg5aWg2bmE0d2NiamJJY1IxNkMtVENMU2NBOUFuQWVYeXR5NDFFdWNmMk9BbHRzdEpYWjZ6aHhFNU1mdjN5eUlNMHlabmRfdUY5Z0pNZQ?oc=5" target="_blank">가계대출 금리</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9QSV9IdUtiNV9TSXBfUnRCQlJvX2hmSnpTZHE4NVZkRjJQMnBPVW02RDN2bFRpdW1fYVF5ZnFmd2lCc29YamJkT29va29JRWFQV1dIR293d2NzM1JlRFRCZ01HNlZpU3ZjYUF2SjM5dWc1VHlQ?oc=5" target="_blank">엔비디아 → 네이버 1조4천억 투자, 11/6 납입 확정 — 3대 주주로</a></h3></div>
+  <p class="summary">네이버(035420)에 대한 엔비디아의 10억 달러(약 1조4,000억 원) 투자 납입일이 11월 6일로 확정됐다 — 납입이 끝나면 엔비디아는 네이버의 3대 주주가 된다. 한국신용평가는 "네이버의 AI 팩토리 투자 위험은 제한적이며 현금창출력 확대가 기대된다"고 평가했고, 현대오토에버도 HMG AI 팩토리 주식 1,146억 원 취득을 공시하는 등 국내 'AI 인프라 동맹' 구도가 구체화되고 있다.</p>
+  <div class="why"><b>왜 중요</b> — 미 빅테크 capex 우려로 글로벌 AI 체인이 흔들리는 와중에, 엔비디아의 지분 투자는 '한국 AI 인프라'에 대한 반대 방향의 베팅이다. 납입일(11/6) 전후 네이버·AI 팩토리 관련주의 수급 이벤트로 주목.</div>
+  <div class="tags"><span class="tag">AI 인프라</span><span class="tag">네이버</span><span class="tag">엔비디아</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9QSV9IdUtiNV9TSXBfUnRCQlJvX2hmSnpTZHE4NVZkRjJQMnBPVW02RDN2bFRpdW1fYVF5ZnFmd2lCc29YamJkT29va29JRWFQV1dIR293d2NzM1JlRFRCZ01HNlZpU3ZjYUF2SjM5dWc1VHlQ?oc=5" target="_blank">연합인포맥스(납입일)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIc2w5VEo4cTlRVFVGdld1bHZqWlEzdFJWZWo0M1RleUx4UEpsWlR6ZjJOMmdxVTE1TXpfdFBQMGpvZTlUSlZxaXQ0QnU4RUFnMFJxTVJERHQ5Qm_SAWBBVV95cUxOd3BKclNNLTlDNE1sbUY2aHJGS0p0WnMtc1g5R2lvYjBjZnN0U0dzcDNNZGlYUnN4YTU3VWM3eWI5aGtPRDhMc211SnowbVE3S3p5SXBfc1d4RnFRWXJvUDM?oc=5" target="_blank">연합(3대 주주)</a> · <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5PcDg1cDZ0VUVWRmpadHlaVnBRX1M4V1VNMDk0NjZxbUxFNUNKV0dOcG51VFJwLXhnZHhpTU9VdTVCMTZUNGNIaDh4N0dNRlZmVjJiZXhYcWxzSVdnS0FnamxUcFp1ZDRFRUdWdk83RUZwbXlC?oc=5" target="_blank">한신평 평가</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPUmFZazdUZDNQbU4tdmtPQWtkWGgyLUJvektiQkRWX3BnV0xzNll1ZVA3OUdwcFRzdXEwVnpLSFFNallGVWE5T285SklVVzZYbnNxb240eHRLM0xjdU9KODNPa29XT2RtVmJTdm0xQUY4RFpVbE8zZzRMZzdPYVQwMNIBlAFBVV95cUxOZ1NwNlM2bTItVU0xS2FfX29pajZfX2ZPNmhiaUFJQ0ZUZ0lpOFdRb0phVEFmem5IQlNvbGJGaXFrWkZMVF9LNzg1NXdSRlk4d0IzaEFQS1ZOd3ZiWGk3T1NpeWxocEpqY3p5MENSRS1wYXNVLVlvc2xlalVLdERCQW5ZZzdRUDhBSUE3dklidkktRF9M?oc=5" target="_blank">바이낸스 7조 원대 해킹 — TRM "북한 소행", 비트코인 7만8,000달러대 급락</a></h3></div>
+  <p class="summary">세계 최대 코인거래소 바이낸스가 해킹 의혹으로 입출금을 일시 중단했다 — 영향 규모 약 63억 달러(7조 원대), 회사는 "손실 전액을 부담한다"고 밝혔다. 블록체인 분석업체 TRM은 북한을 배후로 지목했다(로이터). 비트코인은 -3.7% 하락해 7만8,000달러대, 이더리움·리플도 급락했고, 국내 투자자들에게도 '출금 주의'가 안내됐다. 하필 금융권 연쇄 해킹으로 보안 체계 논란이 큰 시점 — 국내 증시에선 보안주가 역행 강세를 보였다.</p>
+  <div class="why"><b>왜 중요</b> — '거래소 최후의 보루' 바이낸스까지 뚫리며 크립토 전반의 신뢰·규제 리스크가 커졌다. 북한 소행이 공식화되면 제재·자금세탁 규제가 한층 강화될 수 있고, 원화 거래소·가상자산 예치금(케이뱅크 NIM 방어 요인) 등 국내 연결 고리도 점검 대상이다.</div>
+  <div class="tags"><span class="tag">크립토</span><span class="tag">보안</span><span class="tag">북한</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPUmFZazdUZDNQbU4tdmtPQWtkWGgyLUJvektiQkRWX3BnV0xzNll1ZVA3OUdwcFRzdXEwVnpLSFFNallGVWE5T285SklVVzZYbnNxb240eHRLM0xjdU9KODNPa29XT2RtVmJTdm0xQUY4RFpVbE8zZzRMZzdPYVQwMNIBlAFBVV95cUxOZ1NwNlM2bTItVU0xS2FfX29pajZfX2ZPNmhiaUFJQ0ZUZ0lpOFdRb0phVEFmem5IQlNvbGJGaXFrWkZMVF9LNzg1NXdSRlk4d0IzaEFQS1ZOd3ZiWGk3T1NpeWxocEpqY3p5MENSRS1wYXNVLVlvc2xlalVLdERCQW5ZZzdRUDhBSUE3dklidkktRF9M?oc=5" target="_blank">조선비즈</a> · <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQc01IcXZiYm9zemhhbHhBenBOeFE4NDlHMC1TNGxUOHNlVFJIQmY3QTF1cnpqZmRBcGlic184TnhyRVEtSEVkSTNGdzBxejNaUVlqSEkyMllicG50YkY1TURzUWtnVE5nVlhSYk1ROWwwdDdwQWg2NlZVVEgxc2NuQVZwUWxrOVBmRzNHb2dYUUJiQ2tmTFhfT3NGblYtTjhPdDNmUE5VVFJ1RnRTbnJnRXdSNm55VzRBSVBySTc2Wnc3aDJ2?oc=5" target="_blank">Reuters(TRM)</a> · <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQdTg1QjRZenBQTWNYc3BkaFdhT25RejVkLVdSUlNUcFVrVDdzSHlsSER5M0F5S0lYRGNQY0Zud1ZraElHWTdGNUlRM0p5b094bnZadnNUX0I4eTVxdVJSTUloRW51Rm1lamtpd1psbkFYUkxjX3J6UHRhVXlwRVpGZtIBlAFBVV95cUxQRjhPNnB5ZWdQbEwtaWZuSG1Rd01IUmxpbE5Sb0NiYzk5MGVJbURvVVVSajNiQmRHeElrdVF1LV9DYUdiUlZINzZtenhDRlNrbEFtcXY4SHEyZFV2YTBCbzBxZVZYZTNwY2NlNWxfczdWLWt2LS1vWlRmWFd2akozZnlxb1NyWXlJRVhEa3hyTEdvYjBP?oc=5" target="_blank">조선비즈(비트코인)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTSlhnZGV1Y0doSlZDWkhfcENYRVJvQi1qdjVqV1ZmS2ZQNXpSbG1lejJNRkVkYTB3d3pYLXZLM0RoU3dvckE5RFZrMjVzV0V3a2NiSE9QX1o3eGfSAWBBVV95cUxQWWd5SjlDbTk2WFMxZDRPeTB4UTl1cmlKamxvMFBxTVpQZlN6eF9GWlVkcTUycFpCWEV3eEctaG43YjZEbkFUZnN0Z1VjaXpNQ29wWUNWSVA0a3h1dlRmRTY?oc=5" target="_blank">연합(출금 주의)</a></div>
+</div>
+
+<h2>다음 체크포인트</h2>
+<div class="brief">
+  <div class="brief-item"><b>11/3(화)</b> — 美 중간선거 · 메모리반도체 ETF 2종 신규 상장<div class="desc">"민주당이 이겨도 2년간 관세율은 안 변한다"는 전망(연합) — 결과보다 대중·재정 정책 재정렬이 포인트. 같은 날 메모리 투자 ETF 2종 상장.</div></div>
+  <div class="brief-item"><b>11/6(금)</b> — 엔비디아, 네이버 1조4천억 투자 납입<div class="desc">납입 완료 시 3대 주주 등극 — AI 인프라 동맹의 수급 이벤트(주요 이슈 ⑥).</div></div>
+  <div class="brief-item"><b>11/26(목)</b> — 한국은행 11월 금통위<div class="desc">"11월 인상, 최종금리 3.5%" 관측 확산 — 주담대 5% 시대에 트리플 증가(실물 호조)까지, 인상 명분이 쌓이는 중.</div></div>
+  <div class="brief-item"><b>12/8~9(美 현지)</b> — 12월 FOMC<div class="desc">BofA "12월·내년 3월 인상" — 한미 금리차와 외국인 수급의 최대 변수.</div></div>
+</div>
+
+<h2>증권사 리포트 — 산업·개별종목 우선</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHYjRDbXgxZ0szd001NXh3SHJEbENOazhYeWg4aEtzN1F5WElIZHFzTl92Nl94dVJNOS1MY240R0pJdDd2dVdiZkNyNl9QUFBxeHc?oc=5" target="_blank">현대차(005380) — 하루 4개사 '엇갈린' 커버: 하나 목표가 48만 하향 · NH 하향 · 유안타 44만 '상향' · IBK "불황 속 방어력"</a>
+    <div class="desc">핵심 논거가 정반대다 — 하나·NH는 "주주환원 불확실·신사업 모멘텀 공백", 유안타는 "어닝 서프라이즈인데 주가 하락은 환율 착시"(목표가 44만 상향), IBK는 "판매 -11%에도 이익 증가는 방어력". <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE10ZHphcHo0eXVETTRkeW5hTnZLZWR2OHVpZXZrUkVNd012Y29ydFdPR09EbUdKaXJqSDllS1Q1bGw2eG01aEhObzE4dnZGSnd4ZTZoVnN1Mks4d0kzWGVOaTBRcm9QWml00gFuQVVfeXFMT0gxZnJZVkZLaFJsOUdtRmE0UU01NHllTkZyU1JaVEFaYkxQZTBUM0stdDY1dlVvcnVFR0dsZGVfb3g1c2N6STdXcE93dnpGdWZrc3pqNDh5XzQ2N2dQcUgzWUM5T191Q2ZLR2pnSGc?oc=5" target="_blank">NH</a> · <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZWtQSFBxMGZNQXlKa1ZJOE1OMUN5dGt6eFVlVHNtWmtScXhISmtZcUlCYk9rOXN3RE9rNW9QTXlrQnlKVUtBeHZuODZBWHFFR1FFWC1jVmNVbEwxVzFHc3pLdzU3VlhjYTA3RW9UeTFLUzZOMEx0d2lEM2laTUdBaUhRRm5EUmst0gGcAUFVX3lxTFBWelJjRVhDX1l0N0ZZdjl6dFJBZVcwcklxU0FYVHVmV0Y5UWRycDdla2VyWWdJdUIzbVVjV0R3OWJjQ3IzNTNTLUxvNU5OdnVOUk5aSWUxUmo3dng2SWZkS2s1TFVBRHFpcWtGMEJJa1RfOVFJWlhUWDlSZFRCcnIxbV9sY1F0STYtc3NhQnFGRFhtWmtpb1Zsd3JmcQ?oc=5" target="_blank">유안타</a> · <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNYi1yUzNKbVBKamNfaWR4RUpkcE9wUk04NDlJdWJGc2tELTFuZi1HWkhETTVHMkdnc1JiU2pZbTlmaDM2MTZZREwyWFg3RXpRZmRQbGpiRlE3VHBoVVBqcmhBUUJqV0hpNU5YaFhLNXE3b19QNy1vRUdnLW9ObGdpbQ?oc=5" target="_blank">IBK</a></div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNcG1tU3lTLWVqV2haSkh6QjdtTXdreTRTUWVPNjFJMjdwRTNfdnM5UkJScVFuR3diZ3VxNDhWZGJuZmtyLVhSM25HaUpqSG9vU3RMb25Vem5fMkxiblNwWHlvY0hQT2o0WGZiVVl6cUFWXzh0V01tazRMd3MzN1paUQ?oc=5" target="_blank">두산에너빌리티(034020) — 대신 "2027년 하반기 대형 원전 수주 본격화" · 메리츠 "지금이 바닥, 연말 수주 모멘텀"</a>
+    <div class="desc">핵심 논거: "체코 시공 결렬은 시공사 리스크일 뿐 주기기 공급 지위는 유효, 국내외 대형 원전 파이프라인이 2027년부터 열린다" — 이틀 급락을 매수 기회로 보는 2개사 동시 커버. <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY1FVeGhySzVTeFdvbTd6ZFRfY04xZ3RLZENZcmlJa1VTNDByNGhGaWxOa192Ny1GMDRYczlvc0Y4QWo1NmtheUdmUmd5SG1SYzdEZFQ0V2dTT2taVmRnaGdDWTk2am52ek1DVHJLRG1tbnV2azBTal84Y2hKLVplNmN2aUZmeFVx0gGcAUFVX3lxTE1ZNnV0eGphT1R4YmtxTW43eW85dVNhYVp6X3JHOUxPNjZ5R3BsN0h6NVN5NGtDamNHYVh5Q0RRei12UjZpSXRfXzZRQjVOYllqa0R0R3RMaGl5cDVreExHblBsTy1nLVNXSmtDSVVKeUtZcUNxcmxUM0VEOHM5M3dtbmVmZk5iTmJ6Q3RHeDlyNkFpMEloa3FXT05nYQ?oc=5" target="_blank">메리츠</a></div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWpWallyWnpfX3NIajVtbHd5c2NVQU9VRmNNTjI2VUxiSC1FQmxheXhFanF4Uy1BM2lRNEVKT2tHYWxlNDRONHhqdmNjTktCVldlYjNkN0lrQWhqWEpxYTVCa0JNNV9yczQyRFR5X3BYWUZJNDZoMWNsX2lwVnY0MmlaT1BxeUtP0gGcAUFVX3lxTFByQTBnYV9UYmdmbFpfckZWaUNPMkpTMHpZSzU0QV96aGUwMUZacWQtOGZtR2JqNHBXRkVYeWpDQktvakI3VXQ2VGR5WUo1SDduekNKTjU4R2xhTmhidFJDSWtZeWtzeVZJdk1taEVMbDJjT0tMVUxXSk84eVR4eUJYVi0zTTRQNlZrRDhYZ2JKR00zZmZJM2dyMm1tQg?oc=5" target="_blank">삼성전자(005930) — IBK 목표가 하향: "부족한 주주환원으로 주가 상승 제한적"</a>
+    <div class="desc">핵심 논거: "실적은 역대급이지만 잔여 환원 구체안이 1월로 밀리며 수급 모멘텀 공백" — '100조 영업익 뉴노멀' 낙관론과 맞서는 신중론.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OZ2VGU2F1aGR1cHZpd0xzWlk5Sk8xYWFmM1ppbE42TEVoY0FSa3ZQT1lZWmQwXzNqbWFJUkN4TnRvWUw5REZDNFBDcWd1TW9iVk4zZHlqeTRkdw?oc=5" target="_blank">아모레퍼시픽(090430) — 하나 목표가 17만: "북미 성장률 주목" · '재정비 효과 초입' 평가에 급락장 역행 강세</a>
+    <div class="desc">핵심 논거: "국내가 이끈 3분기 실적 개선에 북미 모멘텀이 더해지는 초입" — K뷰티 체인(에이피알 영업익 +70%)과 함께 소비재 차별화. <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBdkZnczhSLXh1MEdWbFdCZ0loeEVFOG8xUzdzOExRdlIyMEpqdjc1LWxVUmVJeFE1Z0FwUWFPMTdiTFZoOHJ1b0szWnIzcVphaGc?oc=5" target="_blank">특징주</a></div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxOb2VrVEpIZ3AwSFRsdFZnc0dSTGdWRTRzSmdTYUtjdWNRWXh6NDdlWDBoY1J0NVhveTNlLVcxVXFzbnJnTlczRzVLRGJVRk52djJIdTBzeFFyNjJDeWdVRV9ialE4Ukhka0pGcTFsQkJ3NW9CQnNaeTR3ckQtQ1JqdQ?oc=5" target="_blank">대한전선(001440) — NH 목표가 3.8만: "고전압(HV) 송전망 지중화 수혜"</a>
+    <div class="desc">핵심 논거: "AI 데이터센터발 전력 인프라 투자에서 HV 지중화 케이블이 구조적 수혜" — 급락장에서 돋보인 전력기기 테마 리포트. 하나증권은 "내년 '시총 3위' 쟁탈전" 전망도. <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFA5ekpTTVI3OXJ6QnU5WXJLeU9MSTBjS3dxUHdQeVBsczAzaDBDcGZfYVhDcjM0SUFxYmd2azAwcDlyOFZZd3Z5aGZ0NzZoOXk4bl9VVFAtV1ROcUxSYXdZcHdDRU54VlZkMFNwWW44alBqWmZn?oc=5" target="_blank">하나증권</a></div></div>
+</div>
+
+<h2>단신</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vd3Y0dksxZW9WOW5SV01BVV9ZcDV2a3N5RXBMTWxGRWNxdkN6aUY4M18xYkNHeWtlTE1raHBVemFibFRDMXNTT0U0am1KZkNTMHljN0pMSEFyak3SAWBBVV95cUxPd3NfbVotRXh2a1B2NUx5V1h6UVVMMGhjN0V5VnF3ZVZuYW5abTlLY0V4V3Y3a1pfcGFkYm54VUdzSUFKR1gtUU81ZEdsdzJxaDg0RnNFZ2hlc2YyT2JwU3Q?oc=5" target="_blank">SK그룹 사장단 인사 — SK하이닉스 곽노정 유임, SK이노베이션 CEO에 정승일</a><div class="desc">"반도체 안정·에너지 쇄신" — 실적 정점의 하이닉스는 연속성, 에너지는 전 산업부 출신 투입.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VNS0xYWc0VVNkZFRPTndPaFJxTlBVSFFDRW9sTHhsTkRYbi1pc1JKaElXVWtiYTZvbDYyRmtwUFJKNmRWYVpnTkxKQ2sxYTFKdXUzQW9uamIwOFnSAWBBVV95cUxPbWZjZnF2MU1fUmhKUmNSQXBKSGhDVHNsal9iUm5XWlFEUnJiaE9aMG53bW5nYUNuWU5oVHh0c2FvTG9Ha3F4blVsOUt3c21pVXd6cnNvV2pyZ0NzaUZNdVM?oc=5" target="_blank">삼성전기, AI용 MLCC 8,793억 수주 — 장기계약 누적 5.2조</a><div class="desc">AI 서버향 적층세라믹콘덴서 장기 공급 — 급락장 속 수주 모멘텀.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFAzQzkxR3ZKcE8yREtpZ1FWeVpOV25lQ3JGOUdtX2o0ZnR1MDN6VFg5dUw0bmJBTnJmc3V5Z1lhVnY2OE9CWW51aTVRSzAyLWNkc0xrZWgyQmJCUEtTT0lJYU9WcjFwMkRaaG1ORWNfejU?oc=5" target="_blank">한미약품·GC녹십자, 파브리병 치료제 기술이전 — 최대 6,348억 원</a><div class="desc">같은 날 대원제약은 위식도역류 신약 임상 3상 성공(+16%) — 제약 R&amp;D 모멘텀의 하루.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1kZ1lUbjZfMFdBSk5mYzNFY255VjBjRzd4S3FsQUpyODVpdXljWVI3b1NLVFVGTkQ4MVVreDhvVWo2amFSaEVKS2hUYUw4dEpJUUdialdubHVLT2lxcXhPSXhKQVA2VDdhdjVPMUZuWmRRbG1K?oc=5" target="_blank">현대건설 3분기 영업익 2,217억(+114%) — 누적 수주 28조</a><div class="desc">현대모비스 +17%, 현대위아 전망치 상회 — 기아 쇼크와 갈린 그룹 내 명암. DL이앤씨는 순손실 267억.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rNnR6Vlh5UDB6MWh6YnhJWDRqOGdyazNJNHJhbXJ2Nl9XakJWcjRfb1NTSlJaenY5OFNYdmFBYi0xM1UycnB0LWw5SnhTVnZJQkpGVFk3WE9sRHPSAWBBVV95cUxNTU9TRXo0djNpQjJHNThzZktaTFZScjVoWVpoeHBIUzI5eWJFVmp6djlzTGgzYVl6ZG5xemkwVjFkZWh6OVhmbWhRaWVzbW4xUmhmMF9mT2NOV1RJc0dZd3Q?oc=5" target="_blank">증권사 3분기 실적 줄하락 — 키움 영업익 전분기 대비 -48.5%, 주가 -9%대</a><div class="desc">거래대금 감소·판관비 증가 — 코스피 조정의 2차 피해 업종.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1zNGhIcUFvZy1kOHhIQS1RQWtVbXhnSWdQR1lwaEU2WEtWYndwcGMyQ1UwdFV0ZkUtUDVhN3kwOXQ4Y0s4RHpFWGw3bnRUbjlkTVkzbXBJWml3VUNzU1E0NGN3ZHM2UGVGNEtQVHpWc0s?oc=5" target="_blank">토스, 日 치어증권 인수 추진 — "마무리 단계"(닛케이)</a><div class="desc">어제 미래에셋증권 산코증권 인수에 이어 이틀 연속 '일본 리테일 진출' 뉴스.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE51ekJ0M3pGa3lTZ2dDWU1VU0dLbmNpM0RtdzNYMmVJQ1k4Y2Z0LUt6aF9YSHd3OGdURVdYSmRydnNRYjRERURPb2N2cHdKM3ZCNEpCRHFETC1uSTTSAWBBVV95cUxPVU8yNnotd1pTeUZVUUI1MGRrNEFZTk5LUi13aVVEYWdKWGdkbTVtRHg3dVk2QkhaeHpTSmdhYWtXUWR0bzZWQzdVNDI5RnQtZG0ycVJTYUNlV3l3cUlMUmw?oc=5" target="_blank">신규 상장 양극화 — 인텔리빅스 첫날 3.5배 vs 크리에이츠 -37%</a><div class="desc">'안전 AI' 테마는 따블 넘김, 골프테크는 급락 — 공모주도 AI 선별 장세.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBIdjJaeDhVLTAtZ0REMGJQU3FZYW5fNm9VcFpYM2h0d3o0MWZCR2N3R1lkQU5lSWdWN2V0VDMxTnZOWnlEQkRCQzdHSkRIalFjSjU0Wm5fUHNiLWladWt6eWNwY0NlU0gtQktaaEtaa05ZSUtp?oc=5" target="_blank">홍콩 ELS 과징금, 30% 이상 추가 경감 — 금융위 다음 주 결론</a><div class="desc">은행권 제재 불확실성 해소 수순. 11월부터 서울환시 오전 7시 개장(<a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5mMERWYlJxR0prRzRDcEtZLWpMa1dNZGxienVWSk04OFZsS0NhdzBReTRsMnlGMGFJc0hqTzZndERXWUJwR21rbGxCU1hHM1Brd0l2bFJtS3pORUFmTDdsM2h3c1dIdXdaSUd1LXlfcEc?oc=5" target="_blank">연합인포맥스</a>).</div></div>
+</div>
+
+<footer>
+  <p><b>방법론</b> — 매일 16:30 KST에 한국 주요 매체·당국 보도·증권사 리포트에서 직전 24시간 기사를 수집하고, 투자 관련성 기준으로 선별·요약합니다. 이슈 선별과 요약은 AI(Claude)가 수행하며 사람의 검수를 거치지 않습니다.</p>
+  <p><b>데이터 기준</b> — 코스피 5,730.74(-3.48%)·코스닥 724.38(-3.83%): 당일 마감 확정치(네이버 시세 API, 연합 보도 교차 확인). 국고채 3년 3.715%(-5.1bp)·10년 4.008%(-7.3bp): 당일 서울 채권시장 마감 보도(SBS Biz) 기준 — 금융투자협회 최종호가 명시 보도는 취합 시점 미확인. 원/달러 1,333.6원: 16:34 KST 취합치(네이버 시세) — 주간거래 종가 보도 미확인으로 전일 종가(1,336.8원) 대비 하락 폭은 참고치. 해외 수치는 인용 보도 기준.</p>
+  <p><b>면책</b> — 본 자료는 정보 제공 목적이며 특정 종목·자산의 매매 권유가 아닙니다. 투자 판단과 책임은 이용자 본인에게 있습니다.</p>
+</footer>
+</div>
+
+<div id="lang-zh" hidden>
+<header>
+  <div class="brand">KOREA ISSUE DIGEST</div>
+  <button class="lang-btn" onclick="toggleLang()">한국어</button>
+  <h1>韩国市场日报</h1>
+  <div class="meta">2026年10月30日(周五) · <b>收盘版</b> — 基于16:30 KST定时采集的前24小时574篇报道筛选 · 指数为收盘确定值，国债以当日收盘报道为准</div>
+</header>
+
+<div class="sector" style="margin-top:0;margin-bottom:20px">
+  <h4>今日三行摘要</h4>
+  <p>① <b>市场</b> — KOSPI收跌3.48%报5,730.74:盘中一度跌逾5%，时隔11个交易日再度触发程序化卖出限制(Sidecar，年内第28次)，KOSDAQ跌3.83%(724.38)。外资净卖出KOSPI现货1.8万亿韩元 — SK海力士跌7%、三星电子跌3%。避险需求下国债全线走强(3年期3.715%、10年期4.008%)，美元/韩元在1,330关口上方</p>
+  <p>② <b>焦点</b> — 导火索是美国科技巨头财报:Alphabet收跌12.64%(单日市值蒸发额居美股史上第二)，亚马逊(逊于预期)、英特尔(指引令人失望)盘后大跌 — "AI投资回报"担忧重燃。韩国国内，起亚三季度营业利润1.82万亿韩元(+24.3%)仍大幅低于预期，盘中暴跌12%</p>
+  <p>③ <b>关注</b> — 11/3美国中期选举·两只存储芯片ETF上市，11/6英伟达向NAVER注资1.4万亿韩元到账，11/26韩国央行议息(市场预期"终端利率3.5%")，12/8~9 FOMC(美银预期"12月与明年3月加息")</p>
+</div>
+
+<h2>市场综述 — 10/30(周五)收盘 · Alphabet扣动扳机，Sidecar再度拉响</h2>
+<div class="market">
+  <table class="mkt-table">
+    <tr><th>资产</th><th class="num">价格</th><th class="num">涨跌</th></tr>
+    <tr><td>KOSPI <span style="color:var(--sub);font-size:12px">(收盘 — 盘中一度跌逾5%，触发卖出Sidecar)</span></td><td class="num">5,730.74</td><td class="num down">-3.48%</td></tr>
+    <tr><td>KOSDAQ <span style="color:var(--sub);font-size:12px">(收盘)</span></td><td class="num">724.38</td><td class="num down">-3.83%</td></tr>
+    <tr><td>国债3年期 <span style="color:var(--sub);font-size:12px">(收盘 — 据当日收盘报道)</span></td><td class="num">3.715%</td><td class="num down">-5.1bp</td></tr>
+    <tr><td>国债10年期 <span style="color:var(--sub);font-size:12px">(收盘 — 盘中触及4.0%关口)</span></td><td class="num">4.008%</td><td class="num down">-7.3bp</td></tr>
+    <tr><td>美元/韩元 <span style="color:var(--sub);font-size:12px">(16:34 KST采集 — 较前日日间收盘1,336.8约低3韩元)</span></td><td class="num">1,333.6</td><td class="num down">下跌</td></tr>
+  </table>
+  <div class="mkt-note">
+    <p>① <b>导火索 — "AI资金梗阻"恐慌重燃。</b> Alphabet因资本开支激增、现金流恶化再获确认，收跌12.64% — 单日市值蒸发约6,690亿美元，为美股历史第二大。收盘后亚马逊营收利润双双逊于预期，盘后跌约6%;英特尔四季度指引令人失望(PC需求疲软+零部件短缺)，盘后一度跌16%。三连击恰逢韩国存储双雄刚刚发布创纪录业绩，获利回吐一触即发 — SK海力士跌7%、三星电子跌3%，外资净卖出1.8万亿韩元。KOSPI盘中跌逾5%，时隔11个交易日再触发卖出Sidecar(年内第28次)，尾盘收窄至-3.48%。摩根士丹利指出"韩国对美出口是美国AI投资的领先指标" — 这正是韩股对美国科技财报最敏感的原因。</p>
+    <p>② <b>基本面却在反方向 — "三指标齐增"的悖论。</b> 同日公布的9月产业活动动向显示:生产环比+3.0%，创15年6个月来最大增幅;消费(+3.6%)、设备投资(+5.3%)时隔三个月齐增 — 半导体与汽车双引擎。前9个月国税多收95万亿韩元，半导体景气推动企业所得税增33%。实体经济与资金面的背离加大 — 券商评价SK海力士20万亿韩元回购"可托底KOSPI下方，但难以牵引上行";三季度基金净资产因股市走弱减少87.8万亿韩元，四年来首次负增长。</p>
+    <p>③ <b>债汇 — 避险推升债市。</b> 从股市撤出的资金涌向债券，国债收益率全线下行 — 3年期3.715%(-5.1bp)，10年期盘中下破4.0%后收于4.008%(-7.3bp)，外资在10年期国债期货转为净买入。隔夜美债收益率亦因避险降至一个月低位。美元走软下美元/韩元守在1,330韩元上方。利率前景内外分歧 — 美银将美联储预期上调为"12月与明年3月加息"，韩国国内则盛传"央行11月再加息、终端利率3.5%"。11月起首尔外汇市场提前至早7点开盘(简讯)。</p>
+  </div>
+</div>
+
+<div class="sector">
+  <h4>板块 — 走弱</h4>
+  <p><b>半导体</b> — SK海力士-7%、三星电子-3%:创纪录财报发布仅两日即遭获利回吐。韩亚证券(하나)以"明年市值第三之争"报告回应(韩美半导体、HD现代电气等候选)。</p>
+  <p><b>汽车·军工</b> — 起亚盘中-12%(业绩暴雷，焦点②)，韩华航空航天(Hanwha Aerospace)-7~8%(业绩暴雷，股价跌破70万韩元)。现代建设(营业利润+114%)、现代摩比斯(+17%)则相对稳健。</p>
+  <p><b>券商</b> — 三季度业绩普降:Kiwoom证券净利-26%，股价跌逾9%。</p>
+  <h4>板块 — 走强</h4>
+  <p><b>安全·个别医药</b> — 接连黑客事件推升网络安全股。大原制药+16%(胃食管反流新药三期成功)，韩美药品·GC绿十字达成法布里病药物技术转让(至多6,348亿韩元)。</p>
+  <p><b>新股两极分化</b> — "安全AI"Intellivix首日涨至3.5倍，高尔夫科技Creates跌27~37%。</p>
+</div>
+
+<h2>昨日(10/29)议题追踪</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWpWallyWnpfX3NIajVtbHd5c2NVQU9VRmNNTjI2VUxiSC1FQmxheXhFanF4Uy1BM2lRNEVKT2tHYWxlNDRONHhqdmNjTktCVldlYjNkN0lrQWhqWEpxYTVCa0JNNV9yczQyRFR5X3BYWUZJNDZoMWNsX2lwVnY0MmlaT1BxeUtP0gGcAUFVX3lxTFByQTBnYV9UYmdmbFpfckZWaUNPMkpTMHpZSzU0QV96aGUwMUZacWQtOGZtR2JqNHBXRkVYeWpDQktvakI3VXQ2VGR5WUo1SDduekNKTjU4R2xhTmhidFJDSWtZeWtzeVZJdk1taEVMbDJjT0tMVUxXSk84eVR4eUJYVi0zTTRQNlZrRDhYZ2JKR00zZmZJM2dyMm1tQg?oc=5" target="_blank">三星电子106.5万亿业绩·股东回报推迟(昨★★★) → IBK证券下调目标价"回报不足、上行受限" vs "百万亿营业利润是新常态" — 评价两极，股价-3%</a>
+    <div class="desc">据每经统计，高手散户卖出普通股、买入优先股 — 在1月具体方案出炉前，资金或继续偏向SK海力士。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1Jdzk4NGpsekVXSmFLdUpnNldYUkRpSlVwaTBianVMajdfbFVmd2ZDREQ2SXlIdzFaVjRsWVhSbVpTQXU1VTJhNmdQdHBrUW4yYXZNVEV0dkdfQzRQdkNUVlpiNXNrNkNNYjI3VTNTdFU1bFJL0gF0QVVfeXFMTUl3OTg0amx6RVdKYUt1Smc2V1hSRGlKVXBpMGJqdUxqN19sVWZ3ZkNERDZJeUh3MVpWNGxZWFJtWlNBdTVVMmE2Z1B0cGtRbjJhdk1URXR2R19DNFB2Q1RWWmI1c2s2Q01iMjdVM1N0VTVsUks?oc=5" target="_blank">FOMC鹰派按兵(昨★★★) → 美银修正预期"12月+明年3月加息" — 韩国国内"央行11月加息、终端3.5%"之声渐强</a>
+    <div class="desc">美国三季度GDP+3.4%、核心PCE 3.1%令加息火种更旺。韩美利差(1.00个百分点)与家庭贷款利率连续5个月上行是韩央行的压力。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY1FVeGhySzVTeFdvbTd6ZFRfY04xZ3RLZENZcmlJa1VTNDByNGhGaWxOa192Ny1GMDRYczlvc0Y4QWo1NmtheUdmUmd5SG1SYzdEZFQ0V2dTT2taVmRnaGdDWTk2am52ek1DVHJLRG1tbnV2azBTal84Y2hKLVplNmN2aUZmeFVx0gGcAUFVX3lxTE1ZNnV0eGphT1R4YmtxTW43eW85dVNhYVp6X3JHOUxPNjZ5R3BsN0h6NVN5NGtDamNHYVh5Q0RRei12UjZpSXRfXzZRQjVOYllqa0R0R3RMaGl5cDVreExHblBsTy1nLVNXSmtDSVVKeUtZcUNxcmxUM0VEOHM5M3dtbmVmZk5iTmJ6Q3RHeDlyNkFpMEloa3FXT05nYQ?oc=5" target="_blank">捷克核电施工合同破裂(昨★★) → Kiwoom"建筑股跌过头"，大信·美利兹齐发斗山能源"底部论"</a>
+    <div class="desc">"施工破裂是KHNP的风险，主设备供应地位未变" — 两家券商把两日暴跌视为买点(见研报栏)。</div></div>
+</div>
+
+<h2>主要议题</h2>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RSGl6VlA2ejRTVDE5UF8zTGpROUFGX2p6bEc1a0I5U0pueTE0ZFpkNjBpcEkzeGxVTlpOeWw0ZWZIZTNGS1pQb183QzBZOFN0MzZiUklRN25HeW_SAWBBVV95cUxOQkhoaDJyenhOYm5SS3JsQWx3TFV4TmhVUmllQy1ubjhmODFnNGpuVzZJd0lPOXBPWVZjaDFsSmgzYnRhTEVTVTlDSHhobzNVSVhIZ3RTRkItTXFGSDRiaGM?oc=5" target="_blank">Alphabet -12.6%·亚马逊·英特尔三连击 — KOSPI跌3.48%，时隔11个交易日再触发卖出Sidecar</a></h3></div>
+  <p class="summary">Alphabet收跌12.64%(单日市值蒸发居美股史上第二)，亚马逊盘后跌约6%(营收利润逊于预期)，英特尔盘后一度跌16%(四季度指引失望) — "AI投资回报"恐慌三日后重燃，直击韩股。外资净卖出1.8万亿韩元，KOSPI盘中跌逾5%并触发卖出Sidecar(年内第28次)。恰逢存储双雄刚刚发布创纪录业绩 — SK海力士跌7%、三星电子跌3%。日经指数亦大跌2.54%，亚洲AI链条共振。</p>
+  <div class="why"><b>为何重要</b> — "业绩超预期后的暴跌"说明本轮估值定价的不是业绩本身，而是业绩的持续加速。若如摩根士丹利所言韩国出口是美国AI投资的领先指标，美国巨头资本开支指引转弯之时，就是韩国半导体估值的拐点 — 下一检验点是11月初美国就业数据与巨头capex修正。</div>
+  <div class="why cn"><b>🇨🇳 中国关联</b> — 同一导火索下A股连续两日遭抛售:科创50跌5.48%、创业板指全周约跌一成(见中国·香港版)。恒生指数则由消费·保险拉动逆势涨1.5% — "AI链"与"非AI"的分化已是亚洲共同现象。</div>
+  <div class="tags"><span class="tag">AI估值</span><span class="tag">资金面</span><span class="tag">半导体</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RSGl6VlA2ejRTVDE5UF8zTGpROUFGX2p6bEc1a0I5U0pueTE0ZFpkNjBpcEkzeGxVTlpOeWw0ZWZIZTNGS1pQb183QzBZOFN0MzZiUklRN25HeW_SAWBBVV95cUxOQkhoaDJyenhOYm5SS3JsQWx3TFV4TmhVUmllQy1ubjhmODFnNGpuVzZJd0lPOXBPWVZjaDFsSmgzYnRhTEVTVTlDSHhobzNVSVhIZ3RTRkItTXFGSDRiaGM?oc=5" target="_blank">韩联社(收盘)</a> · <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Xb2JmQ0UzeW9hT0Zma254eWZrUnBGLUhZQkNtVVQ3YVBKSnJfdmRtbzE4T2k4M0FQZnZZbmJCX0ZUSXhVcFhvZHdIYnNPUm9MVktSb3B1cWVjV2JKRHNCVktSSWVpQWg20gFuQVVfeXFMT1Nod0V2ZlVhZEY4cllraWVqdnljYUdGOHJURUF4YWVjU3dqX3lheFVFSWgtS1lRTE9nNU45MW5xeEFkWU5sWmZrdFYzN2RGYVl5cmZka3M4UGJiTndIT0ZhOU9nQjZGUHpRQ0QtNFE?oc=5" target="_blank">外资1.8万亿</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nZ0x6elZTS0pKMmlFcEk1VlJicDhtVW5KRjdEQnl2c0F5WXdWcXRmSlpYQ2lOMTlJeWhoQVZoTFg1ZW12c09uOU1MZkRLUEotQi1FXzlYNERJblXSAWBBVV95cUxPaktDWDlURkVqaGpfNmFfbXZtRzlqaVlxbHdfN0E3VTBiV0VjWV9xTmt5SUtGM0xjZFhaOXJPSXVxTV9xQkduclJuVkR3MkJGTHA4QzVSazdhUUdaa0tuVFk?oc=5" target="_blank">Alphabet市值</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZMUQydU9fc3ZjQncwd1FPX09nbzZFZ3dmbWduY0x0TERqN3dYWGlNcmkzMFdaTnRBcFdjYVFqQzVGMW1rY2J5M21KNTNsSy1aNE9BMEY2SVJ1OHl1WTNja2g1a0Jycjk3RnZTTlFQdXQ?oc=5" target="_blank">英特尔</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aFIxY1lCaTdsMTBnYmp5ZUhDMl9SWWN5UmxwRFVKd2docG10RHM2d0x3TnVjQkxLb1dHNEYyTF9sMm9zWmtJd01sNXpFbWNTUDZsdm1LQkdlZFpCWUNNQndWMHVHYno1OEJ3Rlh4YUJ5TTds0gF0QVVfeXFMUHVoUjFjWUJpN2wxMGdianllSEMyX1JZY3lSbHBEVUp3Z2hwbXREczZ3THdOdWNCTEtvV0c0RjJMX2wyb3Naa0l3TWw1ekVtY1NQNmx2bUtCR2VkWkJZQ01Cd1YwdUdiejU4QndGWHhhQnlNN2w?oc=5" target="_blank">起亚业绩暴雷 — 营业利润1.82万亿(+24.3%)仍逊预期，盘中跌12%:"中东战争预判落空"</a></h3></div>
+  <p class="summary">起亚(Kia)三季度营业利润1.8183万亿韩元，同比+24.3%，但大幅低于市场预期。公司解释"中东战争相关预判落空推高成本，下半年盈利目标难以达成" — 股价盘中跌至-12%。现代系内部明暗互现:现代摩比斯+17%、现代威亚超预期，现代Autoever因美国关税盈利恶化，现代制铁将股东回报方案推迟至明年。前一日还被视作"业绩防御股"的汽车，一日之间变成领跌板块。</p>
+  <div class="why"><b>为何重要</b> — 成本变量(战争·关税)击穿业绩指引的模式是否向整车厂扩散是关键。同日四家券商对现代汽车目标价上调与下调并存(见研报栏)，说明市场对"业绩质量"的解读已经分裂 — 四季度销量恢复与汇率是裁判变量。</div>
+  <div class="why cn"><b>🇨🇳 中国关联</b> — 同日比亚迪也交出"+28%但逊预期"的成绩单，吉利公开预判"明年中国内需下滑"(见中国·香港版)。路透报道"中国电动车正打入韩国市场" — 全球整车的利润挤压在中韩同日得到印证。</div>
+  <div class="tags"><span class="tag">汽车</span><span class="tag">三季报</span><span class="tag">业绩暴雷</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aFIxY1lCaTdsMTBnYmp5ZUhDMl9SWWN5UmxwRFVKd2docG10RHM2d0x3TnVjQkxLb1dHNEYyTF9sMm9zWmtJd01sNXpFbWNTUDZsdm1LQkdlZFpCWUNNQndWMHVHYno1OEJ3Rlh4YUJ5TTds0gF0QVVfeXFMUHVoUjFjWUJpN2wxMGdianllSEMyX1JZY3lSbHBEVUp3Z2hwbXREczZ3THdOdWNCTEtvV0c0RjJMX2wyb3Naa0l3TWw1ekVtY1NQNmx2bUtCR2VkWkJZQ01Cd1YwdUdiejU4QndGWHhhQnlNN2w?oc=5" target="_blank">联合Infomax(业绩)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBMeEkxeVRoMERSMElxX1BrcVhyUkpxYkdvS0dDUFhvZlN1aFNfWWdIeFo3VThyRy00RmRQbXFDLXl0U0pHbVc5Q3NKSmRmVFJZOURIU3E3ZVJyVl95ZXdXTXZ1MkgtRXBhWUZxdmFWbXM?oc=5" target="_blank">股价</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9uMUpmc292d1B3SlY5MUxLSjdKTGl3a3M4LThVSGxtR1dSa1BycVJwcVVQNmZha3pNOUIwYkN1MXNXTFBiZkxFMnZubHRSdFNaS2FwcThYeDE2NWx5Vy1ydHBYSkpfZ09iTHRyc2FONVU?oc=5" target="_blank">中东因素</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wQmdPWkpoaTZpQVd4TTg2cXBXcUNFQjR3MndkUG9TQXA5cy1kZ1Zud09XZHNHSFFYWjZPNDNvZ3pFUFRHM2dSOF9qRnAta1ItUzh5eDRhLWJUaFXSAWBBVV95cUxPTHEwVW9ZT245bF9YUVVMcVdJNWMyekg2eG5Cc0JJbWhia0Y3a0kza3c5SWY4VTgteVlnczExbWhrYXdmbGFKVUE5SFJ5SC14c244dGhzWWp1MmJYbEhJR1I?oc=5" target="_blank">外资9月净卖出韩国股票19.1万亿韩元 — 时隔一个月重回"卖出韩国"，债券亦撤资7.6万亿</a></h3></div>
+  <p class="summary">韩国央行国际金融·外汇动向:外资9月净卖出韩国股票19.1万亿韩元，时隔一个月重回"Sell Korea"，债券市场亦回收7.6万亿韩元。进入10月抛售仍在继续 — 今日单日即净卖出1.8万亿。另一方面，三季度日均外汇交易量1,220亿美元，连续7个季度创历史新高。</p>
+  <div class="why"><b>为何重要</b> — 官方数据证实:指数冲上6,000点的行情中，唯一缺席的是外资现货资金。美国加息周期(韩美利差)叠加AI估值调整的11月，没有外资回归的反弹将是散户与养老金的消耗战。</div>
+  <div class="tags"><span class="tag">资金面</span><span class="tag">外资</span><span class="tag">央行数据</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wQmdPWkpoaTZpQVd4TTg2cXBXcUNFQjR3MndkUG9TQXA5cy1kZ1Zud09XZHNHSFFYWjZPNDNvZ3pFUFRHM2dSOF9qRnAta1ItUzh5eDRhLWJUaFXSAWBBVV95cUxPTHEwVW9ZT245bF9YUVVMcVdJNWMyekg2eG5Cc0JJbWhia0Y3a0kza3c5SWY4VTgteVlnczExbWhrYXdmbGFKVUE5SFJ5SC14c244dGhzWWp1MmJYbEhJR1I?oc=5" target="_blank">韩联社</a> · <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ObGFIMXBfLXZjN1YycGVSa2JaRHVuVEtXSDJzWERhWUxXYzYwT2FLZ2JhemxqTFpSTjA3ellfdDN5elNrLWFkVzRMWlZYcnN4SHVXcA?oc=5" target="_blank">每经(债券7.6万亿)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VeHJESDdJMkM0OVhraVItVUJUU3FucXB4WElVeGJZSTRJUXRXNUU2LVNiTjM4c3dITnNaNURKQU5EZGdmUnY0X3BpTzRtbS10b3dUM1BfQjc0a0FlLWRxWNIBYEFVX3lxTE5VeHJESDdJMkM0OVhraVItVUJUU3FucXB4WElVeGJZSTRJUXRXNUU2LVNiTjM4c3dITnNaNURKQU5EZGdmUnY0X3BpTzRtbS10b3dUM1BfQjc0a0FlLWRxWA?oc=5" target="_blank">9月生产环比+3.0%创15年6个月最大 — 生产·消费·投资时隔三个月"三指标齐增"</a></h3></div>
+  <p class="summary">9月全产业生产环比+3.0%，为2011年3月以来最大增幅;零售+3.6%、设备投资+5.3%，时隔三个月实现"三指标齐增" — 半导体与汽车双引擎。半导体景气同样体现在税收:前9个月国税385万亿韩元，同比多收95.4万亿，企业所得税增33%(51.9万亿)。IMF评论称"半导体景气红利需要向全社会扩散，才能撑住韩国收入水平"。</p>
+  <div class="why"><b>为何重要</b> — 暴跌行情正中出炉的"实体经济惊喜"。即便股价调整拉长，利润与税收周期仍在托底 — 但生产强劲同时减轻了央行11月加息的顾虑(对利率而言偏鹰)。</div>
+  <div class="tags"><span class="tag">宏观</span><span class="tag">产业活动</span><span class="tag">半导体</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VeHJESDdJMkM0OVhraVItVUJUU3FucXB4WElVeGJZSTRJUXRXNUU2LVNiTjM4c3dITnNaNURKQU5EZGdmUnY0X3BpTzRtbS10b3dUM1BfQjc0a0FlLWRxWNIBYEFVX3lxTE5VeHJESDdJMkM0OVhraVItVUJUU3FucXB4WElVeGJZSTRJUXRXNUU2LVNiTjM4c3dITnNaNURKQU5EZGdmUnY0X3BpTzRtbS10b3dUM1BfQjc0a0FlLWRxWA?oc=5" target="_blank">韩联社</a> · <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQemM3NmlUU3NvVUt0dEc3MXV0M3BqcG1PWk8wMk9OX3RYOWoxWVhJQTVSeGF1ME44cDFVclAtcC1QTUdtaVh2RGctZGVMNVM4UldpZXE3N2lFbTFJVnVrLWIwTGRTNk51S0RvZ3hCVy1nMmxpT2dyS1JqcXUxZlJYLVZLYzBCZ9IBmgFBVV95cUxQUkEwZFJLeHJ5V0lXMDRzeEdDSVdfOHdwVFJOUzc1ZmlPdGNoaG9jTHBuc3VSOURqM2V0UnphcXYyOGNSbXR6WGdOOER0eGx5YTZpbHdQdy1zc1ZmV2ZMdm1taXlldFFwaDVWb2dESVNpVkRUQmRORmFHbnFkZjhJcGRxOEVyUjRiYkpjYko1dzctbGdjeUpiQmpn?oc=5" target="_blank">税收</a> · <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OEFweXo1SW8wWVlULXlSUmpCLVYyUVFfNVdBaDNEbmNXLXBtc2lma1pDRDBpM3h4djhQVTVvalE5a2pTaFNOVXdURkRmNmdYZXUySE1RTTBIQQ?oc=5" target="_blank">IMF</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zU1oycW1Dd2tKeVJseEJmcXNZMnFvMFF1OGJOV1g5X1hXSF9oaFU3aWlfNWRVSFd6bjFObnpqYVR6WDBpYVhxV0RhZThwb1pobk9VU3pBNnFnUG_SAWBBVV95cUxNa29iaktRSmw2NjcwOS1rVjRoWDhvVThDSzRyZHhOcUREd2xhQ2tkOG5ia1VoTW1zenRQMGk3R2VYTXRsb2JJd3JwTXJKUFVzUmkyRFY5UFhlM0ZZT2FMYkY?oc=5" target="_blank">日本央行宣告"物价2%目标达成"并按兵1.25% — "将继续加息" · 欧央行亦按兵，韩央行11月加息预期升温</a></h3></div>
+  <p class="summary">日本央行将基准利率维持在1.25%，并首次官方确认"基调物价大体符合2%目标" — 被解读为"走出30年通缩"宣言，植田行长暗示加息将继续(东京核心CPI 2.6%)。叠加科技股暴跌，日经指数大跌2.54%。欧央行亦将存款利率按兵于2.5%，但"12月加息概率大"(ING)。韩国国内"央行11月26日再加息、终端利率3.5%"的预期扩散 — 家庭贷款利率4.96%连续5个月上行，固定房贷利率已破5%。</p>
+  <div class="why"><b>为何重要</b> — 美·日·欧本周齐齐"按兵但留加息余地"。全球紧缩尾巴越长，成长股估值与家庭利息负担·银行负债成本同时承压 — 11/26韩央行议息是韩国资金面与内需的分水岭。</div>
+  <div class="tags"><span class="tag">货币政策</span><span class="tag">日银·欧央行</span><span class="tag">韩国央行</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zU1oycW1Dd2tKeVJseEJmcXNZMnFvMFF1OGJOV1g5X1hXSF9oaFU3aWlfNWRVSFd6bjFObnpqYVR6WDBpYVhxV0RhZThwb1pobk9VU3pBNnFnUG_SAWBBVV95cUxNa29iaktRSmw2NjcwOS1rVjRoWDhvVThDSzRyZHhOcUREd2xhQ2tkOG5ia1VoTW1zenRQMGk3R2VYTXRsb2JJd3JwTXJKUFVzUmkyRFY5UFhlM0ZZT2FMYkY?oc=5" target="_blank">韩联社(日银)</a> · <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9sRVpGOGpqNmk2b1FEeXp3X2xPRzR1bkFJSGJlQTltTE9lNTM2RktEZ19oTGFxdzF6NkNuU1NqNzhQRHJ4QVU5bW1yX01kc3BXbUlKR21VYWJDSzBhMG9jeHctZ2FlWXdCVnlfOUlWdWhJeXPSAXdBVV95cUxNMDF0UnJfd19VbUlxODE3VHlmNzlGcC03VDhUVEhlTlFDcEhxU2FXbEFtSGFKQk9GQUpVaEYyT3VSczNmZmJONVZ3ZW5qc3d6b3BwRDNkUjg4dmdkYmhSZU1YTFB0UHVDSmhaX2ZNOXZhZnhNbmNzcw?oc=5" target="_blank">欧央行</a> · <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IRy1mWE80SzF1T2tydndIbGFjbHV2NmZlWFVXT3dXZmhJbWNycUJpU1ZqQ0IwNkJWRHpJVTU3VDcxX0ROakltbjFDUnZQTzZpeF9XNDVyZ3o3enhvTGtoMWJxYWp1cmM?oc=5" target="_blank">终端利率3.5%</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9QSV9IdUtiNV9TSXBfUnRCQlJvX2hmSnpTZHE4NVZkRjJQMnBPVW02RDN2bFRpdW1fYVF5ZnFmd2lCc29YamJkT29va29JRWFQV1dIR293d2NzM1JlRFRCZ01HNlZpU3ZjYUF2SjM5dWc1VHlQ?oc=5" target="_blank">英伟达向NAVER注资1.4万亿韩元，11月6日到账 — 将成第三大股东</a></h3></div>
+  <p class="summary">英伟达对NAVER的10亿美元(约1.4万亿韩元)投资确定于11月6日到账，完成后将成为NAVER第三大股东。韩国信用评级(韩信评)评价"NAVER的AI工厂投资风险有限，现金创造力有望扩大";现代Autoever同日公告以1,146亿韩元收购HMG AI工厂股份 — 韩国"AI基建同盟"格局正在落地。</p>
+  <div class="why"><b>为何重要</b> — 在全球AI链因美国巨头资本开支担忧而动摇之际，英伟达的股权投资是对"韩国AI基建"的反向下注。到账日(11/6)前后NAVER及AI工厂相关股的资金面事件值得关注。</div>
+  <div class="tags"><span class="tag">AI基建</span><span class="tag">NAVER</span><span class="tag">英伟达</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9QSV9IdUtiNV9TSXBfUnRCQlJvX2hmSnpTZHE4NVZkRjJQMnBPVW02RDN2bFRpdW1fYVF5ZnFmd2lCc29YamJkT29va29JRWFQV1dIR293d2NzM1JlRFRCZ01HNlZpU3ZjYUF2SjM5dWc1VHlQ?oc=5" target="_blank">联合Infomax</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIc2w5VEo4cTlRVFVGdld1bHZqWlEzdFJWZWo0M1RleUx4UEpsWlR6ZjJOMmdxVTE1TXpfdFBQMGpvZTlUSlZxaXQ0QnU4RUFnMFJxTVJERHQ5Qm_SAWBBVV95cUxOd3BKclNNLTlDNE1sbUY2aHJGS0p0WnMtc1g5R2lvYjBjZnN0U0dzcDNNZGlYUnN4YTU3VWM3eWI5aGtPRDhMc211SnowbVE3S3p5SXBfc1d4RnFRWXJvUDM?oc=5" target="_blank">韩联社</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPUmFZazdUZDNQbU4tdmtPQWtkWGgyLUJvektiQkRWX3BnV0xzNll1ZVA3OUdwcFRzdXEwVnpLSFFNallGVWE5T285SklVVzZYbnNxb240eHRLM0xjdU9KODNPa29XT2RtVmJTdm0xQUY4RFpVbE8zZzRMZzdPYVQwMNIBlAFBVV95cUxOZ1NwNlM2bTItVU0xS2FfX29pajZfX2ZPNmhiaUFJQ0ZUZ0lpOFdRb0phVEFmem5IQlNvbGJGaXFrWkZMVF9LNzg1NXdSRlk4d0IzaEFQS1ZOd3ZiWGk3T1NpeWxocEpqY3p5MENSRS1wYXNVLVlvc2xlalVLdERCQW5ZZzdRUDhBSUE3dklidkktRF9M?oc=5" target="_blank">币安疑遭黑客攻击、波及约63亿美元 — TRM指认朝鲜所为，比特币跌至7.8万美元</a></h3></div>
+  <p class="summary">全球最大加密货币交易所币安(Binance)因黑客攻击疑云暂停存取，波及规模约63亿美元(逾7万亿韩元)，公司称"将承担全部损失"。区块链分析公司TRM指认朝鲜为幕后黑手(路透)。比特币跌3.7%至7.8万美元区间，以太坊·瑞波同步下挫，韩国国内交易所亦发布"出金注意"提示。恰逢韩国金融圈接连黑客事件、安全体系争议升温 — 韩股网络安全板块逆势走强。</p>
+  <div class="why"><b>为何重要</b> — 连"交易所最后堡垒"币安也被攻破，加密资产整体的信任与监管风险陡增。若朝鲜所为被官方确认，制裁与反洗钱监管或再升级 — 韩元交易所、虚拟资产存款(K-Bank净息差的防御因素)等韩国链条亦在检视之列。</div>
+  <div class="tags"><span class="tag">加密货币</span><span class="tag">安全</span><span class="tag">朝鲜</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPUmFZazdUZDNQbU4tdmtPQWtkWGgyLUJvektiQkRWX3BnV0xzNll1ZVA3OUdwcFRzdXEwVnpLSFFNallGVWE5T285SklVVzZYbnNxb240eHRLM0xjdU9KODNPa29XT2RtVmJTdm0xQUY4RFpVbE8zZzRMZzdPYVQwMNIBlAFBVV95cUxOZ1NwNlM2bTItVU0xS2FfX29pajZfX2ZPNmhiaUFJQ0ZUZ0lpOFdRb0phVEFmem5IQlNvbGJGaXFrWkZMVF9LNzg1NXdSRlk4d0IzaEFQS1ZOd3ZiWGk3T1NpeWxocEpqY3p5MENSRS1wYXNVLVlvc2xlalVLdERCQW5ZZzdRUDhBSUE3dklidkktRF9M?oc=5" target="_blank">朝鲜Biz</a> · <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQc01IcXZiYm9zemhhbHhBenBOeFE4NDlHMC1TNGxUOHNlVFJIQmY3QTF1cnpqZmRBcGlic184TnhyRVEtSEVkSTNGdzBxejNaUVlqSEkyMllicG50YkY1TURzUWtnVE5nVlhSYk1ROWwwdDdwQWg2NlZVVEgxc2NuQVZwUWxrOVBmRzNHb2dYUUJiQ2tmTFhfT3NGblYtTjhPdDNmUE5VVFJ1RnRTbnJnRXdSNm55VzRBSVBySTc2Wnc3aDJ2?oc=5" target="_blank">路透(TRM)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTSlhnZGV1Y0doSlZDWkhfcENYRVJvQi1qdjVqV1ZmS2ZQNXpSbG1lejJNRkVkYTB3d3pYLXZLM0RoU3dvckE5RFZrMjVzV0V3a2NiSE9QX1o3eGfSAWBBVV95cUxQWWd5SjlDbTk2WFMxZDRPeTB4UTl1cmlKamxvMFBxTVpQZlN6eF9GWlVkcTUycFpCWEV3eEctaG43YjZEbkFUZnN0Z1VjaXpNQ29wWUNWSVA0a3h1dlRmRTY?oc=5" target="_blank">韩联社</a></div>
+</div>
+
+<h2>下一个检验点</h2>
+<div class="brief">
+  <div class="brief-item"><b>11/3(周二)</b> — 美国中期选举 · 两只存储芯片ETF上市<div class="desc">"民主党即便获胜，未来两年对韩关税税率也不会变"(韩联社) — 看点在对华·财政政策的重新排列。</div></div>
+  <div class="brief-item"><b>11/6(周五)</b> — 英伟达对NAVER 1.4万亿韩元注资到账<div class="desc">到账即成第三大股东 — AI基建同盟的资金面事件(焦点⑥)。</div></div>
+  <div class="brief-item"><b>11/26(周四)</b> — 韩国央行11月议息<div class="desc">"11月加息、终端利率3.5%"预期扩散 — 房贷利率破5%叠加实体经济走强，加息理由在累积。</div></div>
+  <div class="brief-item"><b>12/8~9(美国时间)</b> — 12月FOMC<div class="desc">美银预期"12月与明年3月加息" — 韩美利差与外资动向的最大变量。</div></div>
+</div>
+
+<h2>券商研报 — 行业·个股优先</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHYjRDbXgxZ0szd001NXh3SHJEbENOazhYeWg4aEtzN1F5WElIZHFzTl92Nl94dVJNOS1MY240R0pJdDd2dVdiZkNyNl9QUFBxeHc?oc=5" target="_blank">现代汽车 — 单日四家券商观点对撞:韩亚下调至48万 · NH下调 · 友安达上调至44万 · IBK"萧条中的防御力"</a>
+    <div class="desc">核心论据截然相反 — 韩亚·NH称"股东回报不确定、新业务空窗"，友安达称"业绩超预期，股价下跌是汇率错觉"(上调至44万)，IBK称"销量-11%下利润仍增长即是防御力"。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNcG1tU3lTLWVqV2haSkh6QjdtTXdreTRTUWVPNjFJMjdwRTNfdnM5UkJScVFuR3diZ3VxNDhWZGJuZmtyLVhSM25HaUpqSG9vU3RMb25Vem5fMkxiblNwWHlvY0hQT2o0WGZiVVl6cUFWXzh0V01tazRMd3MzN1paUQ?oc=5" target="_blank">斗山能源(Doosan Enerbility) — 大信"2027下半年大型核电订单启动" · 美利兹"当下即底部，年末订单动能"</a>
+    <div class="desc">核心论据:"捷克施工破裂只是施工方风险，主设备供应地位未变，2027年起国内外大型核电管线开启" — 两家券商把两日暴跌视为买点。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWpWallyWnpfX3NIajVtbHd5c2NVQU9VRmNNTjI2VUxiSC1FQmxheXhFanF4Uy1BM2lRNEVKT2tHYWxlNDRONHhqdmNjTktCVldlYjNkN0lrQWhqWEpxYTVCa0JNNV9yczQyRFR5X3BYWUZJNDZoMWNsX2lwVnY0MmlaT1BxeUtP0gGcAUFVX3lxTFByQTBnYV9UYmdmbFpfckZWaUNPMkpTMHpZSzU0QV96aGUwMUZacWQtOGZtR2JqNHBXRkVYeWpDQktvakI3VXQ2VGR5WUo1SDduekNKTjU4R2xhTmhidFJDSWtZeWtzeVZJdk1taEVMbDJjT0tMVUxXSk84eVR4eUJYVi0zTTRQNlZrRDhYZ2JKR00zZmZJM2dyMm1tQg?oc=5" target="_blank">三星电子 — IBK下调目标价:"股东回报不足，股价上行受限"</a>
+    <div class="desc">核心论据:"业绩创纪录，但剩余回报方案推迟至1月造成资金动能空窗" — 与"百万亿营业利润新常态"的乐观论对峙。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OZ2VGU2F1aGR1cHZpd0xzWlk5Sk8xYWFmM1ppbE42TEVoY0FSa3ZQT1lZWmQwXzNqbWFJUkN4TnRvWUw5REZDNFBDcWd1TW9iVk4zZHlqeTRkdw?oc=5" target="_blank">爱茉莉太平洋 — 韩亚目标价17万:"关注北美增速" · "重整效果初期"评价下逆势走强</a>
+    <div class="desc">核心论据:"韩国国内拉动的三季度业绩改善上，叠加北美动能的起点" — 与APR(营业利润+70%)共同构成K美妆分化行情。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxOb2VrVEpIZ3AwSFRsdFZnc0dSTGdWRTRzSmdTYUtjdWNRWXh6NDdlWDBoY1J0NVhveTNlLVcxVXFzbnJnTlczRzVLRGJVRk52djJIdTBzeFFyNjJDeWdVRV9ialE4Ukhka0pGcTFsQkJ3NW9CQnNaeTR3ckQtQ1JqdQ?oc=5" target="_blank">大韩电线 — NH目标价3.8万:"高压(HV)输电网地中化受益"</a>
+    <div class="desc">核心论据:"AI数据中心引发的电网投资中，高压地中电缆为结构性受益" — 暴跌行情中突出的电力设备主题研报。韩亚另有"明年市值第三之争"展望。</div></div>
+</div>
+
+<h2>简讯</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vd3Y0dksxZW9WOW5SV01BVV9ZcDV2a3N5RXBMTWxGRWNxdkN6aUY4M18xYkNHeWtlTE1raHBVemFibFRDMXNTT0U0am1KZkNTMHljN0pMSEFyak3SAWBBVV95cUxPd3NfbVotRXh2a1B2NUx5V1h6UVVMMGhjN0V5VnF3ZVZuYW5abTlLY0V4V3Y3a1pfcGFkYm54VUdzSUFKR1gtUU81ZEdsdzJxaDg0RnNFZ2hlc2YyT2JwU3Q?oc=5" target="_blank">SK集团社长团人事 — SK海力士郭鲁正留任，SK Innovation CEO起用郑承一</a><div class="desc">"半导体求稳、能源求变" — 业绩顶峰的海力士保持连续性。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VNS0xYWc0VVNkZFRPTndPaFJxTlBVSFFDRW9sTHhsTkRYbi1pc1JKaElXVWtiYTZvbDYyRmtwUFJKNmRWYVpnTkxKQ2sxYTFKdXUzQW9uamIwOFnSAWBBVV95cUxPbWZjZnF2MU1fUmhKUmNSQXBKSGhDVHNsal9iUm5XWlFEUnJiaE9aMG53bW5nYUNuWU5oVHh0c2FvTG9Ha3F4blVsOUt3c21pVXd6cnNvV2pyZ0NzaUZNdVM?oc=5" target="_blank">三星电机获AI用MLCC订单8,793亿韩元 — 年内长约累计5.2万亿</a><div class="desc">AI服务器用积层陶瓷电容长期供货 — 暴跌行情中的订单动能。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFAzQzkxR3ZKcE8yREtpZ1FWeVpOV25lQ3JGOUdtX2o0ZnR1MDN6VFg5dUw0bmJBTnJmc3V5Z1lhVnY2OE9CWW51aTVRSzAyLWNkc0xrZWgyQmJCUEtTT0lJYU9WcjFwMkRaaG1ORWNfejU?oc=5" target="_blank">韩美药品·GC绿十字达成法布里病药物技术转让 — 至多6,348亿韩元</a><div class="desc">同日大原制药胃食管反流新药三期成功(+16%) — 医药研发动能之日。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1kZ1lUbjZfMFdBSk5mYzNFY255VjBjRzd4S3FsQUpyODVpdXljWVI3b1NLVFVGTkQ4MVVreDhvVWo2amFSaEVKS2hUYUw4dEpJUUdialdubHVLT2lxcXhPSXhKQVA2VDdhdjVPMUZuWmRRbG1K?oc=5" target="_blank">现代建设三季度营业利润2,217亿(+114%) — 累计订单28万亿</a><div class="desc">现代摩比斯+17%、现代威亚超预期 — 与起亚暴雷形成集团内明暗。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1zNGhIcUFvZy1kOHhIQS1RQWtVbXhnSWdQR1lwaEU2WEtWYndwcGMyQ1UwdFV0ZkUtUDVhN3kwOXQ4Y0s4RHpFWGw3bnRUbjlkTVkzbXBJWml3VUNzU1E0NGN3ZHM2UGVGNEtQVHpWc0s?oc=5" target="_blank">Toss拟收购日本Cheer证券 — "已到收尾阶段"(日经)</a><div class="desc">继昨日未来资产收购三光证券后，连续两日的"进军日本零售"新闻。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE51ekJ0M3pGa3lTZ2dDWU1VU0dLbmNpM0RtdzNYMmVJQ1k4Y2Z0LUt6aF9YSHd3OGdURVdYSmRydnNRYjRERURPb2N2cHdKM3ZCNEpCRHFETC1uSTTSAWBBVV95cUxPVU8yNnotd1pTeUZVUUI1MGRrNEFZTk5LUi13aVVEYWdKWGdkbTVtRHg3dVk2QkhaeHpTSmdhYWtXUWR0bzZWQzdVNDI5RnQtZG0ycVJTYUNlV3l3cUlMUmw?oc=5" target="_blank">新股两极分化 — Intellivix首日3.5倍 vs Creates跌37%</a><div class="desc">"安全AI"主题翻倍有余，高尔夫科技重挫 — 打新也进入AI选股行情。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBIdjJaeDhVLTAtZ0REMGJQU3FZYW5fNm9VcFpYM2h0d3o0MWZCR2N3R1lkQU5lSWdWN2V0VDMxTnZOWnlEQkRCQzdHSkRIalFjSjU0Wm5fUHNiLWladWt6eWNwY0NlU0gtQktaaEtaa05ZSUtp?oc=5" target="_blank">香港ELS罚款再减30%以上 — 金融委下周定论</a><div class="desc">银行业制裁不确定性进入收尾。11月起首尔外汇市场提前至早7点开盘。</div></div>
+</div>
+
+<footer>
+  <p><b>方法论</b> — 每日16:30 KST从韩国主要媒体·当局通报·券商研报采集前24小时报道，按投资相关性筛选·摘要。筛选与摘要由AI(Claude)完成，未经人工审校。</p>
+  <p><b>数据口径</b> — KOSPI 5,730.74(-3.48%)·KOSDAQ 724.38(-3.83%):当日收盘确定值(NAVER行情API，韩联社报道交叉核验)。国债3年期3.715%(-5.1bp)·10年期4.008%(-7.3bp):当日首尔债市收盘报道(SBS Biz)。美元/韩元1,333.6:16:34 KST采集值(NAVER行情) — 日间收盘报道未确认，较前日收盘(1,336.8)的跌幅仅供参考。海外数据以引用报道为准。</p>
+  <p><b>免责</b> — 本资料仅供参考,不构成投资建议。投资判断与责任由使用者本人承担。</p>
+</footer>
+</div>
+</div>
+<script>
+function toggleLang(){
+  var ko=document.getElementById('lang-ko'), zh=document.getElementById('lang-zh');
+  var showZh = zh.hidden;
+  zh.hidden = !showZh; ko.hidden = showZh;
+  try{history.replaceState(null,'',location.pathname+(showZh?'#zh':''));}catch(e){}
+  window.scrollTo(0,0);
+}
+if(location.hash==='#zh'){
+  document.getElementById('lang-ko').hidden=true;
+  document.getElementById('lang-zh').hidden=false;
+}
+</script>
+</body>
+</html>
