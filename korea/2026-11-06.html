@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한국 이슈 다이제스트 · 2026-11-06</title>
+<style>
+:root{
+    --ink:#1a1d24; --sub:#5a6172; --line:#e5e8ee; --bg:#f7f8fa; --card:#ffffff;
+    --accent:#1f4e8c; --accent-soft:#eef4fb; --up:#c0392b; --down:#1a6fb5;
+    --tag-bg:#eef1f6; --tag-ink:#4a5468;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',-apple-system,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px}
+  .wrap{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+  header{padding:28px 0 20px;border-bottom:3px solid var(--ink);margin-bottom:24px;position:relative}
+  .brand{font-size:13px;letter-spacing:2px;color:var(--accent);font-weight:700;margin-bottom:6px}
+  h1{font-size:26px;font-weight:800;letter-spacing:-0.5px}
+  .meta{color:var(--sub);font-size:13px;margin-top:8px}
+  .lang-btn{position:absolute;top:28px;right:0;background:var(--card);border:1px solid var(--line);
+    border-radius:20px;padding:4px 14px;font-size:13px;font-weight:700;color:var(--accent);cursor:pointer}
+  .lang-btn:hover{background:var(--accent-soft)}
+  h2{font-size:15px;font-weight:800;letter-spacing:1.5px;color:var(--accent);
+     margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .market{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .mkt-table{width:100%;border-collapse:collapse;font-size:14px}
+  .mkt-table th{text-align:left;color:var(--sub);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line);font-size:12px}
+  .mkt-table td{padding:8px;border-bottom:1px solid var(--line)}
+  .mkt-table tr:last-child td{border-bottom:none}
+  .num{font-variant-numeric:tabular-nums;text-align:right}
+  .up{color:var(--up);font-weight:700}.down{color:var(--down);font-weight:700}
+  .mkt-note{font-size:14.5px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+  .mkt-note p{margin-bottom:10px}
+  .mkt-note p:last-child{margin-bottom:0}
+  .sector{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-top:12px}
+  .sector h4{font-size:14px;color:var(--accent);margin:10px 0 4px}
+  .sector h4:first-child{margin-top:0}
+  .sector p{font-size:14px;margin-bottom:4px}
+  .issue{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:14px}
+  .issue-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+  .stars{color:var(--accent);font-size:13px;letter-spacing:1px;white-space:nowrap}
+  .issue h3{font-size:18px;font-weight:800;letter-spacing:-0.3px;line-height:1.4}
+  .issue h3 a{color:inherit;text-decoration:none}
+  .issue h3 a:hover{color:var(--accent)}
+  .summary{font-size:15px;margin:8px 0 10px}
+  .why{font-size:13.5px;background:var(--accent-soft);border-radius:8px;padding:10px 12px;margin:10px 0;color:#1f3f6e}
+  .why b{font-weight:800}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px}
+  .tag{font-size:11.5px;background:var(--tag-bg);color:var(--tag-ink);border-radius:20px;padding:2px 10px;font-weight:600}
+  .links{font-size:13px;color:var(--sub);margin-top:8px;line-height:1.9}
+  .links a{color:#2456a6;text-decoration:none}
+  .links a:hover{text-decoration:underline}
+  .brief{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 20px}
+  .brief-item{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+  .brief-item:last-child{border-bottom:none}
+  .brief-item a{color:var(--ink);text-decoration:none;font-weight:700}
+  .brief-item a:hover{color:var(--accent)}
+  .brief-item .desc{color:var(--sub);font-size:13.5px;margin-top:2px}
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--sub);line-height:1.8}
+  @media(max-width:480px){h1{font-size:22px}.issue{padding:16px}}
+</style></head>
+<body>
+<div class="wrap">
+
+<div id="lang-ko">
+<header>
+  <div class="brand">KOREA ISSUE DIGEST</div>
+  <button class="lang-btn" onclick="toggleLang()">中文</button>
+  <h1>한국 이슈 다이제스트</h1>
+  <div class="meta">2026년 11월 6일 (금) · <b>마감판 — 수동 수집</b>: 16:30 자동 수집이 이날도 불발돼 20:22 KST 수동 실행(기사 655건, 직전 24시간), 페이지는 당일 밤 생성 · 지수·국고채·환율 모두 마감 확정치 · <b>11/4~5 이틀은 미발행 공백</b></div>
+</header>
+
+<div class="sector" style="margin-top:0;margin-bottom:20px">
+  <h4>오늘 세 줄 요약</h4>
+  <p>① <b>시장</b> — '블루웨이브'가 코스피를 삼켰다: 개장 직후 -8.55%로 서킷브레이커가 발동됐고 5,000선이 9개월 만에 장중 붕괴 — 기관계 저가 매수로 낙폭을 줄여 5,059.69(-6.02%) 턱걸이 마감, 코스닥 644.27(-5.03%). 18만전자·113만닉스(이틀간 -13%·-18%), 669개 종목 연중 최저, 환율 +14.5원(1,356.6)</p>
+  <p>② <b>이슈</b> — 당국 총동원: 긴급 거시경제·금융현안 간담회(F4)가 "변동성 확대 시 추가 시장안정 조치"를 예고했고, 증권사 신용융자 담보비율(140%) 유지 의무를 3개월 면제(11/9~)해 반대매매 연쇄를 차단. 노무라는 폭락장에도 "코스피 1만 목표 유지"</p>
+  <p>③ <b>체크</b> — 오늘 밤 22:30 美 10월 고용보고서(예상 +5.9만·실업률 4.2%), 11/9 담보비율 면제 시행, 11/26 금통위(씨티 "급락에도 인상 유지" 전망)</p>
+</div>
+
+<h2>시장 종합 — 11/6(금) 마감 · 서킷브레이커의 '검은 금요일', -6.02%</h2>
+<div class="market">
+  <table class="mkt-table">
+    <tr><th>자산</th><th class="num">가격</th><th class="num">등락</th></tr>
+    <tr><td>코스피 <span style="color:var(--sub);font-size:12px">(마감 — 장중 5,000 붕괴 후 회복, 서킷브레이커 발동)</span></td><td class="num">5,059.69</td><td class="num down">-6.02%</td></tr>
+    <tr><td>코스닥 <span style="color:var(--sub);font-size:12px">(마감 — 이틀 연속 매도 사이드카)</span></td><td class="num">644.27</td><td class="num down">-5.03%</td></tr>
+    <tr><td>국고채 3년 <span style="color:var(--sub);font-size:12px">(마감 — 6개월 만의 최저)</span></td><td class="num">3.613%</td><td class="num down">-5.6bp</td></tr>
+    <tr><td>국고채 10년 <span style="color:var(--sub);font-size:12px">(마감)</span></td><td class="num">3.853%</td><td class="num down">-3.4bp</td></tr>
+    <tr><td>원/달러 환율 <span style="color:var(--sub);font-size:12px">(15:30 기준가 — 장중 1,360원대, 한 달 만의 최고)</span></td><td class="num">1,356.60</td><td class="num up">+14.5원</td></tr>
+  </table>
+  <div class="mkt-note">
+    <p>① <b>공백 이틀(11/4~5)의 복기.</b> 11/4 미 중간선거 개표에서 민주당이 상·하원을 모두 장악하는 '블루웨이브'가 확정됐고, AI 데이터센터 규제 우려가 번지며 코스피는 11/5 5,383.80으로 밀렸다(11/3 5,648.79 대비). 그리고 11/5 밤 뉴욕이 무너졌다 — 나스닥 -5.52%(작년 4월 이후 최대), 필라델피아 반도체지수 -12.3%, 마이크론 -17.5%. 이 이틀은 다이제스트 미발행 공백 기간으로, 수집에도 포함되지 않았다.</p>
+    <p>② <b>개장 3분 만에 멈춘 시장.</b> 코스피는 -2.24% 출발 직후 낙폭이 -8.55%까지 번지며 서킷브레이커(20분 매매정지)가 발동됐고, 5,000선이 2월 6일 이후 9개월 만에 장중 붕괴됐다. 재개 후에도 매도 사이드카가 걸렸고 코스닥은 이틀 연속 사이드카. 종목으로는 삼성전자 -9%·SK하이닉스 -11%대까지 밀리며 '18만전자·113만닉스'(이틀 누적 -13%·-18%)로 후퇴했고, 669개 종목이 연중 최저가를 찍었다 — 코스피 시가총액은 고점 대비 3천조 원 이상 증발(연합뉴스 집계). 변동성지수(VKOSPI)는 3개월 만에 60선을 넘었다. 오후 들어 기관·금융투자의 저가 매수가 유입되며 낙폭을 6%대로 줄여 5,000선은 지켰다. 증권가 긴급 진단은 "AI 서사의 붕괴가 아니라 수급 불안이 낙폭을 키웠다"로 모였지만, "바닥은 아직"이라는 단서가 붙었다(리서치센터장 7인).</p>
+    <p>③ <b>돈은 채권·달러로.</b> 위험회피에 국고채 3년 금리는 5.6bp 내린 3.613%로 6개월 만의 최저 — 10년은 3.4bp 내린 3.853%로 강세 스티프닝이다. 외국인은 3년 국채선물을 7,422계약 순매수하며 피난을 주도했다. 환율은 14.5원 급등한 1,356.60원(6개월 만의 최대 상승폭)으로 한 달 만의 최고 — 장중 1,360원대를 터치했다. 채권시장 일각에선 "코스피가 4천대까지 밀리면 11월 기준금리 인상은 불가능해진다"는 전망까지 나왔지만, 씨티는 "급락에도 11월·내년 2월 인상 전망 유지"로 맞섰다.</p>
+  </div>
+</div>
+
+<div class="sector">
+  <h4>업종 — 급락 속 명암</h4>
+  <p><b>직격탄</b> — 반도체(삼전 -9%·하이닉스 -11%대)와 삼성전기 등 AI 하드웨어 체인 -10%대, 전력기기는 "美 데이터센터 규제" 우려에 이틀째 급락(증권가는 "중장기 호재가 더 크다"고 반박). 레버리지 ETF는 최대 64% 폭락 — 증권주도 투심 급랭.</p>
+  <p><b>그나마 버틴 곳</b> — 전날 피난처였던 은행·자동차도 힘이 빠진 가운데(조선비즈), 롯데렌탈(+10%, 공개매수 — 이슈 ⑥)·한진칼우(5일 연속 상한가권) 등 이벤트 종목과 일부 에너지주(대명에너지 등)가 역행.</p>
+  <p><b>해외 직구족도 피해</b> — 서학개미는 미 증시 폭락으로 하루 최소 13조 원 평가손(연합) — 국민연금의 M7 평가액도 하루 2.8조 원 요동(머니투데이).</p>
+</div>
+
+<h2>어제(11/3) 이슈 후속</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE8teWU2dE1NbVpBTi10eXc1UG1WMzdKb1NLS19iOFFlaF9CajlhS1ZVOERGYkJDT1RSSHFvNi15eHJOeTgzQ2gzeFFBbGpLSWlBbm1BSFBpdmJCRXfSAWBBVV95cUxNMnJzbzFiVkUxd2w3eTRrNDZuMVJZcDdBdmw2UjNGdjYwSDVTenpGUDFGdnNKTllodmg4QUZrR1NEZ0tJd1gzNF9iZDB6Q3RoT2hSTV9lMVB1VXU3ZWNGUTI?oc=5" target="_blank">코스피 -3.59% 급락(11/3 ★★★) → 사흘 만에 5,000선 공방까지 — 이틀간 -11%, 낙폭이 '조정'에서 '패닉'으로</a>
+    <div class="desc">11/3의 'AI 수익성 우려'가 중간선거 후 'AI 규제 공포'로 증폭 — 오늘의 최상단 이슈 ①로 승격.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yTU91em1iaWVQSnBNZVo0V3VvYUkyNlltZWloVzBkOWduQ3VGOVl0alUzMnVJMkV4MUZJYVEtN01yZEVuOXdtWGxFWHdxemo5bEs0Ymlnc1h1UQ?oc=5" target="_blank">한투 "하이닉스 목표가 320만"(11/3 ★★) → 113만닉스로 후퇴했지만 증권가 콜은 유지 — 하나 "규제 우려 과도, 과락 활용해야"</a>
+    <div class="desc">한화는 "외국인 매도 정점은 지났다, 반도체 비중 확대"로 가세 — 급락 사흘째에도 매수 콜이 꺾이지 않는 게 특징.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kRFZvaUlWbFNsSUJacHY4eEpqcC1JQ1ZRakdDemRQVmp6U1hrRTBkemlxZ1dFcFowZFFoNmZqTnA4SE1NRWZmQnRwUi1qMlQ1Y012TV8zTTRvTGc?oc=5" target="_blank">돈이 국채로 숨었다(11/3 ★★) → 피난 심화 — 3년 3.613%로 6개월 최저, 외국인 3년 선물 7,422계약 매수</a>
+    <div class="desc">'10~30년 6개월 최저'(11/3)에서 단기물까지 번진 강세 — 시장 종합 ③에서 상세.</div></div>
+</div>
+
+<h2>주요 이슈</h2>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SZHMydjFyQmZ2V05TVXllUUp1WjBpUUROX01BSzNhZ1pyd0hOdE1aWDFBNHNucGt3M0ZEWVF6eDFDSmJ6S25Sb19lMEh2RExmT255YXpCWmpyUDTSAWBBVV95cUxQY0JnWVpQSkllYVh0NVpJMzltTkI1NDNwV3U4bG16VGs2S3BvYzZHVXgyZFROVV9jMF83UmpaY0ItQnVkbUpybTBONXlyXzBzOU1Jb2R0Wjd6d003WXUtdWM?oc=5" target="_blank">'블루웨이브'의 검은 금요일 — 코스피 서킷브레이커·장중 5,000 붕괴 끝에 5,059.69(-6.02%) 턱걸이</a></h3></div>
+  <p class="summary">민주당의 미 의회 장악이 몰고 온 AI 규제 공포가 한국 증시를 글로벌에서 가장 깊게 때렸다. 코스피는 개장 직후 -8.55%까지 밀리며 서킷브레이커(20분 매매정지)가 발동됐고 — 발동은 올해 2월 급락 이후 처음 — 5,000선도 9개월 만에 장중 붕괴됐다. 삼성전자 -9%·SK하이닉스 -11%대의 '투톱 투매'가 지수 하락 기여 최대였고(매경 "9·11에 버금가는 충격"), 669개 종목 연중 최저·VKOSPI 60 돌파·야간선물 7%대 급락까지 공포 지표가 총출동했다. 그나마 오후 기관계 저가 매수로 -6.02%까지 낙폭을 줄여 5,000선은 지켰다. 아시아 전체로도 닛케이 -3,643포인트(6만 붕괴)·대만 -4.51%(TSMC 한때 하한가)의 동반 폭락이었지만, 한국의 하락률이 가장 컸다 — 반도체·AI 쏠림이 큰 시장 구조가 전염 강도를 키웠다는 게 조선비즈의 진단.</p>
+  <div class="why"><b>왜 중요</b> — 10월의 'AI 밸류에이션 논쟁'이 '규제 리스크'라는 정치 변수로 바뀌었다 — 실적 전망이 아니라 할인율이 흔들리는 국면이라 반등의 조건도 '미국 정치 뉴스'가 됐다. 오늘 밤 미 고용(22:30)과 다음 주 미 의회 인선 뉴스가 1차 분수령. 증권가 중론은 "AI 붕괴가 아닌 수급 불안"이지만 신용 반대매매 물량이 변수로 남아 있다(이슈 ②).</div>
+  <div class="why" style="background:#fdf0ef;color:#7a2b24"><b>🇨🇳 중국 연결</b> — 같은 날 상하이 -1.10%·항셍 -1.27%로 중화권은 '가장 얕게 빠진 시장' — 온시(시장 안정) 정책 풋과 남향자금 복귀가 완충재였다. 미국발 충격의 전염 강도가 시장 구조에 따라 갈린 하루(중국·홍콩판 참조).</div>
+  <div class="tags"><span class="tag">증시</span><span class="tag">서킷브레이커</span><span class="tag">반도체</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SZHMydjFyQmZ2V05TVXllUUp1WjBpUUROX01BSzNhZ1pyd0hOdE1aWDFBNHNucGt3M0ZEWVF6eDFDSmJ6S25Sb19lMEh2RExmT255YXpCWmpyUDTSAWBBVV95cUxQY0JnWVpQSkllYVh0NVpJMzltTkI1NDNwV3U4bG16VGs2S3BvYzZHVXgyZFROVV9jMF83UmpaY0ItQnVkbUpybTBONXlyXzBzOU1Jb2R0Wjd6d003WXUtdWM?oc=5" target="_blank">연합(마감 종합)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JTm1kS0x4LWU0N3JiMWFOSi1zNG5nT09mSC14UGhTbGxlTFlMMnNwMmNBSEhGQThHX3lEOUF4aW15a1pPSHpma2s2emx4dTlhd1JKTUdzWG5RWkHSAWBBVV95cUxQY09LbUpkQUtoSUVXWTMxX2s3cm10Ukp6RVEzSVpINDBmT0tzTFJWOU9BNUc1N2J3RFRwcGY3WFBaZWRqNE16XzJOdDZUMEw0MF9TYUVDSF9CSmdOdzhJNWs?oc=5" target="_blank">연합(서킷브레이커)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CMktITjI2TkR0dERIc0ZfNHdxTWdWX0NCYm9EVkpoUURGcGQ1T3BfMTZPdjEzcHpiTkVEaTFpOWpfdlNZNVFhM3loR2o4RFFldTV6SXByLUk1R3PSAWBBVV95cUxOY0E0bHl4THdCMXF0WjREck5JRFpCRzE5ZWhqekJEVjVueFpMc1F2ZEZabFVUd0tNdjVtSDc0dnNrODNkWENyRTN0WUh0TkJQWEI1bXc4ODZtTE5QVExWQng?oc=5" target="_blank">연합(삼전·하이닉스)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE8teWU2dE1NbVpBTi10eXc1UG1WMzdKb1NLS19iOFFlaF9CajlhS1ZVOERGYkJDT1RSSHFvNi15eHJOeTgzQ2gzeFFBbGpLSWlBbm1BSFBpdmJCRXfSAWBBVV95cUxNMnJzbzFiVkUxd2w3eTRrNDZuMVJZcDdBdmw2UjNGdjYwSDVTenpGUDFGdnNKTllodmg4QUZrR1NEZ0tJd1gzNF9iZDB6Q3RoT2hSTV9lMVB1VXU3ZWNGUTI?oc=5" target="_blank">연합(숫자로 본 급락)</a> · <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2VlSVdST0ZfcmhoRHM2UzN6aDFJbXlNeDMwTjFSS2xhQXNjMXFCdkNVMnh4Wkk1cmdST1hQNlNrMVZlUi1jU0lBNDgzc2pBRnl1RENNcUdBRU5yNjNmS251VHFOU3F5ZFZ5aXJSaFdqcFRZdVJGR25JTmhlX0N1T0FMdnVWbi1T0gGcAUFVX3lxTE1yMFFLd2hEeFg4QzNfZkFUTmoxaUtSSTVJbkVxVUJaSHF2YmdYNzRycDA0WGZxTl9QTW1LV0RUQnBYZGJjR3RMN2dya3RLemZXZGpURmdUSzVpVjN6eGRiX3F2Zm5Uam9MZTVFamFaTVVhYzdXdEFncmd4bV9KTzY2RGVmZmNlSkVrQXNrNHNTUUZNNEMtLXZmblU5Wg?oc=5" target="_blank">조선비즈(쏠림 진단)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SbjJtRC1CTmE1eEtvU3lkM1lWR1RuQnNhblZUMFUtX1hrdzU5V0VMSUVsY1Q3TFVrYXpoTW1fVTJvenlBYy0tN3pENTBQQ0c2SFRtcVREbHBPV2vSAWBBVV95cUxNazRGc2tDbkFNU0ZpYmlYazVlb3A0c25PYTRKR3FCT1hGS0QtaEc3WFR4LXBGSWViY1lxeWsyNW5lTWNTRU12ekF2dGl2S252Yi1OZkNTcENJN0FIWkZXV1I?oc=5" target="_blank">연합(반도체지수 6년만 최대 폭락)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1oZ2xkV0FIdDE0V1lYV1N0ekRDVWp3UXhFTUt2VFNfbUVObjJNVzY1Rnk1bnJOQ2c4amhVZmp0TkJUaGpfQVJ2YkhuSFJ3dXVqQlZTQUpCVFBfX1hRR2dzZ2hqLU1vZkVycXU4b1E1U3U?oc=5" target="_blank">당국 총동원 — F4 긴급회의 "추가 시장안정 조치", 신용융자 담보비율 140% 유지 의무 3개월 면제(11/9~)</a></h3></div>
+  <p class="summary">이형일 부총리가 긴급 거시경제·금융현안 간담회(이른바 F4 회의)를 소집해 "증시가 펀더멘털 대비 과민 반응하지 않도록 필요한 조치를 적기에 시행하겠다"며 "변동성이 확대되면 시장 안정을 위한 추가 조치"를 예고했다. 첫 실탄은 반대매매 차단이다 — 금융당국은 증권사의 신용융자 담보비율(140%) 유지 의무를 3개월간 면제(11/9 시행)해, 주가 급락으로 담보비율이 깨진 계좌의 기계적 강제 청산 연쇄를 끊기로 했다. 당정도 국회에서 긴급 간담회를 열어 "시장 안정과 투자자 불안 해소에 가능한 모든 정책 수단 투입"을 공언했고, 거래소는 불공정거래 엄정 대응을 강조했다. 2020년 3월 코로나 폭락 때 썼던 조치의 재가동이다.</p>
+  <div class="why"><b>왜 중요</b> — '블루 쓰나미 → 반대매매 → 추가 하락'의 2차 파도를 제도로 막겠다는 신호다. 다만 담보비율 면제는 증권사 자율에 맡기는 '허용'이지 '금지'가 아니어서, 신용잔고가 큰 중소형·테마주의 수급 경계는 유효하다. 매경은 "코스피 추가 강제청산 가능성"을 짚었다 — 다음 주 초 신용 잔고 소화가 바닥 확인의 조건.</div>
+  <div class="tags"><span class="tag">정책</span><span class="tag">반대매매</span><span class="tag">금융당국</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1oZ2xkV0FIdDE0V1lYV1N0ekRDVWp3UXhFTUt2VFNfbUVObjJNVzY1Rnk1bnJOQ2c4amhVZmp0TkJUaGpfQVJ2YkhuSFJ3dXVqQlZTQUpCVFBfX1hRR2dzZ2hqLU1vZkVycXU4b1E1U3U?oc=5" target="_blank">인포맥스(이형일·면제)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQdU1IVGdRemFhdnVGejdkeW1HWnJ1QUhMMWVaSDFpYlZJN2g3cjhaWXY3RXBQSWZ5OFhKaTNnc1g0UzZFeV9mdjFlSEdsaW43T0Q2UHRDWWlBbVnSAWBBVV95cUxPc0xVX0ZreGE3bC1CUnlPcDZjWWtGU05Ob0JQSDV5dUtyUHBmc0gtZk5veE5NU1JmeWk0RVUwU24xR1BONy12bDRnTC1yQmlWOFc0NHB1UEpiSVVsM3A4RjI?oc=5" target="_blank">연합(F4 속보)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RYlFoQ1pzeEZWa2F2dmM4d1lEV2h6RHk0YUh5MDQ1cGQ5WW16Ri1ZN0tMeHBmalY4NHZLWVpESTEtUUFZeFJvV1FSeFctZUZqdHJja3NuOFZIZmPSAWBBVV95cUxQMnRxZ2drcU5nNnIyT0V4cmRVRlRKc0FKdDdRaTZsWFpDNFB1b2RqU0dDeUdXMGZLcUZUSUVBbFk3ODZVR0ZTdDZZOUhsVzFUMjhKZnNWbWNpakFoNWlaTjU?oc=5" target="_blank">연합(담보비율 면제)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5xMUw4VGtwYjZJUHpqbWRPQjZHd1docVNyQVg3WlFUUmJwa1FGWjFrWUQ5TTZEa3F5NnNCbnJjUGh2akhhTnhHcFdpcTlpZDU1YmFvTHlTdzRNdFVWdjdLNGZ1YUdBRzlSZjlGeHkzX0g?oc=5" target="_blank">인포맥스(당정)</a> · <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mX3JOOVc3Q2ZTcGFOMDF4TVpUSlgzNGFEdnhLV0RQOEtIWmxteEM4cjZjR1N5LUF4UW9mNlpTLUtLTWZGU2tRYmxyOEZxZkVwUjVsOGpFSmlkSDJXVi1DUVJFckEzb0Fm0gFuQVVfeXFMTkJhRlducmJoZ1pCV0t2bHliMjJLS2Q3QUhIZ3BwdGNncGp1aUVhUDB2R1VudjdJM29ocTB4d2pmb0xkcm80Y2d2eGpZOGFrNnhFM0ZIb3I4YVBRc2xVX1pWa1QtaGMzVW9qMWZYSEE?oc=5" target="_blank">머니투데이('140% 룰' 해설)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFA2N2RkcHFENlVyS1pmUHRXNzZNcGlPeHJSRTFxMWtXQjFsOTM5OE9mbUV1R2Z1anhzYWlKUFRaT3Rja3Z3dGplWkhGUWhnZDA3OXl4WERjbndJMENoYTdVM1VsWTVPRkNYa2c4TmhDc20?oc=5" target="_blank">안전자산 쏠림 — 환율 1,356.6원(+14.5원, 6개월 최대 상승폭)·국고채 3년 3.613% 6개월 최저</a></h3></div>
+  <p class="summary">'반도체 쇼크에 감전된 원화'(인포맥스)였다. 원/달러 환율은 14.5원 급등한 1,356.60원으로 6개월 만의 최대 상승폭이자 한 달 만의 최고치 — 장중 1,360원대를 터치했다. 달러인덱스 102 회복, 증시 폭락, 외국인 선물 매도의 3중 압력이었고, 1,350원대 중후반에서 수출업체 네고(달러 매도) 물량이 나오며 상단이 눌렸다. 채권은 반대로 랠리 — 국고채 3년 금리가 5.6bp 내린 3.613%(6개월 최저), 10년은 3.4bp 내린 3.853%로 단기물이 더 세게 밀리는 강세 스티프닝이었다. 외국인은 3년 국채선물을 7,422계약 순매수. 미 국채도 10년물이 5bp 넘게 빠지며 안전자산 랠리에 동참했고, 비트코인은 7만 5천 달러대로 밀렸다.</p>
+  <div class="why"><b>왜 중요</b> — 환율 1,360원대 진입은 외국인 주식 매도의 환차손 압력을 키워 '매도가 매도를 부르는' 되먹임 고리가 될 수 있다 — 다음 주 초 환율 안정 여부가 수급 복원의 선행 지표. 채권 강세 스티프닝은 '안전선호 + 금통위 인상 경계'의 조합으로, 11/26 금통위까지 단기물 금리가 증시의 체온계 역할을 하게 됐다.</div>
+  <div class="tags"><span class="tag">환율</span><span class="tag">국고채</span><span class="tag">안전자산</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFA2N2RkcHFENlVyS1pmUHRXNzZNcGlPeHJSRTFxMWtXQjFsOTM5OE9mbUV1R2Z1anhzYWlKUFRaT3Rja3Z3dGplWkhGUWhnZDA3OXl4WERjbndJMENoYTdVM1VsWTVPRkNYa2c4TmhDc20?oc=5" target="_blank">인포맥스(환율 상보)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE91QkduR2dMZEJVcEVkdVpNMnFMSmlXaEtkTWhmcHpiejI4T0E3YlVSVTlpY3ZEdVBrZHljX2YzdXhkSkxXT0FTbEliZUFYejRUV2NxSHl2RTlpaGfSAWBBVV95cUxQQmhJajFJUU1TN2JzWGU1NGRjTHptdXpGckRyZHdNbk95bG00T2cxMGdZeVI2U2g1VUZZUHVhbDB4RjJXRjJ0TUtJLUFVQjFDZDBvMHd6aDdMZENLaTBjb2o?oc=5" target="_blank">연합(1,360원대 터치)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kRFZvaUlWbFNsSUJacHY4eEpqcC1JQ1ZRakdDemRQVmp6U1hrRTBkemlxZ1dFcFowZFFoNmZqTnA4SE1NRWZmQnRwUi1qMlQ1Y012TV8zTTRvTGc?oc=5" target="_blank">연합(국고채 3.613%)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1kZEdxdm9nekZiQ3BaVlBZR1NVLUkzd2FKd0lQSTR4V0Fxa09YU2FHQ2l0VE9maWlPQUNsOWZHSDRXc2FxaGhqVDBtQ0VRdGQ3M2FJdDI2QmlJanNROG1rLXJoZnc5bHJWcWF4enMwclI?oc=5" target="_blank">인포맥스(채권 마감)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxOGFfUUtGUzVxR0RDc3FMUzY4VzduS01KUzQ5Mi1PWTBjR083SXRGM0lkVHVIak1tTVZNY3c4c255UHo4Z2dRLWY0UnZxSVNlZHc?oc=5" target="_blank">폭락장의 전망 대결 — 노무라 "코스피 1만 유지(3개월 7,500~8,000)" vs "최악 4,500" 시나리오, 씨티는 "11월 인상 그대로"</a></h3></div>
+  <p class="summary">5,000선 공방의 날, 눈높이는 극단으로 갈렸다. 노무라는 "한국 증시는 과매도"라며 코스피 목표 1만을 유지했고(3개월 목표 7,500~8,000 — 단기 변동성 반영), 상승 동력으로 네 가지(반도체 사이클·주주환원 개혁·유동성·밸류에이션)를 들었다. 반면 이데일리가 집계한 증권가 최악 시나리오는 "4,500선까지 밀릴 수 있다"였고, 리서치센터장 7인 진단도 "AI 우려는 과도하지만 바닥은 아직"으로 신중했다 — "3~4번 나눠 사라", "지수 투자자라면 분할매수 구간"이 공통 처방. 금리 쪽에선 씨티가 "급락에도 한은 11월 인상, 내년 2월 3.5% 전망 유지"를 고수한 반면, 채권시장에선 "코스피가 4천대로 가면 11월 인상은 불가능"이라는 반론이 나왔다. 윤지호 대표는 "하락 이유가 드러난 지금이 오히려 용기 낼 때"(인포맥스).</p>
+  <div class="why"><b>왜 중요</b> — '1만 vs 4,500'의 간극은 결국 AI 실적 사이클이 정치 리스크를 이기느냐의 문제다. 당장은 ①오늘 밤 미 고용 ②반대매매 소화 ③11/26 금통위가 전망 수렴의 3개 관문 — 금통위가 인상을 강행하면 '펀더멘털 자신감'으로, 멈추면 '시장 배려'로 읽히는 양면 이벤트가 됐다.</div>
+  <div class="tags"><span class="tag">전망</span><span class="tag">노무라</span><span class="tag">금통위</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QaHBwbTRrR2h6WWtva3dKVWhINWhwSTM1ZXVrd0ZUaU5YOUZIcEpOZmxiSXZOOWdaWmxtbGRaRGd3Vl9JbzNiazBtdUZ6bFpJUkg3Y1lVM2NXUEF1eHB1X9IBYEFVX3lxTE5QaHBwbTRrR2h6WWtva3dKVWhINWhwSTM1ZXVrd0ZUaU5YOUZIcEpOZmxiSXZOOWdaWmxtbGRaRGd3Vl9JbzNiazBtdUZ6bFpJUkg3Y1lVM2NXUEF1eHB1Xw?oc=5" target="_blank">연합(노무라)</a> · <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNb3BTeWZtRTdOREZfV2M5X2ZlV3JndkVhM09DSThNWXRWZ2pKYXczcnU5V0hqbC0zN3hhY1h5TlBBQ2ZSaVRlMUd6Vm5wY2MtLU55UFNhUlJlVWttWU5aWXFMSnIxWk9pVkl1Zk5Oa1I3MlNuYXZPY1JYVGdKejVvQw?oc=5" target="_blank">이데일리(최악 4,500)</a> · <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5KS0o5dGd3Umd0RXlHdXlvZWFFcnVXdnJmeFYySUtXbzZWQl94T0xfUmdQMkdpQzg4c2lXTi1RMDB6RTJDOTZIeW9YcENCcnlIN0t2d1U1TktUX29FQWR2Q1Y2TUVnQnZhNVhhc2hHVXE4M0U?oc=5" target="_blank">이데일리(센터장 7인)</a> · <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFB1RDNlOXZVa3pNMi1QWEFUMDFrbWNGTGlsU2JJQ3E5aTEtdzJkTy1hVnhzY3JjTy1ORFZFMEVqd0o2Yk9jU0NId0Q3elVYdTRmSkM4RDhFMU9QdU1PbDluT0dqOVpXeEZsZUlvaVV2Z3JRclFTZ0ZWR9IBeEFVX3lxTFB1RDNlOXZVa3pNMi1QWEFUMDFrbWNGTGlsU2JJQ3E5aTEtdzJkTy1hVnhzY3JjTy1ORFZFMEVqd0o2Yk9jU0NId0Q3elVYdTRmSkM4RDhFMU9QdU1PbDluT0dqOVpXeEZsZUlvaVV2Z3JRclFTZ0ZWRw?oc=5" target="_blank">씨티(11월 인상 유지)</a> · <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1WdGE3M2UyVGRnRUE3aDdYX1kzOE5xZURLLVBjbEYyRlVBN0s3WE1TTjBHejRqbUNXb1pZZTV5N0QwS0pxeUpxWkx3b3BrTnltRklJYllobnhOdnZVcVZKbnVPVW1CTGZibDZTSjhTWkFranc?oc=5" target="_blank">인포맥스(채권시장 반론)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5HOVNxRHppTXRJc3VZMGJpeWhGaklXQm9pOVBYdWkyNEtGWDhDY2lkWEhWRjlOUGVsVDE0cjNHS1NiWjRhTnQtbTlzSlFRN2otWWhrdGFwZEt1Smg3emwxNUgyaWNndGhPbDFybHJ5MTg?oc=5" target="_blank">인포맥스(윤지호)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★</span><h3><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qRnFZeDZIM3ZaeU8zR0JXVHQzZlN3WnlmNmdac0xkQ2J0SWJMd0RDM05rbk93TlJIYTJscHo4NDJrN1o1MnY4TmRzcU5lclJFckE?oc=5" target="_blank">올해 외인 순매도 214조의 절반이 영국계 — "세금 회피성 매도 100조"(9개월), MSCI는 "제도 개선, 실행을 봐야"</a></h3></div>
+  <p class="summary">폭락장의 이면에서 외국인 매도의 '국적'이 화제가 됐다. 올해 외국인 순매도 214조 원 가운데 절반가량이 영국계로 집계됐고(연합), 매경이 소개한 보고서는 영국계가 9개월간 약 100조 원을 판 배경으로 "(배당)세금을 아끼려는 매도"라는 해석을 달았다 — 단순 '한국 엑소더스'가 아니라 세제·절차발 매도가 섞여 있다는 뜻이다. 같은 날 로이터 인터뷰에서 MSCI는 한국의 선진지수 편입 논의에 대해 "규제·제도 개선이 실제로 작동하는 것을 확인해야 한다"며 신중론을 유지했고, 삼성의 소극적 태도로 기업 지배구조 개혁이 난항이라는 별도 기사도 나왔다. 거래소는 코스닥 전 상장사 연 1회 IR 의무화 추진으로 응수했다.</p>
+  <div class="why"><b>왜 중요</b> — 외인 매도의 상당분이 '세제 이벤트성'이라면 수급 복원 시점은 펀더멘털보다 제도 캘린더에 달린 셈이다. MSCI 선진지수·지배구조 개혁·IR 의무화는 모두 '코리아 디스카운트 축소' 트랙 — 폭락장이 끝난 뒤 되돌림의 크기를 좌우할 구조 변수다.</div>
+  <div class="tags"><span class="tag">수급</span><span class="tag">외국인</span><span class="tag">MSCI</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qRnFZeDZIM3ZaeU8zR0JXVHQzZlN3WnlmNmdac0xkQ2J0SWJMd0RDM05rbk93TlJIYTJscHo4NDJrN1o1MnY4TmRzcU5lclJFckE?oc=5" target="_blank">매경(영국계 절반)</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEVW9mcklUS1o5bkhjUDF3ZE9GS1h0eVRqRFdOOVZuOFQzUDBXR0czSUNFYjVoOXVRMFlzajZLNWxkX1ZISGVLXzRkQXpkSlk4dXc?oc=5" target="_blank">매경(100조 보고서)</a> · <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxPWEgxQ1BoU2RsY2FCQmZwUWo2aTQzUlB4V196RzRZY1lsUUY3dEdCZG5fdjFHWDY2dTlKX3NtUG41OURjbUZUNWdIbW5uSXFoZmVXdmRFNnZPQnhGa0J0enJiNjFhdlZPd1Q4UVRPaGI3a2p3RW1jcEdWcF90Sjhqek0tREVVQllJZ2dEUVdRUUhfRUsyV0k2bzhlU0RkMVZ4Yy1PQTA3NV9meDh2RmxyZTUxTjROeERKTXJ2VG1feXN4ZHE5OHpqX29QUkI3Unc?oc=5" target="_blank">Reuters(MSCI)</a> · <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVpEUWpUU3ZscURnQ19EU0N2YWhJY21CZ2EwX0l1YnJNTVFkSnVadkx5ZnR2eERpVVZsMWh0N1BlSlRGUWU2YzRrRGhTLU5GMktuM2JZbkIxWTE0X203UUZaUEstazh3R0dURzJ3c1RLMDVJb2h1UmktQjFhNHFJNmV6ZjE1ZGFsZWcyRzhWTl9uMWZMdHQwbjRXemotOVFackhPUUZidDd0RkVHSkdtMnU1dHE?oc=5" target="_blank">Reuters(지배구조 개혁)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★</span><h3><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1LTl9QakctNmVfY0ZFcVBpVmJKQW1XdF9RbUdoQ3FPYWREYmZfcXJJdWdVZkt1X2VHZVV2TklBNEZlTHdpWm5aQXA0SW9UR2JoLVdzSjNJVHVnQXRDbURWdkRDWkZISmlaOHpjSDljWUwtVUkzMmNJazA0bDEtcWPSAZMBQVVfeXFMTXZ1a2NxbnZUUTROZEk1VHdmQWs0Rk5ZTlNYX2FGdFlwNjJWcDhrY2tzVFdQS2NhdkhnMWxheXFxeHVXS1kwZkZCc1NuOVJlSFRudVc4V2tOb0Y4RDNoMlJhTi1KN0FyUndVaVJHaUxYUzZwQkE4cXM2RTZ2dXBIemJzSmU0d29Ga0kxOEdXMUswUHNz?oc=5" target="_blank">TPG, 롯데렌탈 잔여지분 38.83% 공개매수 — 자진 상장폐지 추진에 주가 +10% 역행</a></h3></div>
+  <p class="summary">사모펀드 TPG가 롯데렌탈 잔여지분 38.83%에 대한 공개매수에 나서 자진 상장폐지를 추진한다. 경영권 인수 마무리 수순으로, 공개매수 자금은 전액 차입으로 조달한다(조선비즈 — "경영권 샀으니 잔여 지분은 빚으로"). 폭락장에서 롯데렌탈 주가는 10%대 급등하며 코스피 역행 1위권 — NH증권은 "매각 절차 마무리로 재평가" 목표가 상향으로 화답했다. 같은 날 급락 역행주로는 5거래일 연속 상한가권의 한진칼우 등 이벤트 종목이 꼽혔다.</p>
+  <div class="why"><b>왜 중요</b> — 지수가 무너지는 날에도 '가격이 정해진' 이벤트 드리븐(공개매수 차익)은 작동한다는 표본. PEF 주도의 공개매수·상폐 흐름(바이아웃 후 정리)이 이어지면 지주·계열 지분이 얽힌 종목군의 유사 이벤트 탐색이 과제가 된다.</div>
+  <div class="tags"><span class="tag">M&amp;A</span><span class="tag">공개매수</span><span class="tag">이벤트드리븐</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1LTl9QakctNmVfY0ZFcVBpVmJKQW1XdF9RbUdoQ3FPYWREYmZfcXJJdWdVZkt1X2VHZVV2TklBNEZlTHdpWm5aQXA0SW9UR2JoLVdzSjNJVHVnQXRDbURWdkRDWkZISmlaOHpjSDljWUwtVUkzMmNJazA0bDEtcWPSAZMBQVVfeXFMTXZ1a2NxbnZUUTROZEk1VHdmQWs0Rk5ZTlNYX2FGdFlwNjJWcDhrY2tzVFdQS2NhdkhnMWxheXFxeHVXS1kwZkZCc1NuOVJlSFRudVc4V2tOb0Y4RDNoMlJhTi1KN0FyUndVaVJHaUxYUzZwQkE4cXM2RTZ2dXBIemJzSmU0d29Ga0kxOEdXMUswUHNz?oc=5" target="_blank">조선비즈(공개매수)</a> · <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE41ak5wSDhPZmh3U056VW93cWlQcFo2d2lZWFU0eFBtb3c5aXNDOUpTSk5Gc2tvaGNianhjc2JNSUE4eHB0bzRNLUVrLTc4aXpwOFhWX3pvLVBXOGZfUzg3UnpLX0w2SVlxWmc0Wm1TNll5UQ?oc=5" target="_blank">이데일리</a> · <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UUk5IUHZqak1kVFZHOXlqVGVLb2VRQ2M5RWgwUXNrcmg5NjU0NjU4YWwwdmdFNnNSQlk2NmtYSjdvVXJ4cHN3eENVakd3OHVCTGJXSGhaWmJ6RUNVRkozZ0V3cmY3dHVL0gFuQVVfeXFMT2hjRUpqNG1mWlFuREk5b0QwZmpnQnYyWnB4TVY4dDR0NWRiLXV3V044TFBhQmVHX0RZOWc1MnROWTU4emZ3NG5kQ2p5VnpOV1I0NTlsLVgtbHFSclJTQ2R1RUZncEswenl6Ymx1akE?oc=5" target="_blank">머니투데이(상폐 추진)</a></div>
+</div>
+
+<h2>다음 체크포인트</h2>
+<div class="brief">
+  <div class="brief-item"><b>11/6(금) 22:30 KST</b> — 美 10월 고용보고서<div class="desc">예상 +5.9만 명·실업률 4.2% — 폭락 직후의 첫 대형 지표. 부진하면 'Fed 인상 후퇴' 안도, 호조면 긴축 공포 재점화.</div></div>
+  <div class="brief-item"><b>11/9(월)</b> — 신용융자 담보비율 유지 의무 면제 시행<div class="desc">반대매매 연쇄 차단의 실행일 — 주초 신용 잔고 소화가 바닥 확인의 조건(이슈 ②).</div></div>
+  <div class="brief-item"><b>11/10(화)</b> — '현대차 로봇 밸류체인' 등 ETF 6종 신규 상장<div class="desc">급락 직후의 신상품 수요 가늠자 — 천억 ETF 라인업 확장 흐름.</div></div>
+  <div class="brief-item"><b>11/12(목)</b> — 수능일: 증시 개장 1시간 지연(10시), 프리마켓 휴무<div class="desc">매매 시간 변경 — 미 증시 변동성이 큰 주간이라 개장 전 뉴스 공백에 유의.</div></div>
+  <div class="brief-item"><b>11/26(목)</b> — 한국은행 금통위<div class="desc">씨티 "급락에도 인상(3.25%) 유지" vs 채권시장 "4천피면 인상 불가" — 증시 바닥 논쟁과 맞물린 최대 국내 이벤트.</div></div>
+</div>
+
+<h2>증권사 리포트 — 산업·개별종목 우선</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XVVJoTUVsUjR2UUZ2MzNxTXpIal9JSmVLdWpWcVlUQ0NDSmw4T001TEY5X1YtTVNmWWxETG5BQU1PdFRheS1kZXE5SlRFbUxUMHc?oc=5" target="_blank">카카오(035720) — IBK·한화·신한 3사 같은 날 커버: IBK는 목표가 하향</a>
+    <div class="desc">핵심 논거: "플랫폼이 매출 성장을 이끈 건 맞지만 눈높이 조정 필요"(IBK, 목표가↓) / "분할 후 복잡한 사업구조 해소 — 주주환원 정책을 기다릴 때"(<a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oMHdGQkJtdDN5R1NmcHBoMmtIdmVtRWoyajcxeGg5UEZFbnU4YkRycTZHNWZZejc4MlBsTkJRMHg5V3Ewa3MtMEVrc0dkZmxwc1dBQ19xTkxNZ2lrcnFaQXNHTnNPQTkz0gFuQVVfeXFMUHhQcnQ4cDJXVlJ3dkg4TlZNTFgxQldCYnl1RTZCaUFoSkpSdUNWZ0xVdjEyZm9iNW0xNXRjR09aRzg0M1JUNmhwWURjN3VTX3RIbVRNd3hHWGp3bE4zbVZlUldCbk1ZUmpVNDJOZFE?oc=5" target="_blank">한화</a>) / "12월 AI 에이전트가 분수령"(신한) — 3사 동시 커버는 관심 집중 신호.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wNWtoX2FWcXdNVWNjVThWTU1yeWNDZVhKWElxRDkwazJvMnZZOG1fQlh2a2ROTDd2UmNyT2hGTjAzQ2ZUUHNCanBaQkxMc0tKZTZHd2h0NHp6MUdpSl9oQTJaV1MyQnZZ0gFuQVVfeXFMTzZLWk5IN0FNQ05GSmdGTE02MGtfblRFX3QyVXpyZWlELXc2ckxPajhVSHVOVXQya3dwRmk4M1BPMHNna3hVelFRU1Nra0xweElQelNUTlVBVEVNd21FZlc2eHVybVlJQjAzRi1Icmc?oc=5" target="_blank">고려아연(010130) — 복수 하우스 동시 점검: "이(실적)가 없으면 잇몸(주주환원)으로"</a>
+    <div class="desc">핵심 논거: "프리미엄을 정당화할 현금흐름 입증 필요 — 목표가 150만 원 유지"(머니투데이 소개 리포트) vs <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNNFlwUHozQlVIdlQ4Ti1UejhXZkQzRUtDSzdxWE1tTkFIekxMcGlOOHIzSnByVGthS21OZWhsZGxZaS1SOC1lT2ctZVRUYVZkaDhGM283T0FWbU9POVJhT0I4TzlvRGhHdGY1UzYtMEJZcDRXcXhNMGxKbXpYZ0xGbw?oc=5" target="_blank">한화 "은값·환율 하락에 수익성 악화, 목표가 하향"</a> — 실적 공백기를 주주환원으로 버티느냐가 쟁점.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ORHN4RExnbFV2ajFWY3BMcUtNVGJzR0FlX2ttaGJwNWYycEo4R0VTR2pGYi1Nb19QSmVrcFpZZUZkYUhsV0UyYWZpaDV3UVdZVnBaNzkzeHJjZw?oc=5" target="_blank">KT&amp;G(033780) — NH '목표가 상향' + 키움 동시 커버: "2030년까지 주주환원 5조"</a>
+    <div class="desc">핵심 논거: "4년간 5조 원 주주환원, DPS 두 자릿수 성장 기대"(키움) — 폭락장에서 돋보인 현금흐름·환원 방어주 콜 2건.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNNFlwUHozQlVIdlQ4Ti1UejhXZkQzRUtDSzdxWE1tTkFIekxMcGlOOHIzSnByVGthS21OZWhsZGxZaS1SOC1lT2ctZVRUYVZkaDhGM283T0FWbU9POVJhT0I4TzlvRGhHdGY1UzYtMEJZcDRXcXhNMGxKbXpYZ0xGbw?oc=5" target="_blank">에코프로비엠(247540) — DB '목표가 13만 원으로 하향' vs 신한 '반등 기회'</a>
+    <div class="desc">핵심 논거: "고객사 재고 조정 여파"(DB, 하향) / "전기차 부진에도 헝가리 공장 정상화가 관건, LFP로 美 BESS 시장 공략"(<a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNa0xRdG9vT2JtOExwbmhGcF9TaHg5dzBJdVZoRU9ubGszcG9zTV9ZcV9tVk5wVHVmMy1CRkZ6SUNrd2ZPZkJtR0ZfUmg1TzIxN0xkR01rYzBTZGVtQXFKdjNxSV9ocFRIQWY2UTQxdVVER3dheFd4c0ttRmFwOXZrVg?oc=5" target="_blank">신한</a>) — 같은 종목, 갈린 눈높이.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxZGlYVlJMV1JMX1p2M0syX25yZWlaWWdXZ2Rtb0p2cjdmTEdsMUY4UHh1eGVJbDN4eG8wYzl2TVV3UnJXQ1Bxenp2S1ZPZTdUbEE?oc=5" target="_blank">LG화학(051910) — 신한 '목표가 하향': "원화 강세로 적자 확대 불가피"</a>
+    <div class="desc">핵심 논거: "4분기까지는 눈높이 하향 조정 필요"(한경 리포트 브리핑 동일 취지) — 환율 급등 전 작성된 전제라는 점은 체크 포인트.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMimgJBVV95cUxPcUdJdFgwOXdicmRiaGtDb0hZcWNTQWh4WWFqOHZPaGxFWEFQRTNNVGg0WUNYS3BzSFlLUlh4SHItNEZOaXlYWUlEMEo4ci1OLWdLUmNPT3J0S1dyU3E3bUV3eWtiLWpxNmJwM3JYQU44X3VjMHRVZFRiSENqOFdaZjFjazFmUFREZW9aS2JNQkQ3ak9mM195dVFYWmFHNG90OXg1LXh6QnA4VENHNmZWY0luX29nQmVZRHkzZ0RJQV95N1ZoWkEwTU5kTjBkd1VhVWkyV3RWNXVxdjEtN1g4VlZRZ1JvemVBQTRiNUM2LUpHOWM2cXdneC1fRmVPdkR0Ym9hVWRITEVsTW4taFVLYVgzUUJTazRvU1E?oc=5" target="_blank">로보티즈(108490) — IBK '목표가 29만 원': "고성장의 초입"</a>
+    <div class="desc">핵심 논거: "휴머노이드 액추에이터 수요의 구조 성장 초입" — 급락장과 무관한 신규 성장주 커버. <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oVTVwVF9aVngxSG9aU1I5QzRQb1FwQldtbl9UVlpWNURodno1LVNBekl3QkE2aWtRUFNCQ1FOVFB3RVgtVmdzOWF5RjlCQ2k2NkE?oc=5" target="_blank">하나는 CJ ENM 목표가 상향("간만의 TV 광고 회복세")</a>.</div></div>
+</div>
+
+<h2>단신</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyU0VMNldVaC1UOGp6RnpQWGJ6VnBRUndvOHNvSjU3ZC1mUXJTX0lhS3NHcmdMT2xIZFpvaTVtWmJ4QVp5cFpaZkJBZUtzTVdnRW9LREhBcmtZLWNFQUlQONIBYEFVX3lxTFAyU0VMNldVaC1UOGp6RnpQWGJ6VnBRUndvOHNvSjU3ZC1mUXJTX0lhS3NHcmdMT2xIZFpvaTVtWmJ4QVp5cFpaZkJBZUtzTVdnRW9LREhBcmtZLWNFQUlQOA?oc=5" target="_blank">서학개미, 미 증시 폭락에 하루 최소 13조 원 평가손</a><div class="desc">국민연금의 M7 평가액도 하루 2.8조 원 요동 — '국장 피해 미장' 개미의 이중고(조선비즈).</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE41ak5wSDhPZmh3U056VW93cWlQcFo2d2lZWFU0eFBtb3c5aXNDOUpTSk5Gc2tvaGNianhjc2JNSUE4eHB0bzRNLUVrLTc4aXpwOFhWX3pvLVBXOGZfUzg3UnpLX0w2SVlxWmc0Wm1TNll5UQ?oc=5" target="_blank">삼양식품 3분기 영업익 1,962억 원(+49.9%) — 또 분기 최대</a><div class="desc">CJ CGV도 영업익 736억(+215%)으로 역대 분기 최대 — 폭락장 속 실적주의 존재감(인포맥스).</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE50XzBuUkV5cm10bjB5bXRFLTFCR1JGZkJXVVJFa1VramJtR2xOWWRkbGVaWTc2a0taVW1KUUFoaklxUFpfM0VtdG1xeEkxNEQ3ODVQdFFjVHNOU1dGQndXUmRlZEZxU2ZXQ21TVEpqS0U?oc=5" target="_blank">금호석화, 11년 만의 분기 적자 전환 — 롯데케미칼은 적자 확대</a><div class="desc">글로벌 업황 부진 + 중동발 원가 부담 — 화학 체인의 겨울은 계속(인포맥스).</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFB1RDNlOXZVa3pNMi1QWEFUMDFrbWNGTGlsU2JJQ3E5aTEtdzJkTy1hVnhzY3JjTy1ORFZFMEVqd0o2Yk9jU0NId0Q3elVYdTRmSkM4RDhFMU9QdU1PbDluT0dqOVpXeEZsZUlvaVV2Z3JRclFTZ0ZWR9IBeEFVX3lxTFB1RDNlOXZVa3pNMi1QWEFUMDFrbWNGTGlsU2JJQ3E5aTEtdzJkTy1hVnhzY3JjTy1ORFZFMEVqd0o2Yk9jU0NId0Q3elVYdTRmSkM4RDhFMU9QdU1PbDluT0dqOVpXeEZsZUlvaVV2Z3JRclFTZ0ZWRw?oc=5" target="_blank">고팍스, 해킹 예고 협박에 입출금·매매 전면 중단</a><div class="desc">바이낸스 해킹(북한 연계 보도) 여진 속 국내 거래소 보안 경계 — 금융위는 개인정보 유출 특별대응 연말까지 연장.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPWThWZXVpQTBXOU9WVlhmc0ZnSlVJMWlrbzdoNDVybXh1dmtSSnczQWhJMER3V0JSRHg3MkZqQnFDRUdENUNXTVlSalQ5X050Q0xSVkR4TXFpa0HSAWBBVV95cUxOMnZvRUNXN1FnTXJfVmg4aDNEZ09QNnkxOWdEMFRBQXpPSy1sVzJWT01TSlVxNHljMlU0UFR3VGdFM015WVFXNzFGbG5LZjAzbzhwbGV4ZFR0eUJiWkpleE8?oc=5" target="_blank">中 YMTC, 신규 낸드공장 장비 최대 70% 국산화 추진(로이터)</a><div class="desc">삼전·하이닉스의 낸드 경쟁 변수이자 국내 장비주엔 대체 리스크 — 중국·홍콩판 이슈 ④ 참조.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE90eDlMU2d0Rk9iRG5QVEFtb2Y5N0Y5dWVJVnFDQTA5MWdPR1hlWHRBdDlFWGdhMVZ3b2JoNFdMU183dko1R3NERjhUeWNiX3VoQW9aVHd3LWZoSE3SAWBBVV95cUxPdno0ZFVoR25lVXJ0dkFyQUxDM1lOZzV3cVlMeTlydGNxbXhZSFhHVktjWWlIS21iV2JhejZaZmsxSlBUTVR5b0t2Rm4zWEhLd2VPTnZfLV9CQndQai0zLWU?oc=5" target="_blank">'현대차 로봇 밸류체인 투자' 등 ETF 6종, 11/10 신규 상장</a><div class="desc">두산은 중국 창수시와 동박적층판(CCL) 증설 투자협약 — AI 기판 소재 증설은 계속(인포맥스).</div></div>
+</div>
+
+<footer>
+  <p><b>방법론</b> — 매일 16:30 KST에 국내 매체·당국 보도·국제 통신·리서치 등 19개 소스에서 직전 24시간 기사를 수집하고, 투자 관련성 기준으로 선별·요약합니다. 이슈 선별과 요약은 AI(Claude)가 수행하며 사람의 검수를 거치지 않습니다.</p>
+  <p><b>데이터 기준</b> — 이날 16:30 자동 수집이 불발돼 20:22 KST 수동 수집으로 발행했으며, <b>11/4(수)·11/5(목) 이틀치는 미발행 공백</b>입니다(해당 기간 기사는 수집에 포함되지 않음). 코스피 5,059.69(-6.02%)·코스닥 644.27(-5.03%)은 market.json(20:25 KST 취합)과 연합뉴스·머니투데이 마감 보도 교차 확인. 국고채 3년 3.613%(-5.6bp)·10년 3.853%(-3.4bp)는 서울 채권시장 마감 보도(스페셜타임스·연합) 기준. 원/달러 1,356.60원(+14.5원)은 15:30 기준가(연합·인포맥스). 코스피 11/5 종가 5,383.80은 당일 등락(-324.11pt)에서 역산. 네이버 리서치 리포트 수집은 파싱 오류로 이날도 실패해 목표주가·커버리지 보도로 대체했습니다.</p>
+  <p><b>면책</b> — 본 자료는 정보 제공 목적이며 특정 종목·자산의 매매 권유가 아닙니다. 투자 판단과 책임은 이용자 본인에게 있습니다.</p>
+</footer>
+</div>
+
+<div id="lang-zh" hidden>
+<header>
+  <div class="brand">KOREA ISSUE DIGEST</div>
+  <button class="lang-btn" onclick="toggleLang()">한국어</button>
+  <h1>韩国市场日报</h1>
+  <div class="meta">2026年11月6日(周五) · <b>收盘版 — 手动采集</b>:16:30自动采集当日再度未执行,于20:22(韩国时间)手动补采(近24小时655篇),页面当晚生成 · 指数·国债·汇率均为收盘确定值 · <b>11/4~5两日为停刊空白</b></div>
+</header>
+
+<div class="sector" style="margin-top:0;margin-bottom:20px">
+  <h4>今日三行要点</h4>
+  <p>① <b>市场</b> — "蓝色浪潮"吞没KOSPI:开盘即暴跌8.55%触发熔断,5,000点九个月来首次盘中失守 — 午后机构逢低买入收窄跌幅,收报5,059.69(-6.02%),KOSDAQ收跌5.03%报644.27。三星电子·SK海力士两日累跌13%·18%,669只个股创年内新低,美元兑韩元大涨14.5韩元报1,356.6</p>
+  <p>② <b>焦点</b> — 当局全面出手:紧急宏观金融会议(F4)预告"波动加剧将追加稳市措施",并豁免券商信用融资担保比率(140%)维持义务三个月(11/9起),切断强制平仓连锁。野村在暴跌中仍维持"KOSPI目标10,000点"</p>
+  <p>③ <b>关注</b> — 今夜22:30(韩国时间)美国10月非农(预期+5.9万·失业率4.2%),11/9担保比率豁免生效,11/26韩银金通委(花旗:暴跌亦不改加息预期)</p>
+</div>
+
+<h2>市场综述 — 11/6(周五)收盘 · 熔断的"黑色星期五",-6.02%</h2>
+<div class="market">
+  <table class="mkt-table">
+    <tr><th>资产</th><th class="num">价格</th><th class="num">涨跌</th></tr>
+    <tr><td>KOSPI <span style="color:var(--sub);font-size:12px">(收盘 — 盘中失守5,000后收复,触发熔断)</span></td><td class="num">5,059.69</td><td class="num down">-6.02%</td></tr>
+    <tr><td>KOSDAQ <span style="color:var(--sub);font-size:12px">(收盘 — 连续两日触发卖出Sidecar)</span></td><td class="num">644.27</td><td class="num down">-5.03%</td></tr>
+    <tr><td>国债3年期 <span style="color:var(--sub);font-size:12px">(收盘 — 六个月新低)</span></td><td class="num">3.613%</td><td class="num down">-5.6bp</td></tr>
+    <tr><td>国债10年期 <span style="color:var(--sub);font-size:12px">(收盘)</span></td><td class="num">3.853%</td><td class="num down">-3.4bp</td></tr>
+    <tr><td>美元/韩元 <span style="color:var(--sub);font-size:12px">(15:30基准价 — 盘中触及1,360,一个月最高)</span></td><td class="num">1,356.60</td><td class="num up">+14.5韩元</td></tr>
+  </table>
+  <div class="mkt-note">
+    <p>① <b>空白两日(11/4~5)回顾。</b>11/4美国中期选举开票,民主党同时拿下参众两院,"蓝色浪潮"落地;AI数据中心监管担忧发酵,KOSPI于11/5回落至5,383.80(11/3收5,648.79)。11/5夜间纽约崩盘 — 纳指-5.52%(去年4月以来最大),费城半导体指数-12.3%,美光-17.5%。该两日为日报停刊空白期,相关报道亦未纳入本次采集。</p>
+    <p>② <b>开盘三分钟即停摆的市场。</b>KOSPI低开2.24%后跌幅迅速扩大至8.55%,触发熔断(暂停交易20分钟),5,000点自2月6日以来九个月首次盘中失守;恢复交易后又触发卖出Sidecar,KOSDAQ连续两日Sidecar。个股方面,三星电子一度跌9%、SK海力士跌逾11%,两日累计分别下跌13%·18%;669只个股创年内新低,KOSPI总市值较高点蒸发逾3,000万亿韩元(韩联社统计),波动率指数(VKOSPI)三个月来首次突破60。午后机构与金融投资逢低承接,跌幅收窄至6%一线,勉强守住5,000点。券商紧急研判的共识是"并非AI叙事崩塌,而是流动性恐慌放大了跌幅",但普遍附加"底部未至"的保留(七位研究所长联合诊断)。</p>
+    <p>③ <b>资金涌向债券与美元。</b>避险情绪下,国债3年期收益率下行5.6bp至3.613%,创六个月新低;10年期下行3.4bp至3.853%,呈牛市陡峭化。外资净买入3年期国债期货7,422手,主导避险交易。汇率方面,美元兑韩元大涨14.5韩元至1,356.60(六个月最大单日涨幅、一个月最高),盘中触及1,360一线,出口商结汇盘压制了进一步上行。债市一度出现"若KOSPI跌至4,000区间,11月加息将无从谈起"的声音,而花旗维持"11月与明年2月加息(至3.5%)预期不变"。</p>
+  </div>
+</div>
+
+<div class="sector">
+  <h4>板块 — 暴跌中的明暗</h4>
+  <p><b>重灾区</b> — 半导体(三星电子-9%·SK海力士-11%一线)与三星电机等AI硬件链跌逾10%,电力设备因"美国数据中心监管"担忧连跌两日(券商反驳称"中长期利好更大");杠杆ETF最大暴跌64%,券商股投资情绪骤冷。</p>
+  <p><b>相对抗跌</b> — 前一日的避风港银行·汽车亦显疲态(朝鲜Biz);乐天租赁(Lotte Rental,+10%,要约收购 — 议题⑥)、韩进KAL优先股(连续五日涨停区间)等事件驱动个股与部分能源股逆势上行。</p>
+  <p><b>海外投资者同样受伤</b> — 投资美股的韩国散户单日评估损失至少13万亿韩元(韩联社);国民养老金(NPS)的美股七巨头持仓单日波动2.8万亿韩元。</p>
+</div>
+
+<h2>昨日(11/3)议题追踪</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE8teWU2dE1NbVpBTi10eXc1UG1WMzdKb1NLS19iOFFlaF9CajlhS1ZVOERGYkJDT1RSSHFvNi15eHJOeTgzQ2gzeFFBbGpLSWlBbm1BSFBpdmJCRXfSAWBBVV95cUxNMnJzbzFiVkUxd2w3eTRrNDZuMVJZcDdBdmw2UjNGdjYwSDVTenpGUDFGdnNKTllodmg4QUZrR1NEZ0tJd1gzNF9iZDB6Q3RoT2hSTV9lMVB1VXU3ZWNGUTI?oc=5" target="_blank">KOSPI大跌3.59%(11/3 ★★★) → 三个交易日后已在争夺5,000点 — 两日-11%,"调整"升级为"恐慌"</a>
+    <div class="desc">11/3的"AI盈利性质疑"在中期选举后放大为"AI监管恐惧" — 升级为今日头条议题①。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yTU91em1iaWVQSnBNZVo0V3VvYUkyNlltZWloVzBkOWduQ3VGOVl0alUzMnVJMkV4MUZJYVEtN01yZEVuOXdtWGxFWHdxemo5bEs0Ymlnc1h1UQ?oc=5" target="_blank">韩投证券"SK海力士目标价320万"(11/3 ★★) → 股价退至113万,但看多阵线未破 — 韩亚:"监管担忧过度,善用超跌"</a>
+    <div class="desc">韩华亦称"外资抛售峰值已过,建议加仓半导体" — 暴跌第三日买入评级依然密集,是本轮的特征。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kRFZvaUlWbFNsSUJacHY4eEpqcC1JQ1ZRakdDemRQVmp6U1hrRTBkemlxZ1dFcFowZFFoNmZqTnA4SE1NRWZmQnRwUi1qMlQ1Y012TV8zTTRvTGc?oc=5" target="_blank">资金躲进国债(11/3 ★★) → 避险深化 — 3年期3.613%创六个月新低,外资净买3年期期货7,422手</a>
+    <div class="desc">从"10~30年期六个月新低"(11/3)蔓延至短端的全面走牛 — 详见市场综述③。</div></div>
+</div>
+
+<h2>主要议题</h2>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SZHMydjFyQmZ2V05TVXllUUp1WjBpUUROX01BSzNhZ1pyd0hOdE1aWDFBNHNucGt3M0ZEWVF6eDFDSmJ6S25Sb19lMEh2RExmT255YXpCWmpyUDTSAWBBVV95cUxQY0JnWVpQSkllYVh0NVpJMzltTkI1NDNwV3U4bG16VGs2S3BvYzZHVXgyZFROVV9jMF83UmpaY0ItQnVkbUpybTBONXlyXzBzOU1Jb2R0Wjd6d003WXUtdWM?oc=5" target="_blank">"蓝色浪潮"的黑色星期五 — KOSPI触发熔断·盘中失守5,000,收报5,059.69(-6.02%)</a></h3></div>
+  <p class="summary">民主党掌控美国国会引发的AI监管恐惧,在全球市场中把韩国砸得最深。KOSPI开盘即跌8.55%触发熔断(今年2月暴跌以来首次),5,000点九个月来首次盘中失守。三星电子-9%、SK海力士-11%一线的"双巨头抛售"是最大拖累(每经称"堪比9·11的冲击"),669只个股创年内新低、VKOSPI突破60、夜盘期货一度暴跌7%,恐慌指标全面出动。所幸午后机构逢低承接,跌幅收窄至6.02%,守住5,000点。亚洲全线同跌 — 日经暴跌3,643点(失守60,000)、台湾加权-4.51%(台积电一度跌停) — 但韩国跌幅居首;朝鲜Biz的诊断是:半导体·AI占比过高的市场结构放大了传染强度。</p>
+  <div class="why"><b>为何重要</b> — 10月的"AI估值之争"已转化为"监管风险"这一政治变量 — 动摇的不是盈利预期而是贴现率,反弹的条件也因此变成了"美国政治新闻"。今夜美国非农(22:30)与下周国会人事是第一道分水岭。券商共识是"非AI崩塌、乃流动性恐慌",但信用融资强平盘仍是变数(议题②)。</div>
+  <div class="why" style="background:#fdf0ef;color:#7a2b24"><b>🇨🇳 中国关联</b> — 同日上证-1.10%、恒指-1.27%,中华圈反而是"跌得最浅的市场" — 稳市政策托底与南向资金回流构成缓冲。美国冲击的传染强度因市场结构而异(参见中国·香港版)。</div>
+  <div class="tags"><span class="tag">股市</span><span class="tag">熔断</span><span class="tag">半导体</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SZHMydjFyQmZ2V05TVXllUUp1WjBpUUROX01BSzNhZ1pyd0hOdE1aWDFBNHNucGt3M0ZEWVF6eDFDSmJ6S25Sb19lMEh2RExmT255YXpCWmpyUDTSAWBBVV95cUxQY0JnWVpQSkllYVh0NVpJMzltTkI1NDNwV3U4bG16VGs2S3BvYzZHVXgyZFROVV9jMF83UmpaY0ItQnVkbUpybTBONXlyXzBzOU1Jb2R0Wjd6d003WXUtdWM?oc=5" target="_blank">韩联社(收盘)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JTm1kS0x4LWU0N3JiMWFOSi1zNG5nT09mSC14UGhTbGxlTFlMMnNwMmNBSEhGQThHX3lEOUF4aW15a1pPSHpma2s2emx4dTlhd1JKTUdzWG5RWkHSAWBBVV95cUxQY09LbUpkQUtoSUVXWTMxX2s3cm10Ukp6RVEzSVpINDBmT0tzTFJWOU9BNUc1N2J3RFRwcGY3WFBaZWRqNE16XzJOdDZUMEw0MF9TYUVDSF9CSmdOdzhJNWs?oc=5" target="_blank">韩联社(熔断)</a> · <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2VlSVdST0ZfcmhoRHM2UzN6aDFJbXlNeDMwTjFSS2xhQXNjMXFCdkNVMnh4Wkk1cmdST1hQNlNrMVZlUi1jU0lBNDgzc2pBRnl1RENNcUdBRU5yNjNmS251VHFOU3F5ZFZ5aXJSaFdqcFRZdVJGR25JTmhlX0N1T0FMdnVWbi1T0gGcAUFVX3lxTE1yMFFLd2hEeFg4QzNfZkFUTmoxaUtSSTVJbkVxVUJaSHF2YmdYNzRycDA0WGZxTl9QTW1LV0RUQnBYZGJjR3RMN2dya3RLemZXZGpURmdUSzVpVjN6eGRiX3F2Zm5Uam9MZTVFamFaTVVhYzdXdEFncmd4bV9KTzY2RGVmZmNlSkVrQXNrNHNTUUZNNEMtLXZmblU5Wg?oc=5" target="_blank">朝鲜Biz(结构诊断)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1oZ2xkV0FIdDE0V1lYV1N0ekRDVWp3UXhFTUt2VFNfbUVObjJNVzY1Rnk1bnJOQ2c4amhVZmp0TkJUaGpfQVJ2YkhuSFJ3dXVqQlZTQUpCVFBfX1hRR2dzZ2hqLU1vZkVycXU4b1E1U3U?oc=5" target="_blank">当局全面出手 — F4紧急会议预告"追加稳市措施",券商信用融资担保比率(140%)维持义务豁免三个月(11/9起)</a></h3></div>
+  <p class="summary">李亨日副总理召集紧急宏观经济·金融现况会议(所谓F4会议),表态"将适时采取必要措施,防止股市相对基本面过度反应","若波动加剧将追加市场稳定措施"。第一发子弹是切断强制平仓:金融当局宣布豁免券商信用融资担保比率(140%)维持义务三个月(11/9生效),阻断因股价暴跌触发的机械式连环强平。执政党与政府亦在国会召开紧急恳谈会,承诺"为稳定市场、化解投资者不安投入一切可用政策手段";交易所强调严打不公正交易。这是2020年3月疫情暴跌时用过的工具再度启用。</p>
+  <div class="why"><b>为何重要</b> — 意在以制度切断"蓝色海啸→强平→再下跌"的二次波。但担保比率豁免属于"允许"而非"禁止",券商可自主执行,信用余额偏高的中小盘·题材股的资金面警戒仍然有效。每经提示"KOSPI仍存在追加强平的可能" — 下周初信用盘的消化是确认底部的前提。</div>
+  <div class="tags"><span class="tag">政策</span><span class="tag">强制平仓</span><span class="tag">金融当局</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1oZ2xkV0FIdDE0V1lYV1N0ekRDVWp3UXhFTUt2VFNfbUVObjJNVzY1Rnk1bnJOQ2c4amhVZmp0TkJUaGpfQVJ2YkhuSFJ3dXVqQlZTQUpCVFBfX1hRR2dzZ2hqLU1vZkVycXU4b1E1U3U?oc=5" target="_blank">Infomax(F4·豁免)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RYlFoQ1pzeEZWa2F2dmM4d1lEV2h6RHk0YUh5MDQ1cGQ5WW16Ri1ZN0tMeHBmalY4NHZLWVpESTEtUUFZeFJvV1FSeFctZUZqdHJja3NuOFZIZmPSAWBBVV95cUxQMnRxZ2drcU5nNnIyT0V4cmRVRlRKc0FKdDdRaTZsWFpDNFB1b2RqU0dDeUdXMGZLcUZUSUVBbFk3ODZVR0ZTdDZZOUhsVzFUMjhKZnNWbWNpakFoNWlaTjU?oc=5" target="_blank">韩联社(豁免措施)</a> · <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5xMUw4VGtwYjZJUHpqbWRPQjZHd1docVNyQVg3WlFUUmJwa1FGWjFrWUQ5TTZEa3F5NnNCbnJjUGh2akhhTnhHcFdpcTlpZDU1YmFvTHlTdzRNdFVWdjdLNGZ1YUdBRzlSZjlGeHkzX0g?oc=5" target="_blank">Infomax(党政)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFA2N2RkcHFENlVyS1pmUHRXNzZNcGlPeHJSRTFxMWtXQjFsOTM5OE9mbUV1R2Z1anhzYWlKUFRaT3Rja3Z3dGplWkhGUWhnZDA3OXl4WERjbndJMENoYTdVM1VsWTVPRkNYa2c4TmhDc20?oc=5" target="_blank">避险资产虹吸 — 美元兑韩元1,356.6(+14.5,六个月最大涨幅),国债3年期3.613%创六个月新低</a></h3></div>
+  <p class="summary">"被半导体冲击触电的韩元"(Infomax)。美元兑韩元大涨14.5韩元至1,356.60,为六个月最大单日涨幅、一个月最高,盘中触及1,360一线 — 美元指数收复102、股市暴跌、外资期货抛售构成三重压力,出口商结汇盘压制了上方空间。债市则全面走牛:国债3年期收益率下行5.6bp至3.613%(六个月新低),10年期下行3.4bp至3.853%,短端领涨的牛市陡峭化;外资净买入3年期国债期货7,422手。美债10年期收益率亦下行逾5bp,比特币跌至7.5万美元区间。</p>
+  <div class="why"><b>为何重要</b> — 汇率若站上1,360,将放大外资持股的汇兑损失压力,可能形成"抛售引发抛售"的反馈环 — 下周初汇率能否企稳是资金面修复的先行指标。债市牛陡是"避险+加息警惕"的组合:到11/26金通委为止,短端利率将扮演股市的体温计。</div>
+  <div class="tags"><span class="tag">汇率</span><span class="tag">国债</span><span class="tag">避险</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFA2N2RkcHFENlVyS1pmUHRXNzZNcGlPeHJSRTFxMWtXQjFsOTM5OE9mbUV1R2Z1anhzYWlKUFRaT3Rja3Z3dGplWkhGUWhnZDA3OXl4WERjbndJMENoYTdVM1VsWTVPRkNYa2c4TmhDc20?oc=5" target="_blank">Infomax(汇率)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kRFZvaUlWbFNsSUJacHY4eEpqcC1JQ1ZRakdDemRQVmp6U1hrRTBkemlxZ1dFcFowZFFoNmZqTnA4SE1NRWZmQnRwUi1qMlQ1Y012TV8zTTRvTGc?oc=5" target="_blank">韩联社(国债)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxOGFfUUtGUzVxR0RDc3FMUzY4VzduS01KUzQ5Mi1PWTBjR083SXRGM0lkVHVIak1tTVZNY3c4c255UHo4Z2dRLWY0UnZxSVNlZHc?oc=5" target="_blank">暴跌中的预测对决 — 野村"维持KOSPI 10,000点目标(3个月7,500~8,000)" vs "最坏4,500"情景;花旗坚持11月加息</a></h3></div>
+  <p class="summary">争夺5,000点的当天,目标价的分歧拉到极致。野村认为"韩股已超卖",维持KOSPI 10,000点目标(3个月目标7,500~8,000,反映短期波动),列举四大上行动力(半导体周期·股东回报改革·流动性·估值)。另一端,梨泰院Daily汇总的券商最坏情景是"可能下探4,500";七位研究所长的联合诊断也偏谨慎 — "AI担忧过度,但底部未至","分三四次逢低布局"是共同处方。利率方面,花旗坚持"暴跌亦不改11月加息、明年2月加至3.5%"的预测;债市则反驳"若KOSPI跌到4,000区间,11月加息将不可能"。尹志浩代表称"下跌原因已然明朗的现在,反而是拿出勇气的时候"(Infomax)。</p>
+  <div class="why"><b>为何重要</b> — "10,000 vs 4,500"的鸿沟,归根结底是AI盈利周期能否压过政治风险。眼下有三道关口促使预期收敛:①今夜美国非农 ②强平盘消化 ③11/26金通委 — 若央行强行加息,可解读为"对基本面的自信";若暂停,则是"照顾市场"的信号,属于双面事件。</div>
+  <div class="tags"><span class="tag">预测</span><span class="tag">野村</span><span class="tag">金通委</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QaHBwbTRrR2h6WWtva3dKVWhINWhwSTM1ZXVrd0ZUaU5YOUZIcEpOZmxiSXZOOWdaWmxtbGRaRGd3Vl9JbzNiazBtdUZ6bFpJUkg3Y1lVM2NXUEF1eHB1X9IBYEFVX3lxTE5QaHBwbTRrR2h6WWtva3dKVWhINWhwSTM1ZXVrd0ZUaU5YOUZIcEpOZmxiSXZOOWdaWmxtbGRaRGd3Vl9JbzNiazBtdUZ6bFpJUkg3Y1lVM2NXUEF1eHB1Xw?oc=5" target="_blank">韩联社(野村)</a> · <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNb3BTeWZtRTdOREZfV2M5X2ZlV3JndkVhM09DSThNWXRWZ2pKYXczcnU5V0hqbC0zN3hhY1h5TlBBQ2ZSaVRlMUd6Vm5wY2MtLU55UFNhUlJlVWttWU5aWXFMSnIxWk9pVkl1Zk5Oa1I3MlNuYXZPY1JYVGdKejVvQw?oc=5" target="_blank">梨泰院Daily(最坏情景)</a> · <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFB1RDNlOXZVa3pNMi1QWEFUMDFrbWNGTGlsU2JJQ3E5aTEtdzJkTy1hVnhzY3JjTy1ORFZFMEVqd0o2Yk9jU0NId0Q3elVYdTRmSkM4RDhFMU9QdU1PbDluT0dqOVpXeEZsZUlvaVV2Z3JRclFTZ0ZWR9IBeEFVX3lxTFB1RDNlOXZVa3pNMi1QWEFUMDFrbWNGTGlsU2JJQ3E5aTEtdzJkTy1hVnhzY3JjTy1ORFZFMEVqd0o2Yk9jU0NId0Q3elVYdTRmSkM4RDhFMU9QdU1PbDluT0dqOVpXeEZsZUlvaVV2Z3JRclFTZ0ZWRw?oc=5" target="_blank">花旗(加息预期)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★</span><h3><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qRnFZeDZIM3ZaeU8zR0JXVHQzZlN3WnlmNmdac0xkQ2J0SWJMd0RDM05rbk93TlJIYTJscHo4NDJrN1o1MnY4TmRzcU5lclJFckE?oc=5" target="_blank">今年外资净卖出214万亿韩元中,英国系占一半 — "九个月抛售100万亿,为省税";MSCI:"制度改革须看落实"</a></h3></div>
+  <p class="summary">暴跌的另一面,外资抛售的"国籍"成为话题。今年外资净卖出214万亿韩元中约一半来自英国系资金(韩联社);每经介绍的报告将英国系九个月约100万亿韩元的抛售归因于"(股息)避税型卖出" — 并非单纯的"撤离韩国",而是夹杂税制·程序性因素的抛售。同日路透采访中,MSCI就韩国纳入发达市场指数表示"需要确认监管·制度改革真正落地运转",维持审慎;另有报道指三星态度消极令公司治理改革受阻。交易所则推进KOSDAQ全部上市公司每年至少一次IR的义务化作为回应。</p>
+  <div class="why"><b>为何重要</b> — 若外资抛售的相当部分属"税务事件型",资金面修复的时点取决于制度日历而非基本面。MSCI发达指数·治理改革·IR义务化同属"收窄韩国折价"的轨道 — 是决定暴跌过后反弹幅度的结构变量。</div>
+  <div class="tags"><span class="tag">资金面</span><span class="tag">外资</span><span class="tag">MSCI</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qRnFZeDZIM3ZaeU8zR0JXVHQzZlN3WnlmNmdac0xkQ2J0SWJMd0RDM05rbk93TlJIYTJscHo4NDJrN1o1MnY4TmRzcU5lclJFckE?oc=5" target="_blank">每经(英国系)</a> · <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxPWEgxQ1BoU2RsY2FCQmZwUWo2aTQzUlB4V196RzRZY1lsUUY3dEdCZG5fdjFHWDY2dTlKX3NtUG41OURjbUZUNWdIbW5uSXFoZmVXdmRFNnZPQnhGa0J0enJiNjFhdlZPd1Q4UVRPaGI3a2p3RW1jcEdWcF90Sjhqek0tREVVQllJZ2dEUVdRUUhfRUsyV0k2bzhlU0RkMVZ4Yy1PQTA3NV9meDh2RmxyZTUxTjROeERKTXJ2VG1feXN4ZHE5OHpqX29QUkI3Unc?oc=5" target="_blank">Reuters(MSCI)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★</span><h3><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1LTl9QakctNmVfY0ZFcVBpVmJKQW1XdF9RbUdoQ3FPYWREYmZfcXJJdWdVZkt1X2VHZVV2TklBNEZlTHdpWm5aQXA0SW9UR2JoLVdzSjNJVHVnQXRDbURWdkRDWkZISmlaOHpjSDljWUwtVUkzMmNJazA0bDEtcWPSAZMBQVVfeXFMTXZ1a2NxbnZUUTROZEk1VHdmQWs0Rk5ZTlNYX2FGdFlwNjJWcDhrY2tzVFdQS2NhdkhnMWxheXFxeHVXS1kwZkZCc1NuOVJlSFRudVc4V2tOb0Y4RDNoMlJhTi1KN0FyUndVaVJHaUxYUzZwQkE4cXM2RTZ2dXBIemJzSmU0d29Ga0kxOEdXMUswUHNz?oc=5" target="_blank">TPG要约收购乐天租赁(Lotte Rental)剩余38.83%股份 — 拟自愿退市,股价逆市大涨10%</a></h3></div>
+  <p class="summary">私募基金TPG启动对乐天租赁剩余38.83%股份的要约收购,推进自愿退市 — 为完成控制权收购的收尾动作,要约资金全额举债筹措(朝鲜Biz:"买下控制权后,剩余股份靠借钱")。暴跌市中,乐天租赁股价大涨10%以上,位居KOSPI逆市涨幅前列;NH证券以"出售程序收尾带来重估"上调目标价回应。同日逆市个股还有连续五个交易日处于涨停区间的韩进KAL优先股等事件驱动标的。</p>
+  <div class="why"><b>为何重要</b> — 指数崩塌之日,"价格已锁定"的事件驱动(要约套利)依旧有效的样本。若PEF主导的要约收购·退市潮延续,排查控股·关联持股交织的候选标的将成为功课。</div>
+  <div class="tags"><span class="tag">并购</span><span class="tag">要约收购</span><span class="tag">事件驱动</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1LTl9QakctNmVfY0ZFcVBpVmJKQW1XdF9RbUdoQ3FPYWREYmZfcXJJdWdVZkt1X2VHZVV2TklBNEZlTHdpWm5aQXA0SW9UR2JoLVdzSjNJVHVnQXRDbURWdkRDWkZISmlaOHpjSDljWUwtVUkzMmNJazA0bDEtcWPSAZMBQVVfeXFMTXZ1a2NxbnZUUTROZEk1VHdmQWs0Rk5ZTlNYX2FGdFlwNjJWcDhrY2tzVFdQS2NhdkhnMWxheXFxeHVXS1kwZkZCc1NuOVJlSFRudVc4V2tOb0Y4RDNoMlJhTi1KN0FyUndVaVJHaUxYUzZwQkE4cXM2RTZ2dXBIemJzSmU0d29Ga0kxOEdXMUswUHNz?oc=5" target="_blank">朝鲜Biz</a> · <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UUk5IUHZqak1kVFZHOXlqVGVLb2VRQ2M5RWgwUXNrcmg5NjU0NjU4YWwwdmdFNnNSQlk2NmtYSjdvVXJ4cHN3eENVakd3OHVCTGJXSGhaWmJ6RUNVRkozZ0V3cmY3dHVL0gFuQVVfeXFMT2hjRUpqNG1mWlFuREk5b0QwZmpnQnYyWnB4TVY4dDR0NWRiLXV3V044TFBhQmVHX0RZOWc1MnROWTU4emZ3NG5kQ2p5VnpOV1I0NTlsLVgtbHFSclJTQ2R1RUZncEswenl6Ymx1akE?oc=5" target="_blank">MoneyToday</a></div>
+</div>
+
+<h2>下一个检查点</h2>
+<div class="brief">
+  <div class="brief-item"><b>11/6(周五) 22:30 KST</b> — 美国10月非农就业<div class="desc">预期+5.9万·失业率4.2% — 暴跌后首个重磅数据;偏弱则"加息退潮"的安抚,偏强则紧缩恐惧再燃。</div></div>
+  <div class="brief-item"><b>11/9(周一)</b> — 信用融资担保比率维持义务豁免生效<div class="desc">切断强平连锁的执行日 — 周初信用盘消化是确认底部的前提(议题②)。</div></div>
+  <div class="brief-item"><b>11/10(周二)</b> — "现代汽车机器人价值链"等6只ETF新上市<div class="desc">暴跌后新产品需求的试金石。</div></div>
+  <div class="brief-item"><b>11/12(周四)</b> — 高考日:股市推迟1小时开盘(10点),盘前交易暂停<div class="desc">交易时段变更 — 美股波动剧烈的一周,注意开盘前的信息空窗。</div></div>
+  <div class="brief-item"><b>11/26(周四)</b> — 韩国银行金融通货委员会<div class="desc">花旗"暴跌亦加息(至3.25%)" vs 债市"跌到4,000区间就无法加息" — 与见底之争交织的最大国内事件。</div></div>
+</div>
+
+<h2>券商研报 — 行业·个股优先</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XVVJoTUVsUjR2UUZ2MzNxTXpIal9JSmVLdWpWcVlUQ0NDSmw4T001TEY5X1YtTVNmWWxETG5BQU1PdFRheS1kZXE5SlRFbUxUMHc?oc=5" target="_blank">Kakao(035720) — IBK·韩华·新韩三家同日覆盖:IBK下调目标价</a>
+    <div class="desc">核心论据:"平台确实拉动了营收,但估值需要下修"(IBK,目标价↓)/"分拆后复杂架构化解,等待股东回报政策"(韩华)/"12月AI Agent是分水岭"(新韩) — 三家同日覆盖即关注度信号。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wNWtoX2FWcXdNVWNjVThWTU1yeWNDZVhKWElxRDkwazJvMnZZOG1fQlh2a2ROTDd2UmNyT2hGTjAzQ2ZUUHNCanBaQkxMc0tKZTZHd2h0NHp6MUdpSl9oQTJaV1MyQnZZ0gFuQVVfeXFMTzZLWk5IN0FNQ05GSmdGTE02MGtfblRFX3QyVXpyZWlELXc2ckxPajhVSHVOVXQya3dwRmk4M1BPMHNna3hVelFRU1Nra0xweElQelNUTlVBVEVNd21FZlc2eHVybVlJQjAzRi1Icmc?oc=5" target="_blank">高丽亚铅(010130) — 多家同日点评:"实绩(牙)不行就靠股东回报(牙龈)"</a>
+    <div class="desc">核心论据:"需要能证明溢价合理性的现金流 — 维持目标价150万韩元" vs 韩华"银价·汇率下行侵蚀盈利,下调目标价" — 实绩空窗期能否靠回报撑住是争点。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ORHN4RExnbFV2ajFWY3BMcUtNVGJzR0FlX2ttaGJwNWYycEo4R0VTR2pGYi1Nb19QSmVrcFpZZUZkYUhsV0UyYWZpaDV3UVdZVnBaNzkzeHJjZw?oc=5" target="_blank">KT&amp;G(033780) — NH上调目标价 + 键友(Kiwoom)同日覆盖:"2030年前股东回报5万亿"</a>
+    <div class="desc">核心论据:"四年5万亿回报、DPS两位数增长可期"(Kiwoom) — 暴跌市中显眼的现金流·回报防御股双覆盖。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNNFlwUHozQlVIdlQ4Ti1UejhXZkQzRUtDSzdxWE1tTkFIekxMcGlOOHIzSnByVGthS21OZWhsZGxZaS1SOC1lT2ctZVRUYVZkaDhGM283T0FWbU9POVJhT0I4TzlvRGhHdGY1UzYtMEJZcDRXcXhNMGxKbXpYZ0xGbw?oc=5" target="_blank">EcoPro BM(247540) — DB下调目标价至13万 vs 新韩"存在反弹契机"</a>
+    <div class="desc">核心论据:"客户去库存冲击"(DB,下调)/"电动车疲软下匈牙利工厂转正是关键,以LFP进攻美国BESS市场"(新韩) — 同一标的,分裂的目标价。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxZGlYVlJMV1JMX1p2M0syX25yZWlaWWdXZ2Rtb0p2cjdmTEdsMUY4UHh1eGVJbDN4eG8wYzl2TVV3UnJXQ1Bxenp2S1ZPZTdUbEE?oc=5" target="_blank">LG化学(051910) — 新韩下调目标价:"韩元走强,亏损扩大难免"</a>
+    <div class="desc">核心论据:"到四季度为止仍需下修预期" — 不过该前提写于今日汇率急升之前,值得复核。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMimgJBVV95cUxPcUdJdFgwOXdicmRiaGtDb0hZcWNTQWh4WWFqOHZPaGxFWEFQRTNNVGg0WUNYS3BzSFlLUlh4SHItNEZOaXlYWUlEMEo4ci1OLWdLUmNPT3J0S1dyU3E3bUV3eWtiLWpxNmJwM3JYQU44X3VjMHRVZFRiSENqOFdaZjFjazFmUFREZW9aS2JNQkQ3ak9mM195dVFYWmFHNG90OXg1LXh6QnA4VENHNmZWY0luX29nQmVZRHkzZ0RJQV95N1ZoWkEwTU5kTjBkd1VhVWkyV3RWNXVxdjEtN1g4VlZRZ1JvemVBQTRiNUM2LUpHOWM2cXdneC1fRmVPdkR0Ym9hVWRITEVsTW4taFVLYVgzUUJTazRvU1E?oc=5" target="_blank">Robotis(108490) — IBK目标价29万:"高增长的起点"</a>
+    <div class="desc">核心论据:"人形机器人执行器需求处于结构性增长初期" — 与暴跌无关的新增长股覆盖;韩亚上调CJ ENM目标价("久违的电视广告回暖")。</div></div>
+</div>
+
+<h2>简讯</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyU0VMNldVaC1UOGp6RnpQWGJ6VnBRUndvOHNvSjU3ZC1mUXJTX0lhS3NHcmdMT2xIZFpvaTVtWmJ4QVp5cFpaZkJBZUtzTVdnRW9LREhBcmtZLWNFQUlQONIBYEFVX3lxTFAyU0VMNldVaC1UOGp6RnpQWGJ6VnBRUndvOHNvSjU3ZC1mUXJTX0lhS3NHcmdMT2xIZFpvaTVtWmJ4QVp5cFpaZkJBZUtzTVdnRW9LREhBcmtZLWNFQUlQOA?oc=5" target="_blank">投资美股的韩国散户单日评估损失至少13万亿韩元</a><div class="desc">国民养老金(NPS)美股七巨头持仓单日波动2.8万亿 — "逃离国内股市去美股"散户的双重打击。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE41ak5wSDhPZmh3U056VW93cWlQcFo2d2lZWFU0eFBtb3c5aXNDOUpTSk5Gc2tvaGNianhjc2JNSUE4eHB0bzRNLUVrLTc4aXpwOFhWX3pvLVBXOGZfUzg3UnpLX0w2SVlxWmc0Wm1TNll5UQ?oc=5" target="_blank">三养食品三季度营业利润1,962亿韩元(+49.9%),再创单季新高</a><div class="desc">CJ CGV营业利润736亿(+215%)亦创历史单季之最 — 暴跌市中的业绩股存在感。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE50XzBuUkV5cm10bjB5bXRFLTFCR1JGZkJXVVJFa1VramJtR2xOWWRkbGVaWTc2a0taVW1KUUFoaklxUFpfM0VtdG1xeEkxNEQ3ODVQdFFjVHNOU1dGQndXUmRlZEZxU2ZXQ21TVEpqS0U?oc=5" target="_blank">锦湖石化11年来首现单季亏损,乐天化学亏损扩大</a><div class="desc">全球景气低迷+中东成本压力 — 化工链的寒冬仍在延续。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFB1RDNlOXZVa3pNMi1QWEFUMDFrbWNGTGlsU2JJQ3E5aTEtdzJkTy1hVnhzY3JjTy1ORFZFMEVqd0o2Yk9jU0NId0Q3elVYdTRmSkM4RDhFMU9QdU1PbDluT0dqOVpXeEZsZUlvaVV2Z3JRclFTZ0ZWR9IBeEFVX3lxTFB1RDNlOXZVa3pNMi1QWEFUMDFrbWNGTGlsU2JJQ3E5aTEtdzJkTy1hVnhzY3JjTy1ORFZFMEVqd0o2Yk9jU0NId0Q3elVYdTRmSkM4RDhFMU9QdU1PbDluT0dqOVpXeEZsZUlvaVV2Z3JRclFTZ0ZWRw?oc=5" target="_blank">加密交易所Gopax遭黑客威胁,全面暂停充提与交易</a><div class="desc">币安被黑(报道指朝鲜关联)余波下的本土交易所警戒 — 金融委将个人信息泄露特别应对期延长至年底。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPWThWZXVpQTBXOU9WVlhmc0ZnSlVJMWlrbzdoNDVybXh1dmtSSnczQWhJMER3V0JSRHg3MkZqQnFDRUdENUNXTVlSalQ5X050Q0xSVkR4TXFpa0HSAWBBVV95cUxOMnZvRUNXN1FnTXJfVmg4aDNEZ09QNnkxOWdEMFRBQXpPSy1sVzJWT01TSlVxNHljMlU0UFR3VGdFM015WVFXNzFGbG5LZjAzbzhwbGV4ZFR0eUJiWkpleE8?oc=5" target="_blank">中国长江存储(YMTC)拟将新厂设备国产化率提升至70%(路透)</a><div class="desc">既是三星·海力士NAND竞争变量,也是韩国设备商的替代风险 — 参见中国·香港版议题④。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE90eDlMU2d0Rk9iRG5QVEFtb2Y5N0Y5dWVJVnFDQTA5MWdPR1hlWHRBdDlFWGdhMVZ3b2JoNFdMU183dko1R3NERjhUeWNiX3VoQW9aVHd3LWZoSE3SAWBBVV95cUxPdno0ZFVoR25lVXJ0dkFyQUxDM1lOZzV3cVlMeTlydGNxbXhZSFhHVktjWWlIS21iV2JhejZaZmsxSlBUTVR5b0t2Rm4zWEhLd2VPTnZfLV9CQndQai0zLWU?oc=5" target="_blank">"现代汽车机器人价值链"等6只ETF将于11/10上市</a><div class="desc">斗山与中国常熟市签署覆铜板(CCL)扩产投资协议 — AI基板材料扩产仍在继续。</div></div>
+</div>
+
+<footer>
+  <p><b>方法论</b> — 每日16:30(韩国时间)从韩国本地媒体·当局发布·国际通讯社·研究机构等19个来源采集近24小时报道,按投资相关性筛选·摘要。议题筛选与摘要由AI(Claude)完成,未经人工复核。</p>
+  <p><b>数据基准</b> — 当日16:30自动采集未执行,改为20:22(韩国时间)手动采集发布;<b>11/4(周三)·11/5(周四)两日为停刊空白</b>(该期间报道未纳入采集)。KOSPI 5,059.69(-6.02%)·KOSDAQ 644.27(-5.03%)经market.json(20:25取数)与韩联社·MoneyToday收盘报道交叉核对;国债3年期3.613%(-5.6bp)·10年期3.853%(-3.4bp)以首尔债市收盘报道为准;美元/韩元1,356.60(+14.5)为15:30基准价。KOSPI 11/5收盘5,383.80由当日涨跌(-324.11点)反推。Naver研报采集因解析故障当日亦失败,以目标价·覆盖报道替代。</p>
+  <p><b>免责</b> — 本资料仅供参考,不构成对特定股票·资产的买卖建议。投资判断与责任由使用者本人承担。仅供参考,不构成投资建议。</p>
+</footer>
+</div>
+
+<script>
+function toggleLang(){
+  var ko=document.getElementById('lang-ko'), zh=document.getElementById('lang-zh');
+  var showZh = zh.hidden;
+  zh.hidden = !showZh; ko.hidden = showZh;
+  try{history.replaceState(null,'',location.pathname+(showZh?'#zh':''));}catch(e){}
+  window.scrollTo(0,0);
+}
+if(location.hash==='#zh'){
+  document.getElementById('lang-ko').hidden=true;
+  document.getElementById('lang-zh').hidden=false;
+}
+</script>
+</body>
+</html>
