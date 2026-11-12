@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한국 이슈 다이제스트 · 2026-11-12</title>
+<style>
+:root{
+    --ink:#1a1d24; --sub:#5a6172; --line:#e5e8ee; --bg:#f7f8fa; --card:#ffffff;
+    --accent:#1f4e8c; --accent-soft:#eef4fb; --up:#c0392b; --down:#1a6fb5;
+    --tag-bg:#eef1f6; --tag-ink:#4a5468;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',-apple-system,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px}
+  .wrap{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+  header{padding:28px 0 20px;border-bottom:3px solid var(--ink);margin-bottom:24px;position:relative}
+  .brand{font-size:13px;letter-spacing:2px;color:var(--accent);font-weight:700;margin-bottom:6px}
+  h1{font-size:26px;font-weight:800;letter-spacing:-0.5px}
+  .meta{color:var(--sub);font-size:13px;margin-top:8px}
+  .lang-btn{position:absolute;top:28px;right:0;background:var(--card);border:1px solid var(--line);
+    border-radius:20px;padding:4px 14px;font-size:13px;font-weight:700;color:var(--accent);cursor:pointer}
+  .lang-btn:hover{background:var(--accent-soft)}
+  h2{font-size:15px;font-weight:800;letter-spacing:1.5px;color:var(--accent);
+     margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .market{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .mkt-table{width:100%;border-collapse:collapse;font-size:14px}
+  .mkt-table th{text-align:left;color:var(--sub);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line);font-size:12px}
+  .mkt-table td{padding:8px;border-bottom:1px solid var(--line)}
+  .mkt-table tr:last-child td{border-bottom:none}
+  .num{font-variant-numeric:tabular-nums;text-align:right}
+  .up{color:var(--up);font-weight:700}.down{color:var(--down);font-weight:700}
+  .mkt-note{font-size:14.5px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+  .mkt-note p{margin-bottom:10px}
+  .mkt-note p:last-child{margin-bottom:0}
+  .sector{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-top:12px}
+  .sector h4{font-size:14px;color:var(--accent);margin:10px 0 4px}
+  .sector h4:first-child{margin-top:0}
+  .sector p{font-size:14px;margin-bottom:4px}
+  .issue{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:14px}
+  .issue-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+  .stars{color:var(--accent);font-size:13px;letter-spacing:1px;white-space:nowrap}
+  .issue h3{font-size:18px;font-weight:800;letter-spacing:-0.3px;line-height:1.4}
+  .issue h3 a{color:inherit;text-decoration:none}
+  .issue h3 a:hover{color:var(--accent)}
+  .summary{font-size:15px;margin:8px 0 10px}
+  .why{font-size:13.5px;background:var(--accent-soft);border-radius:8px;padding:10px 12px;margin:10px 0;color:#1f3f6e}
+  .why b{font-weight:800}
+  .why-cn{background:#fdf0ef;color:#7a2b24}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px}
+  .tag{font-size:11.5px;background:var(--tag-bg);color:var(--tag-ink);border-radius:20px;padding:2px 10px;font-weight:600}
+  .links{font-size:13px;color:var(--sub);margin-top:8px;line-height:1.9}
+  .links a{color:#2456a6;text-decoration:none}
+  .links a:hover{text-decoration:underline}
+  .brief{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 20px}
+  .brief-item{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+  .brief-item:last-child{border-bottom:none}
+  .brief-item a{color:var(--ink);text-decoration:none;font-weight:700}
+  .brief-item a:hover{color:var(--accent)}
+  .brief-item .desc{color:var(--sub);font-size:13.5px;margin-top:2px}
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--sub);line-height:1.8}
+  @media(max-width:480px){h1{font-size:22px}.issue{padding:16px}}
+</style></head>
+<body>
+<div class="wrap">
+<div id="lang-ko">
+<header>
+  <div class="brand">KOREA ISSUE DIGEST</div>
+  <button class="lang-btn" onclick="toggleLang()">中文</button>
+  <h1>한국 이슈 다이제스트</h1>
+  <div class="meta">2026년 11월 12일 (목) · 수집분 기사 604건에서 선별 · 코스피·코스닥·국고채·원/달러 모두 당일 마감 확정치 · 본 호는 자동 생성 누락분을 11/13 오전에 복구 발행</div>
+</header>
+
+<div class="sector" style="margin-top:0;margin-bottom:20px">
+  <h4>오늘 세 줄 요약</h4>
+  <p>① <b>시장</b> — 코어위브 훈풍(나스닥 +1.6%)에 +0.2%로 출발한 코스피가 '젠슨 황 해임 준비' 보도에 오락가락하다 옵션 만기 수급까지 겹치며 -0.61%(5,342.73) 마감, 코스닥 -1.22%(696.53). 개인만 나홀로 순매수. 원/달러 1,330.7원(-2.9원), 국고채 3년 3.729% 보합·10년 3.937%(-1.3bp)</p>
+  <p>② <b>이슈</b> — 증권사 3분기 실적 줄줄이 악화: 증시 부진·금리 상승에 공정위 과징금(1.4조)이 직격했고, 미래에셋증권은 스페이스X 평가손실까지 겹쳐 적자전환 — "2,730억 흑자 전망이 591억 적자로" 뒤집힌 과징금 후폭풍</p>
+  <p>③ <b>체크</b> — 11/13(금) 밤 美 10월 PPI, 11/17~19 APEC 선전(미중 정상회담), 엔비디아 이사회의 젠슨 황 거취 결정</p>
+</div>
+
+<h2>시장 종합 — 11/12(목) · 훈풍으로 열고 '젠슨 황'으로 닫았다</h2>
+<div class="market">
+  <table class="mkt-table">
+    <tr><th>자산</th><th class="num">가격</th><th class="num">등락</th></tr>
+    <tr><td>코스피 <span style="color:var(--sub);font-size:12px">(11/12 마감 — 이틀 반등 후 숨고르기, 옵션 만기일)</span></td><td class="num">5,342.73</td><td class="num down">-0.61%</td></tr>
+    <tr><td>코스닥 <span style="color:var(--sub);font-size:12px">(11/12 마감)</span></td><td class="num">696.53</td><td class="num down">-1.22%</td></tr>
+    <tr><td>국고채 3년 금리 <span style="color:var(--sub);font-size:12px">(11/12 마감 — 전일 급등 되돌림과 긴축 경계가 상쇄)</span></td><td class="num">3.729%</td><td class="num">보합</td></tr>
+    <tr><td>국고채 10년 금리 <span style="color:var(--sub);font-size:12px">(11/12 마감)</span></td><td class="num">3.937%</td><td class="num down">-1.3bp</td></tr>
+    <tr><td>원/달러 환율 <span style="color:var(--sub);font-size:12px">(15:30 기준가)</span></td><td class="num">1,330.70</td><td class="num down">-2.9원</td></tr>
+  </table>
+  <div class="mkt-note">
+    <p><b>①훈풍과 악재가 한 몸으로 왔다.</b> 간밤 미 증시는 CoreWeave의 호실적·가이던스 상향으로 "AI 수요는 건재하다"는 안도가 번지며 나스닥 +1.6% — AI 반도체주가 일제히 급등해 마이크론 시총이 하루 130조 원 불었다. 코스피도 +0.2%(5,385.94)로 출발해 장중 1%대 강세까지 갔고 삼성전자가 한때 2%대 올랐다. 그러나 "엔비디아 이사회가 젠슨 황 해임을 준비하며 새 CEO 물색에 착수했다"는 보도(시간외 -8.6%, 시총 3위로 밀림)가 확산되자 투심이 급랭 — 장중 1%대 하락까지 밀렸다가 옵션 만기일 막판 수급 출렁(외국인 선물 매도) 속에 -0.61%로 마감했다. 이틀 연속 반등(코스닥은 이틀 새 10%) 뒤의 숨고르기로, 개인만 나홀로 순매수했다.</p>
+    <p><b>②'셀코리아'의 바닥은 아직.</b> 수급의 큰 그림은 여전히 무겁다. 외국인 증권투자 자금은 9개월 연속 순유출로 올해 누적 1,600억 달러를 넘겼고, 10월 주식 순매도는 9월보다 6.8조 원 더 커졌다. 증시 거래대금은 고점 대비 62% 급감한 'K증시 썰물' 국면. 서학개미의 엔비디아 평가액은 한 달 새 7조 원, 국민연금의 엔비디아 평가액도 넉 달 새 4조 원 증발했다 — 월가에서는 엔비디아 목표가 '반토막' 하향도 등장. IPO 시장도 한파가 깊어져 넥스아이가 상장 첫날 40% 가까이, 바로팜이 22% 급락했고 올해 상장한 코스닥 ETF는 전부 손실 구간이다. 당국은 신용공여 140%룰 면제와 관련해 "빚투가 늘지 않게 관리하겠다"고 업계에 당부했고, '13일 코스닥 추가대책설'에는 "사실무근 — 풍문 유포 엄정 조치"로 선을 그었다.</p>
+    <p><b>③채권·환율은 차분, 펀더멘털 경고는 유가에서.</b> 국고채는 전일 급등(빅스텝 공포)의 되돌림과 긴축 경계가 맞서며 혼조 — 3년물 3.729% 보합, 10년물 3.937%(-1.3bp)로 마감했고, 외국인은 3년·10년 국채선물을 각각 1,646·3,216계약 순매수했다. CME 페드워치의 12월 미 인상 확률은 91%까지 올라 '빅스텝' 논쟁이 진행형이다. 원/달러는 1,330.7원으로 이틀째 하락. 한편 KDI는 "반도체 호황의 소비 개선 효과는 내년에야 본격화되는 반면, 고유가 충격은 소비에 먼저 반영된다"고 경고했다 — 브렌트유가 93달러를 돌파한 날이어서 울림이 컸다.</p>
+  </div>
+</div>
+<div class="sector">
+  <h4>강세 — 업종·테마</h4>
+  <p><b>엔터</b> JYP엔터가 스트레이키즈 서구권 흥행의 호실적에 장초반 20% 급등. <b>보안</b> 지니언스 +20%대(3분기 영업익 +253%). <b>조선</b> 대한조선 등 밸류에이션 리포트에 강세.</p>
+  <h4>약세·신중 — 업종·테마</h4>
+  <p><b>증권</b> 3분기 실적 악화 + 과징금 후폭풍. <b>리츠</b> 제이알 쇼크 이후 신저가 행진 — 해외 리츠엔 '환헤지 청구서'까지. <b>반도체 대형주</b> 장중 상승분 반납, 젠슨 황 불확실성에 변동성 확대.</p>
+</div>
+
+<h2>어제(11/11) 이슈 후속</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XdHU0YXFGRVozVTZNRDhXdFNieHpOOWZIOUI1YnNnOXhGUFp3UHRqNXVsQjU1NTFJU1UtbDNHSTF2NWxJaWp1SzVLNEU2dXVqc?oc=5" target="_blank">공정위 1.6조 과징금 → 증권사 3분기 실적 직격 — "2,730억 흑자 전망이 591억 적자로"</a>
+    <div class="desc">어제 ★★★ 이슈의 후속 — 과징금 반영이 시작되며 3분기 실적이 줄줄이 꺾였고, 은행권도 법적 대응을 저울질 중이다.</div></div>
+  <div class="brief-item"><a href="https://www.specialtimes.co.kr/news/articleView.html?idxno=484889" target="_blank">美 CPI 쇼크·빅스텝 공포 → 국고채는 되돌림 혼조 — 12월 인상 확률 91%</a>
+    <div class="desc">어제 ★★ 이슈의 후속 — 전일 급등분을 되돌리며 장기물 금리가 소폭 내렸지만, 월가의 집단 '인상 전망 상향'으로 경계는 그대로다.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xYzEtQzNJVk52bC1xcEFLblprdnlja0RFYzJMNnF1dEVlNFQ1aUJrMTdQaVdETjhDOHVIcHJESnZpdDVfc09KR2FZdVBvVDQ3M?oc=5" target="_blank">젠슨 황 칩 밀반입 스캔들 → '해임 준비' 보도로 격화 — 美 재무·상무는 제재를 놓고 백악관 충돌</a>
+    <div class="desc">어제 ★★ 이슈의 후속 — 개인 스캔들이 거버넌스 리스크와 수출통제 정국으로 번지며 이날 코스피의 발목을 잡았다.</div></div>
+</div>
+
+<h2>주요 이슈</h2>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZVXFxNTNqWmN1Y3dzcENsNVFvVm84MzhWZGV1eG55Q0FMVUluekR1MWJIYThWREtNZTRHb2o2YlY1YjRXUG1qanNEVUJyUTVlN?oc=5" target="_blank">'젠슨 황 해임 준비'가 훈풍을 삼켰다 — 오락가락 끝 코스피 -0.61%, 옵션 만기 막판 출렁</a></h3></div>
+  <p class="summary">코어위브발 안도 랠리(나스닥 +1.6%)를 등에 업고 +0.2%로 출발한 코스피는 장중 1%대 강세와 1%대 약세를 오가는 롤러코스터 끝에 5,342.73(-0.61%)으로 마감했다. 방향을 바꾼 건 "엔비디아 이사회가 젠슨 황 해임을 준비 중 — 새 CEO 물색 착수, 과도기 CEO 검토"라는 보도. 엔비디아는 시간외 -8.6%로 시총 3위까지 밀렸다. 옵션 만기일 외국인의 선물 매도가 막판 변동성을 키웠고, 현물 수급은 개인 홀로 순매수. 전문가들은 "해임이 현실화돼도 반도체 수요 영향은 제한적"이라는 시각과 "리더십 공백 자체가 AI 밸류에이션 리스크"라는 시각이 맞섰다.</p>
+  <div class="why"><b>왜 중요</b> — 코스피의 단기 방향이 국내 변수가 아니라 '엔비디아 거버넌스'라는 통제 불능 변수에 묶여 있음이 재확인됐다. 이사회 결정·네비우스 등 AI 실적 이벤트가 나올 때까지 지수보다 변동성(옵션)의 영역이다.</div>
+  <div class="why" style="background:#fdf6ec;color:#7a5b24"><b>🇨🇳 중국 연결</b> — 같은 재료가 중국에서는 '국산 칩의 기회'로 해석돼 A주 반도체 지수가 6% 급등, 캠브리콘(寒武纪)이 1,000위안을 회복했다 — 상세는 중국·홍콩판 참고.</div>
+  <div class="tags"><span class="tag">코스피</span><span class="tag">엔비디아</span><span class="tag">옵션 만기</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZVXFxNTNqWmN1Y3dzcENsNVFvVm84MzhWZGV1eG55Q0FMVUluekR1MWJIYThWREtNZTRHb2o2YlY1YjRXUG1qanNEVUJyUTVlN?oc=5" target="_blank">연합뉴스(종합)</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3eDNPcm43NVcwVVFDVF9LVXhhZDZTMjNFc0xIdldBWUZldjN2eldoampwcU1nOXJYTzVCS2lneG1xZV9qNzd4M19yLW9BMHdBR?oc=5" target="_blank">매일경제(옵션만기)</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tV0k0aUNUMUtIN21LVk1JMS1rbWQ5Zm80Ui1hMy1OSzdwS2FNZ1JfSUtna1RwcWFEYTU0ZldyOVdSVllDTTF2cDRtUVMwSENBN?oc=5" target="_blank">매일경제(해임 준비)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LaS1QeWtuWUJTSm53Sm9xRFBTSmFpUmtUcVFjcldsME9GOUxMSW4tMTFHT0xsdUtyeVR6MTIwWHNPcWktMUNrRkJtTUR4Nm5EM?oc=5" target="_blank">연합뉴스(마이크론)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XdHU0YXFGRVozVTZNRDhXdFNieHpOOWZIOUI1YnNnOXhGUFp3UHRqNXVsQjU1NTFJU1UtbDNHSTF2NWxJaWp1SzVLNEU2dXVqc?oc=5" target="_blank">증권사 3분기 실적 '줄악화' — 과징금 후폭풍 속 미래에셋증권은 스페이스X 평가손까지 겹쳐 적자전환</a></h3></div>
+  <p class="summary">증시 거래 부진과 금리 상승에 공정위 국고채 담합 과징금(업계 합산 1.4조~1.6조 원)이 겹치며 증권사 3분기 실적이 줄줄이 꺾였다. 미래에셋증권은 업황 부진에 스페이스X 지분 평가손실까지 반영되며 적자전환했고, 유안타증권은 영업이익이 전분기 대비 38% 줄었다. "과징금 반영으로 2,730억 원 흑자 전망이 591억 원 적자로 뒤집혔다"는 분석 보고서가 후폭풍의 크기를 보여준다. 과징금을 부과받은 은행권은 "정부가 맡긴 업무(국고채 전속 입찰)를 수행했을 뿐"이라며 법적 대응을 저울질 중이다.</p>
+  <div class="why"><b>왜 중요</b> — 거래대금 -62%의 구조적 부진에 일회성 과징금·평가손이 겹친 '실적 트리플 악재'다. 증권업 밸류에이션의 바닥 확인은 과징금 소송의 향방과 4분기 거래대금 회복에 달렸고, 국고채 전속 딜러 제도 개편 논의로도 번질 수 있는 사안이다.</div>
+  <div class="tags"><span class="tag">증권업</span><span class="tag">과징금</span><span class="tag">3분기 실적</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XdHU0YXFGRVozVTZNRDhXdFNieHpOOWZIOUI1YnNnOXhGUFp3UHRqNXVsQjU1NTFJU1UtbDNHSTF2NWxJaWp1SzVLNEU2dXVqc?oc=5" target="_blank">연합뉴스(종합)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE00b3dyWDRSZVMxdWNpS0Zuc2htQk8yZUNwSW9aVllPVk9EVVd4RjhacV9EM1NyRkRVOGNWb3kwWlBQdFNNMnpWVGtXUkZia1Z3R?oc=5" target="_blank">연합뉴스(미래에셋)</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEdBNDRWbWVaVzVJLVJ0TTFlLUpzX01LMHpmdFRLLXVMUXJWZDd5NHItUkNkZ2t0dENXUjNkRURvNnZGS3drWWJYcTdYWXQ4d?oc=5" target="_blank">매일경제(보고서)</a> · <a href="https://biz.heraldcorp.com/article/10934552" target="_blank">헤럴드경제(은행권)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://www.hani.co.kr/arti/economy/economy_general/1286970.html" target="_blank">외국인 증권자금 9개월 연속 순유출 — 올해 1,600억 달러 넘겨, 거래대금은 62% 급감</a></h3></div>
+  <p class="summary">외국인 증권투자 자금이 9개월 연속 빠져나가며 올해 누적 순유출이 1,600억 달러를 넘겼다. 10월 주식 순매도는 9월보다 6.8조 원 더 커진 '더 거세진 셀코리아'. 증시 거래대금은 고점 대비 62% 줄어 활력 자체가 식었고, 그 돈의 일부는 미국으로 — 서학개미의 엔비디아 평가액이 한 달 새 7조 원 증발하는 역풍도 함께 맞았다. IPO 시장은 넥스아이(첫날 -40%)·바로팜(-22%)의 연쇄 급락과 '올해 상장 코스닥 ETF 전멸'이 보여주듯 신규 자금 유입 기능이 마비 상태다.</p>
+  <div class="why"><b>왜 중요</b> — 반등의 질을 가르는 건 결국 외국인 현물 복귀다. 순유출 9개월은 환율·밸류에이션보다 'K증시 신뢰'의 문제임을 시사 — 거래소의 상장 제도 개편, 당국의 수급 관리(140%룰)가 맞물리는 지점을 지켜봐야 한다.</div>
+  <div class="tags"><span class="tag">셀코리아</span><span class="tag">거래대금</span><span class="tag">IPO 한파</span></div>
+  <div class="links">원문: <a href="https://www.hani.co.kr/arti/economy/economy_general/1286970.html" target="_blank">한겨레</a> · <a href="https://biz.heraldcorp.com/article/10935172" target="_blank">헤럴드경제</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyRFIyTlNpZW5DWUdneUJWWlhFWDVsbnRJOHpKVnkyUS1hT05FeE5kQkFreWJlOXpucFlZZjlqVTBlbFlFbVltdjFBdFdvdHBUT?oc=5" target="_blank">매일경제(거래대금)</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE03QUs2ZGtfYlVwb0IwOGd0VFIwZ1lSdy1STElRU1dmcVBtUUJSbk8wbkFraS13TjNXdjg1aUJPb3M2T1laMFNZaFNJRkRqZEtpU?oc=5" target="_blank">연합뉴스(넥스아이)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://www.specialtimes.co.kr/news/articleView.html?idxno=484889" target="_blank">국고채 혼조 마감 — 3년 3.729% 보합·10년 -1.3bp, '12월 美 인상 확률 91%'의 경계 속 외국인은 선물 매수</a></h3></div>
+  <p class="summary">전일 빅스텝 공포로 급등했던 국고채 금리가 되돌림과 경계 사이에서 혼조로 마감했다 — 3년물 3.729%(보합), 10년물 3.937%(-1.3bp), 30년물 4.015%(보합). CME 페드워치의 12월 미 금리 인상 확률이 91%까지 오르며 상방 압력은 여전하지만, 외국인은 3년 국채선물 1,646계약·10년 3,216계약을 순매수하며 금리 하락 쪽 포지션을 유지했다. 원/달러 환율은 1,330.7원(-2.9원)으로 이틀째 하락.</p>
+  <div class="why"><b>왜 중요</b> — 미국의 '인상 재개'와 한국의 '동결+완화 기대' 사이에서 한미 금리차 역전 구조가 다시 벌어질 수 있는 구간이다. 11월 금통위를 앞두고 한은 의사록의 '추가 긴축 공감' 발언과 시장의 선물 매수 포지션이 충돌하고 있어, 13일 밤 미 PPI가 채권·환율의 공통 분수령이다.</div>
+  <div class="tags"><span class="tag">국고채</span><span class="tag">빅스텝</span><span class="tag">환율</span></div>
+  <div class="links">원문: <a href="https://www.specialtimes.co.kr/news/articleView.html?idxno=484889" target="_blank">스페셜타임스(연합)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWRWswTEtobWcwOEgxa19ROFlLbmlHLWVKRlRndlJxMHlXenJOUlVac3NHdXY1NTZEZi1UZmhiaDJBQ3A5V0VPRjlzZ19COFI2N?oc=5" target="_blank">연합뉴스(환율)</a> · <a href="https://ajunews.com/view/20261112165748237" target="_blank">아주경제</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uWU52R2Njd0dmRk1nMWZUQW1xMGFxNGFmWGo5RVp1aHZHRGk1X3lEelliZGwxenhqc2ZCMl9mR0hFUDMxOEs0RHBXMks0Y3Nme?oc=5" target="_blank">KDI "반도체 온기보다 고유가 충격이 먼저" — 브렌트 93달러 돌파한 날의 경고</a></h3></div>
+  <p class="summary">KDI가 "반도체 호황에 따른 소비 개선 효과는 내년부터 본격화되는 반면, 고유가 충격은 소비에 먼저 부정적으로 반영된다"고 진단했다. 마침 이날 브렌트유가 93달러를 돌파하며 경고가 현실의 숫자로 다가왔다. 수출은 AI 투자 붐을 타고 폭증(11월 초순 +111.9%)했지만 "글로벌 AI 투자가 꺼지면 침체를 막을 수 없다"는 집중 리스크 지적도 함께 나온다 — 반도체 외끌이 경제의 양면이다.</p>
+  <div class="why"><b>왜 중요</b> — '수출 서프라이즈 ≠ 내수 회복'의 간극이 공식 확인됐다. 유가발 물가 재반등은 한은의 완화 여력을 좁히고 소비주 실적 전망을 깎는 이중 변수 — 에너지 수입단가와 소비 지표의 조합을 내년 상반기까지 추적할 필요가 있다.</div>
+  <div class="tags"><span class="tag">KDI</span><span class="tag">유가</span><span class="tag">내수</span></div>
+  <div class="links">원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uWU52R2Njd0dmRk1nMWZUQW1xMGFxNGFmWGo5RVp1aHZHRGk1X3lEelliZGwxenhqc2ZCMl9mR0hFUDMxOEs0RHBXMks0Y3Nme?oc=5" target="_blank">연합뉴스</a> · <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1oWHUyTUVSZGJGT090T214WGF5cWs1T25FWDk2Nk9malhNc1hlbmxNWnpTVG5SVmxoczNvanh4REtrR00zcUFITVNXb2s1N1lkT?oc=5" target="_blank">머니투데이(수출)</a></div>
+</div>
+
+<h2>다음 체크포인트</h2>
+<div class="brief">
+  <div class="brief-item">11/13(금) 밤 — <b>美 10월 PPI</b><div class="desc">CPI 쇼크 뒤 첫 물가 확인 — '12월 인상 91%'와 빅스텝 논쟁, 그리고 국고채·환율의 공통 분수령.</div></div>
+  <div class="brief-item">11/17(화)~19(목) — <b>APEC 선전 정상회의 — 미중 정상, AI 전용 대화 채널 의제</b><div class="desc">수출통제·관세의 방향을 가르는 이벤트 — K반도체의 지정학 변수(젠슨 황 스캔들발 제재 논쟁 포함).</div></div>
+  <div class="brief-item">수시 — <b>엔비디아 이사회의 젠슨 황 거취 결정 · 네비우스 등 AI 실적</b><div class="desc">코스피 방향을 쥔 외생 변수 — 승계 발표 시점까지 반도체 대형주의 변동성 구간.</div></div>
+</div>
+
+<h2>증권사 리포트 — 산업·개별종목 우선</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nUlN0NmpfS0pnMVJsUzQycElCSnIzTmprRFZCRlRkWUw5T1VYTWd3ZXZGM28yM3lkb1JTNklPYVdfdFZxaGFtVEx3TmFFNjR3T?oc=5" target="_blank">GS건설(006360) — 키움증권, 목표가 상향</a>
+    <div class="desc">핵심 논거: "미국 '블루웨이브' 인프라 투자 확대의 반사이익 기대" — 해외 수주 모멘텀 콜.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MUGRuSmVJWHdrVXlWSnpJZU0ybE9aN2V1SHRiTGUwc1MwMDlWbkExRzlUZFVNLVkwZTZJa3BPMml6XzF6WDc5a01Zc2RLcXh0a?oc=5" target="_blank">코스맥스(192820) — NH투자증권, 목표가 상향</a>
+    <div class="desc">핵심 논거: "명확한 양적·질적 성장" — K뷰티 ODM의 글로벌 수주 레버리지.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xbFdjTHZLVVgycFNhSlpuMWxsN0QzRFZrU012YVh1R1hWTm9wZUhFTkE2eWNnUldGNU01cmZpcnhMMnV2TG9za1FwY285djJyS?oc=5" target="_blank">티엘비(356860) — IBK투자증권, 목표가 상향</a>
+    <div class="desc">핵심 논거: "4분기 영업이익률 20%까지 상승 전망" — 메모리 모듈 PCB의 슈퍼사이클 수혜.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE43cExFT0NGQUpvWFF6Q2VTRUNYa0xfQkdLYU9Sd2V6eHRKSVhPNXRmbjg1SGl0dGNCclk2Z010QXFuN2x6MGtlV3ZmSjU1ZEs3V?oc=5" target="_blank">실리콘투(257720) — 키움증권, 목표가 하향</a>
+    <div class="desc">핵심 논거: "원화 강세에 영업이익 전망치 하회" — 환율이 수출주 실적의 역풍으로.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JdEMzcEFocmEyU3JCWFg5Mi10Wm8tYVRqb1doNFdxZC1rclFsQWFyNGZETE12SVJSdEw3TTNETUg1MnNOWm0zcGcxaEJfVG5JZ?oc=5" target="_blank">코오롱인더(120110) — 신한투자증권, 목표가 하향</a>
+    <div class="desc">핵심 논거: "원가·환율 부담에 실적 악화" — 소재 업종의 비용 압박 지속.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBINUxIUTk5WmlpSlE0S1RBc0xYNDhnVFppam9NdUlYWkp2WTRTcXZRLWxUQkRvNVNnaEdjR3pZVExELWJxMW5zN3pVLXhub1Q4Q?oc=5" target="_blank">메리츠금융지주(138040) — 키움증권, 목표가 17만 원 유지</a>
+    <div class="desc">핵심 논거: "순익 28% 급감에도 자사주 소각 중심의 주주환원 일관성" — 하락장 방어주 논리.</div></div>
+</div>
+
+<h2>단신</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ocUo0VjNaMy1LWnJmWEJ6U3prX1FUeVZtLWQtMkxGNW1PS0t4SlVIQ185SXUyNzZtX2psRzBpOGZ5WDI1aWpQU0tIa0cxUHhvN?oc=5" target="_blank">JYP엔터, 스트레이키즈 서구권 흥행에 장초반 20% 급등</a><div class="desc">엔터 실적 시즌의 깜짝 주인공 — 하락장 속 개별 실적 장세.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWkJ6c3Fidm9ONmtRR2taRWVMaU9ZX1p6UEFsM0RsOWVzay15YVBoc1hBUkh6TjJYLV9kSXlUV2thN2tFOHF0U012djZzSTZRZ?oc=5" target="_blank">LH, 광명시흥·용인 반도체 산단에 2조 원 추가 투입 — 보상 속도전</a><div class="desc">반도체 클러스터 인프라의 병목(용지 보상)을 돈으로 푸는 단계.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VVkRVN210VWtxT3ZEUEdpUXBhM0w2YlFxSHZsTXBJb0UzLTU4dGktUnpkcWJOVDd4YmVkU3E1ckRzNGppcUZlMEEyVjBKNjlSb?oc=5" target="_blank">K-온디바이스 AI 반도체 속도전 — 2030년까지 AI칩 등 10종 개발</a><div class="desc">엔비디아 리스크 국면에서 나온 국산화 로드맵 — 중국의 '국산 대체' 랠리와 같은 방향.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9saVJUeDVXMHN2LUl3VEJzbFQ4OHZfRjY0WDBpb3RIMGFCaHJCR3BXSHE2M0ZxbGFsZWJoWU9adU1ycmJsOVZtNGNhTkVzMXlTd?oc=5" target="_blank">금융당국 "13일 코스닥 추가대책설은 사실무근 — 풍문 유포 엄정 조치"</a><div class="desc">급락장 '정책 기대 풍문'에 경고 — 대책은 풍문이 아니라 공식 발표로.</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFAzakZSNm45aHUzT3FEYXpMdGlpMEJ5YVBELWZHQW5yLXZIeXVCMUh1ckJDWXo5blhabk0yd3pzZ082ZzZLMzZpdVFyWEZBN3dJV?oc=5" target="_blank">국민연금 엔비디아 평가액, 넉 달 새 4조 원 증발 — 주가 하락분의 1.9배</a><div class="desc">해외주식 비중 확대의 역풍 — 환·주가 이중 노출의 숙제.</div></div>
+</div>
+
+<footer>
+  <b>방법론</b> — 매일 16:30 KST(이날은 18:23 KST 지연 수집)에 국내 매체·당국 보도·리서치 등 19개 소스에서 직전 24시간 기사를 수집하고, 투자 관련성 기준으로 선별·요약합니다. 이슈 선별과 요약은 AI(Claude)가 수행하며 사람의 검수를 거치지 않습니다. 본 호는 11/12 자동 생성 누락분을 11/13 오전에 복구 발행한 것입니다.<br>
+  <b>데이터 기준</b> — 코스피·코스닥: 11/12 마감 확정치. 국고채: 11/12 마감(연합 보도 기준, 3년물은 전일과 같은 수준). 원/달러: 15:30 기준가(연합뉴스).<br>
+  <b>면책</b> — 본 자료는 정보 제공 목적이며 특정 종목·자산의 매매 권유가 아닙니다. 투자 판단과 책임은 이용자 본인에게 있습니다.
+</footer>
+</div>
+
+<div id="lang-zh" hidden>
+<header>
+  <div class="brand">KOREA ISSUE DIGEST</div>
+  <button class="lang-btn" onclick="toggleLang()">한국어</button>
+  <h1>韩国市场日报</h1>
+  <div class="meta">2026年11月12日(周四) · 从当日采集的604篇报道中精选 · KOSPI·KOSDAQ·国债·汇率均为当日收盘确定值 · 本期为自动生成遗漏后于11/13上午补发</div>
+</header>
+
+<div class="sector" style="margin-top:0;margin-bottom:20px">
+  <h4>今日三句话</h4>
+  <p>① <b>市场</b> — 借CoreWeave暖风(纳指+1.6%)高开0.2%的KOSPI，因"英伟达董事会筹备撤换黄仁勋"的报道反复震荡，叠加期权到期日的资金扰动，收跌0.61%(5,342.73)，KOSDAQ跌1.22%(696.53)，仅散户净买入。美元/韩元1,330.7(-2.9韩元)，3年期国债3.729%持平、10年期3.937%(-1.3bp)</p>
+  <p>② <b>焦点</b> — 券商三季报集体恶化：交投低迷、利率上行，加上公平交易委员会巨额罚款(合计约1.4万亿韩元)的冲击；未来资产证券(Mirae Asset)再叠加SpaceX持仓估值损失，由盈转亏 — "2,730亿盈利预期翻成591亿亏损"的罚款后坐力</p>
+  <p>③ <b>关注</b> — 11/13(周五)晚美国10月PPI，11/17~19 APEC深圳(中美元首会晤)，英伟达董事会对黄仁勋去留的决定</p>
+</div>
+
+<h2>市场综述 — 11/12(周四) · 以暖风开盘，以"黄仁勋"收场</h2>
+<div class="market">
+  <table class="mkt-table">
+    <tr><th>资产</th><th class="num">价格</th><th class="num">涨跌</th></tr>
+    <tr><td>KOSPI <span style="color:var(--sub);font-size:12px">(11/12收盘 — 两日反弹后歇脚，期权到期日)</span></td><td class="num">5,342.73</td><td class="num down">-0.61%</td></tr>
+    <tr><td>KOSDAQ <span style="color:var(--sub);font-size:12px">(11/12收盘)</span></td><td class="num">696.53</td><td class="num down">-1.22%</td></tr>
+    <tr><td>3年期国债收益率 <span style="color:var(--sub);font-size:12px">(11/12收盘 — 前日急升的回吐与紧缩警惕相抵)</span></td><td class="num">3.729%</td><td class="num">持平</td></tr>
+    <tr><td>10年期国债收益率 <span style="color:var(--sub);font-size:12px">(11/12收盘)</span></td><td class="num">3.937%</td><td class="num down">-1.3bp</td></tr>
+    <tr><td>美元/韩元 <span style="color:var(--sub);font-size:12px">(15:30基准价)</span></td><td class="num">1,330.70</td><td class="num down">-2.9韩元</td></tr>
+  </table>
+  <div class="mkt-note">
+    <p><b>①利好与利空结伴而来。</b> 隔夜美股因CoreWeave业绩超预期、指引上调而反弹，"AI需求依然坚挺"的安心感推动纳指上涨1.6%，AI半导体股集体大涨(美光市值一日增加约130万亿韩元)。KOSPI随之高开0.2%(5,385.94)，盘中一度涨逾1%，三星电子一度涨超2%。然而"英伟达董事会正筹备撤换黄仁勋、已着手物色新CEO并考虑任命过渡CEO"的报道扩散后(英伟达盘后-8.6%，市值滑落至第三)，投资情绪急转直下，指数一度跌逾1%；期权到期日尾盘外资抛售期货加剧波动，最终收跌0.61% — 两日反弹(KOSDAQ两日涨10%)后的歇脚行情，现货仅散户一方净买入。</p>
+    <p><b>②"卖出韩国"仍未见底。</b> 资金面的大格局依旧沉重：外资证券投资资金连续9个月净流出，年内累计已超1,600亿美元；10月股票净卖出较9月再多6.8万亿韩元。股市成交额较高点萎缩62%，市场活力退潮。韩国散户持有的英伟达市值一个月蒸发约7万亿韩元，国民养老金(NPS)的英伟达持仓四个月缩水4万亿韩元，华尔街甚至出现"腰斩式"下调英伟达目标价的报告。IPO市场寒意更深 — Nex AI上市首日暴跌约40%、Baropharm跌22%，今年上市的KOSDAQ主题ETF全部亏损。监管层就豁免140%信用授予规则表示"将管控杠杆炒股不致扩张"，并对"13日将出台KOSDAQ追加对策"的传闻定性为不实、将严惩造谣传谣。</p>
+    <p><b>③债汇平静，基本面警报来自油价。</b> 国债市场在前日(大步加息恐慌)急升的回吐与紧缩警惕之间收盘涨跌互现 — 3年期3.729%持平、10年期3.937%(-1.3bp)、30年期4.015%持平；外资分别净买入3年期、10年期国债期货1,646手与3,216手，维持押注利率下行的仓位。CME FedWatch显示美联储12月加息概率已达91%，"大步加息(50bp)"之争仍在发酵。美元/韩元连续第二日回落至1,330.7。另一边，KDI警告"半导体景气对消费的提振要到明年才显现，而高油价的冲击会先行反映在消费上" — 恰逢布伦特原油突破93美元，警告格外刺耳。</p>
+  </div>
+</div>
+<div class="sector">
+  <h4>强势 — 板块·主题</h4>
+  <p><b>娱乐</b> JYP娱乐凭Stray Kids欧美市场走红的亮眼业绩早盘大涨20%。<b>网络安全</b> Genians涨逾20%(三季度营业利润+253%)。<b>造船</b> 大韩造船等获估值报告提振走强。</p>
+  <h4>弱势·谨慎 — 板块·主题</h4>
+  <p><b>券商</b> 三季报恶化+罚款后坐力。<b>REITs</b> JR冲击后新低不断，海外REITs还要面对"汇率对冲账单"。<b>半导体权重股</b> 盘中涨幅回吐，黄仁勋不确定性放大波动。</p>
+</div>
+
+<h2>昨日(11/11)议题追踪</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XdHU0YXFGRVozVTZNRDhXdFNieHpOOWZIOUI1YnNnOXhGUFp3UHRqNXVsQjU1NTFJU1UtbDNHSTF2NWxJaWp1SzVLNEU2dXVqc?oc=5" target="_blank">公平会1.6万亿罚单 → 直击券商三季报 — "2,730亿盈利预期翻成591亿亏损"</a>
+    <div class="desc">昨日★★★议题的后续 — 罚款开始计提，券商业绩接连转差，银行业也在权衡法律应对。</div></div>
+  <div class="brief-item"><a href="https://www.specialtimes.co.kr/news/articleView.html?idxno=484889" target="_blank">美国CPI冲击·大步加息恐慌 → 国债回吐式涨跌互现 — 12月加息概率91%</a>
+    <div class="desc">昨日★★议题的后续 — 长端收益率小幅回落，但华尔街集体上调加息预测，警惕未消。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xYzEtQzNJVk52bC1xcEFLblprdnlja0RFYzJMNnF1dEVlNFQ1aUJrMTdQaVdETjhDOHVIcHJESnZpdDVfc09KR2FZdVBvVDQ3M?oc=5" target="_blank">黄仁勋芯片走私丑闻 → 升级为"筹备撤换"报道 — 美财长·商务部长在白宫就制裁发生冲突</a>
+    <div class="desc">昨日★★议题的后续 — 个人丑闻演变为治理风险与出口管制政局，当日拖住了KOSPI的脚步。</div></div>
+</div>
+
+<h2>主要议题</h2>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZVXFxNTNqWmN1Y3dzcENsNVFvVm84MzhWZGV1eG55Q0FMVUluekR1MWJIYThWREtNZTRHb2o2YlY1YjRXUG1qanNEVUJyUTVlN?oc=5" target="_blank">"筹备撤换黄仁勋"吞噬暖风 — KOSPI反复震荡收跌0.61%，期权到期日尾盘激荡</a></h3></div>
+  <p class="summary">背靠CoreWeave带来的安心反弹(纳指+1.6%)高开0.2%的KOSPI，盘中在涨1%与跌1%之间反复拉锯，最终收于5,342.73(-0.61%)。扭转方向的是"英伟达董事会筹备撤换黄仁勋 — 已着手物色新CEO、考虑过渡CEO"的报道：英伟达盘后大跌8.6%，市值退居第三。期权到期日外资抛售期货放大了尾盘波动，现货仅散户净买入。专家观点分歧："即便撤换成真，对半导体需求影响有限" vs "领导层真空本身就是AI估值风险"。</p>
+  <div class="why"><b>为何重要</b> — 再次确认KOSPI的短期方向并不取决于国内变量，而是"英伟达治理"这一不可控变量。在董事会决定与Nebius等AI业绩事件落地之前，与其看指数，不如看波动率(期权)。</div>
+  <div class="why" style="background:#fdf6ec;color:#7a5b24"><b>🇨🇳 中国关联</b> — 同一消息在中国被解读为"国产芯片的机会"：A股半导体指数大涨6%，寒武纪重返1,000元 — 详见中国·香港版日报。</div>
+  <div class="tags"><span class="tag">KOSPI</span><span class="tag">英伟达</span><span class="tag">期权到期</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZVXFxNTNqWmN1Y3dzcENsNVFvVm84MzhWZGV1eG55Q0FMVUluekR1MWJIYThWREtNZTRHb2o2YlY1YjRXUG1qanNEVUJyUTVlN?oc=5" target="_blank">韩联社</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3eDNPcm43NVcwVVFDVF9LVXhhZDZTMjNFc0xIdldBWUZldjN2eldoampwcU1nOXJYTzVCS2lneG1xZV9qNzd4M19yLW9BMHdBR?oc=5" target="_blank">每日经济</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tV0k0aUNUMUtIN21LVk1JMS1rbWQ5Zm80Ui1hMy1OSzdwS2FNZ1JfSUtna1RwcWFEYTU0ZldyOVdSVllDTTF2cDRtUVMwSENBN?oc=5" target="_blank">每日经济(撤换报道)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★★</span><h3><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XdHU0YXFGRVozVTZNRDhXdFNieHpOOWZIOUI1YnNnOXhGUFp3UHRqNXVsQjU1NTFJU1UtbDNHSTF2NWxJaWp1SzVLNEU2dXVqc?oc=5" target="_blank">券商三季报集体转差 — 罚款后坐力之下，未来资产证券叠加SpaceX估值损失由盈转亏</a></h3></div>
+  <p class="summary">交投萎缩、利率上行，再加上公平交易委员会就国债招标串通开出的巨额罚单(行业合计约1.4万亿~1.6万亿韩元)计提，韩国券商三季度业绩接连转差。未来资产证券(Mirae Asset)因行业低迷叠加SpaceX持仓估值损失由盈转亏，友利安他证券营业利润环比下滑38%。"因罚款计提，2,730亿韩元的盈利预期翻成591亿亏损"的分析报告，直观展示了罚款的后坐力。被罚银行则以"只是执行政府委托的国债专属投标业务"为由，正权衡法律应对。</p>
+  <div class="why"><b>为何重要</b> — 成交额萎缩62%的结构性低迷，叠加一次性罚款与估值损失，构成"三重业绩利空"。券商板块估值见底与否，取决于罚款诉讼走向与四季度交投恢复，并可能引发国债专属交易商制度的改革讨论。</div>
+  <div class="tags"><span class="tag">券商</span><span class="tag">罚款</span><span class="tag">三季报</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XdHU0YXFGRVozVTZNRDhXdFNieHpOOWZIOUI1YnNnOXhGUFp3UHRqNXVsQjU1NTFJU1UtbDNHSTF2NWxJaWp1SzVLNEU2dXVqc?oc=5" target="_blank">韩联社</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE00b3dyWDRSZVMxdWNpS0Zuc2htQk8yZUNwSW9aVllPVk9EVVd4RjhacV9EM1NyRkRVOGNWb3kwWlBQdFNNMnpWVGtXUkZia1Z3R?oc=5" target="_blank">韩联社(未来资产)</a> · <a href="https://biz.heraldcorp.com/article/10934552" target="_blank">先驱经济(银行)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://www.hani.co.kr/arti/economy/economy_general/1286970.html" target="_blank">外资证券资金连续9个月净流出 — 年内超1,600亿美元，成交额萎缩62%</a></h3></div>
+  <p class="summary">外资证券投资资金连续9个月净流出，年内累计突破1,600亿美元；10月股票净卖出较9月再增6.8万亿韩元，"卖出韩国(Sell Korea)"愈演愈烈。股市成交额较高点萎缩62%，市场活力退潮，而流向美股的资金同样受挫 — 韩国散户的英伟达持仓市值一个月蒸发7万亿韩元。IPO市场寒冬加深：Nex AI上市首日暴跌约40%、Baropharm跌22%，今年上市的KOSDAQ主题ETF全军覆没(全部亏损)，新增资金的入口近乎失灵。</p>
+  <div class="why"><b>为何重要</b> — 决定反弹成色的终究是外资现货的回归。连续9个月净流出表明问题不在汇率或估值，而在"对K股市的信任" — 需关注交易所上市制度改革与监管层资金面管理(140%规则)的交汇点。</div>
+  <div class="tags"><span class="tag">卖出韩国</span><span class="tag">成交额</span><span class="tag">IPO寒冬</span></div>
+  <div class="links">原文: <a href="https://www.hani.co.kr/arti/economy/economy_general/1286970.html" target="_blank">韩民族日报</a> · <a href="https://biz.heraldcorp.com/article/10935172" target="_blank">先驱经济</a> · <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyRFIyTlNpZW5DWUdneUJWWlhFWDVsbnRJOHpKVnkyUS1hT05FeE5kQkFreWJlOXpucFlZZjlqVTBlbFlFbVltdjFBdFdvdHBUT?oc=5" target="_blank">每日经济(成交额)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://www.specialtimes.co.kr/news/articleView.html?idxno=484889" target="_blank">国债涨跌互现 — 3年期3.729%持平·10年期-1.3bp，"美12月加息概率91%"下外资仍买期货</a></h3></div>
+  <p class="summary">前一日因大步加息恐慌而急升的国债收益率，在回吐与警惕之间收盘涨跌互现 — 3年期3.729%(持平)、10年期3.937%(-1.3bp)、30年期4.015%(持平)。CME FedWatch显示美联储12月加息概率升至约91%，上行压力犹在；但外资分别净买入3年期、10年期国债期货1,646手与3,216手，继续押注利率下行。美元/韩元收于1,330.7(-2.9韩元)，连续两日回落。</p>
+  <div class="why"><b>为何重要</b> — 在美国"重启加息"与韩国"按兵不动+宽松预期"之间，韩美利差倒挂可能再度走阔。11月韩央行议息临近，纪要中"过半数委员支持进一步紧缩"的表态与市场的期货多头仓位正面相撞 — 13日晚的美国PPI是债汇共同的分水岭。</div>
+  <div class="tags"><span class="tag">国债</span><span class="tag">大步加息</span><span class="tag">汇率</span></div>
+  <div class="links">原文: <a href="https://www.specialtimes.co.kr/news/articleView.html?idxno=484889" target="_blank">Special Times(韩联社)</a> · <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWRWswTEtobWcwOEgxa19ROFlLbmlHLWVKRlRndlJxMHlXenJOUlVac3NHdXY1NTZEZi1UZmhiaDJBQ3A5V0VPRjlzZ19COFI2N?oc=5" target="_blank">韩联社(汇率)</a></div>
+</div>
+
+<div class="issue">
+  <div class="issue-head"><span class="stars">★★</span><h3><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uWU52R2Njd0dmRk1nMWZUQW1xMGFxNGFmWGo5RVp1aHZHRGk1X3lEelliZGwxenhqc2ZCMl9mR0hFUDMxOEs0RHBXMks0Y3Nme?oc=5" target="_blank">KDI："高油价冲击先于半导体暖意" — 布伦特突破93美元之日的警告</a></h3></div>
+  <p class="summary">韩国开发研究院(KDI)判断："半导体景气对消费的改善效应要到明年才全面显现，而高油价的冲击会先行反映在消费上。"恰逢当日布伦特原油突破93美元，警告立刻有了现实注脚。出口虽乘全球AI投资热潮暴增(11月上旬同比+111.9%)，但"若AI投资熄火，衰退将难以阻挡"的集中度风险同样被反复提及 — 这是半导体独轮驱动经济的一体两面。</p>
+  <div class="why"><b>为何重要</b> — "出口惊喜≠内需复苏"的落差获官方确认。油价推升物价会同时压缩央行的宽松空间与消费股的盈利预期 — 明年上半年之前，需持续跟踪能源进口单价与消费指标的组合。</div>
+  <div class="tags"><span class="tag">KDI</span><span class="tag">油价</span><span class="tag">内需</span></div>
+  <div class="links">原文: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uWU52R2Njd0dmRk1nMWZUQW1xMGFxNGFmWGo5RVp1aHZHRGk1X3lEelliZGwxenhqc2ZCMl9mR0hFUDMxOEs0RHBXMks0Y3Nme?oc=5" target="_blank">韩联社</a> · <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1oWHUyTUVSZGJGT090T214WGF5cWs1T25FWDk2Nk9malhNc1hlbmxNWnpTVG5SVmxoczNvanh4REtrR00zcUFITVNXb2s1N1lkT?oc=5" target="_blank">Money Today(出口)</a></div>
+</div>
+
+<h2>后续日程</h2>
+<div class="brief">
+  <div class="brief-item">11/13(周五)晚 — <b>美国10月PPI</b><div class="desc">CPI冲击后的首个物价确认 — "12月加息91%"与大步加息之争、债汇市场的共同分水岭。</div></div>
+  <div class="brief-item">11/17(周二)~19(周四) — <b>APEC深圳 — 中美元首会晤，AI专用对话渠道议题</b><div class="desc">决定出口管制与关税走向的年内压轴事件 — K半导体的地缘变量(含黄仁勋丑闻引发的制裁之争)。</div></div>
+  <div class="brief-item">随时 — <b>英伟达董事会对黄仁勋去留的决定 · Nebius等AI业绩</b><div class="desc">握住KOSPI方向盘的外生变量 — 接班方案落地前，半导体权重股仍处高波动区间。</div></div>
+</div>
+
+<h2>券商研报 — 行业·个股优先</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nUlN0NmpfS0pnMVJsUzQycElCSnIzTmprRFZCRlRkWUw5T1VYTWd3ZXZGM28yM3lkb1JTNklPYVdfdFZxaGFtVEx3TmFFNjR3T?oc=5" target="_blank">GS建设(006360) — Kiwoom证券上调目标价</a>
+    <div class="desc">核心逻辑："美国'蓝色浪潮'基建投资扩张的反射收益" — 海外订单动能。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MUGRuSmVJWHdrVXlWSnpJZU0ybE9aN2V1SHRiTGUwc1MwMDlWbkExRzlUZFVNLVkwZTZJa3BPMml6XzF6WDc5a01Zc2RLcXh0a?oc=5" target="_blank">Cosmax(192820) — NH投资证券上调目标价</a>
+    <div class="desc">核心逻辑："量与质的清晰增长" — K美妆ODM的全球订单杠杆。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xbFdjTHZLVVgycFNhSlpuMWxsN0QzRFZrU012YVh1R1hWTm9wZUhFTkE2eWNnUldGNU01cmZpcnhMMnV2TG9za1FwY285djJyS?oc=5" target="_blank">TLB(356860) — IBK投资证券上调目标价</a>
+    <div class="desc">核心逻辑："四季度营业利润率有望升至20%" — 存储模组PCB的超级周期受益股。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE43cExFT0NGQUpvWFF6Q2VTRUNYa0xfQkdLYU9Sd2V6eHRKSVhPNXRmbjg1SGl0dGNCclk2Z010QXFuN2x6MGtlV3ZmSjU1ZEs3V?oc=5" target="_blank">Silicon2(257720) — Kiwoom证券下调目标价</a>
+    <div class="desc">核心逻辑："韩元走强令营业利润低于预期" — 汇率成为出口股业绩的逆风。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JdEMzcEFocmEyU3JCWFg5Mi10Wm8tYVRqb1doNFdxZC1rclFsQWFyNGZETE12SVJSdEw3TTNETUg1MnNOWm0zcGcxaEJfVG5JZ?oc=5" target="_blank">科隆工业(120110) — 新韩投资证券下调目标价</a>
+    <div class="desc">核心逻辑："成本与汇率负担拖累业绩" — 材料板块的成本压力持续。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBINUxIUTk5WmlpSlE0S1RBc0xYNDhnVFppam9NdUlYWkp2WTRTcXZRLWxUQkRvNVNnaEdjR3pZVExELWJxMW5zN3pVLXhub1Q4Q?oc=5" target="_blank">Meritz金融控股(138040) — Kiwoom证券维持17万韩元目标价</a>
+    <div class="desc">核心逻辑："净利骤降28%仍坚持以注销库存股为核心的股东回报" — 下跌市的防御逻辑。</div></div>
+</div>
+
+<h2>简讯</h2>
+<div class="brief">
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ocUo0VjNaMy1LWnJmWEJ6U3prX1FUeVZtLWQtMkxGNW1PS0t4SlVIQ185SXUyNzZtX2psRzBpOGZ5WDI1aWpQU0tIa0cxUHhvN?oc=5" target="_blank">JYP娱乐早盘大涨20% — Stray Kids欧美走红带动业绩超预期</a><div class="desc">财报季的黑马 — 下跌市中的个股业绩行情。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWkJ6c3Fidm9ONmtRR2taRWVMaU9ZX1p6UEFsM0RsOWVzay15YVBoc1hBUkh6TjJYLV9kSXlUV2thN2tFOHF0U012djZzSTZRZ?oc=5" target="_blank">LH向光明始兴·龙仁半导体产业园追加投入2万亿韩元 — 征地补偿提速</a><div class="desc">用资金化解半导体集群基建的瓶颈(用地补偿)。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VVkRVN210VWtxT3ZEUEdpUXBhM0w2YlFxSHZsTXBJb0UzLTU4dGktUnpkcWJOVDd4YmVkU3E1ckRzNGppcUZlMEEyVjBKNjlSb?oc=5" target="_blank">K-端侧AI半导体提速 — 2030年前开发AI芯片等10种</a><div class="desc">英伟达风险之下出台的国产化路线图 — 与中国"国产替代"行情同向。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9saVJUeDVXMHN2LUl3VEJzbFQ4OHZfRjY0WDBpb3RIMGFCaHJCR3BXSHE2M0ZxbGFsZWJoWU9adU1ycmJsOVZtNGNhTkVzMXlTd?oc=5" target="_blank">金融当局："13日出台KOSDAQ追加对策"纯属不实 — 将严惩造谣传谣</a><div class="desc">对暴跌行情中"政策预期传闻"的警告 — 对策以官方发布为准。</div></div>
+  <div class="brief-item"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFAzakZSNm45aHUzT3FEYXpMdGlpMEJ5YVBELWZHQW5yLXZIeXVCMUh1ckJDWXo5blhabk0yd3pzZ082ZzZLMzZpdVFyWEZBN3dJV?oc=5" target="_blank">国民养老金的英伟达持仓四个月缩水4万亿韩元 — 相当于股价跌幅的1.9倍</a><div class="desc">扩大海外股票配置的逆风 — 汇率与股价双重敞口的课题。</div></div>
+</div>
+
+<footer>
+  <b>方法论</b> — 每日16:30(KST，本日延迟至18:23采集)从韩国本地媒体、监管通报、研究报告等19个来源采集过去24小时的报道，按投资相关性筛选和摘编。议题筛选与摘要由AI(Claude)完成，未经人工复核。本期为11/12自动生成遗漏后于11/13上午补发。<br>
+  <b>数据基准</b> — KOSPI·KOSDAQ：11/12收盘确定值。国债：11/12收盘(韩联社报道)。美元/韩元：15:30基准价(韩联社)。<br>
+  <b>免责声明</b> — 本资料仅供参考，不构成对特定股票或资产的买卖建议。投资决策及责任由使用者本人承担。仅供参考，不构成投资建议。
+</footer>
+</div>
+</div>
+<script>
+function toggleLang(){
+  var ko=document.getElementById('lang-ko'), zh=document.getElementById('lang-zh');
+  var showZh = zh.hidden;
+  zh.hidden = !showZh; ko.hidden = showZh;
+  try{history.replaceState(null,'',location.pathname+(showZh?'#zh':''));}catch(e){}
+  window.scrollTo(0,0);
+}
+if(location.hash==='#zh'){
+  document.getElementById('lang-ko').hidden=true;
+  document.getElementById('lang-zh').hidden=false;
+}
+</script>
+</body>
+</html>
